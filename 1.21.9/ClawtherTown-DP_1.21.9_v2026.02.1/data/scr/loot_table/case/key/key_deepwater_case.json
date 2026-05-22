@@ -1,0 +1,153 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "神秘箱系列 #02",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "右键使用钥匙",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "这把钥匙能够打开:",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "深海之箱",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "神秘箱钥匙",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "key_deepwater_case"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.key_deepwater_case",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "key_deepwater_case"
+                ],
+                "mode": "append"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

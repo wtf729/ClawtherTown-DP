@@ -1,0 +1,165 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "凝聚了风之力的法杖",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "使用后:",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "在脚下生成1个风弹",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "引导时长: ",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "瞬发",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "冷却时长: ",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "1.25s",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "魔法",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "乘风而起",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": true
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "staff_wind"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.staff_wind",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "staff_wind"
+                ],
+                "mode": "append"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

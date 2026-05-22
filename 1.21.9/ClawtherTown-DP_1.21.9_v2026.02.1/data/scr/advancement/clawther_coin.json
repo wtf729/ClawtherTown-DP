@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther_coin"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther_coin",
+      "color": "aqua"
+    },
+    "description": [
+      {
+        "text": "象征着你的财富",
+        "color": "gold"
+      },
+      {
+        "text": "\n鹰翎币掉落途径:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n战斗 ",
+        "color": "red"
+      },
+      {
+        "text": "挖矿",
+        "color": "aqua"
+      },
+      {
+        "text": "\n其他活动",
+        "color": "green"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:personal",
+  "criteria": {
+    "get_clawther_coin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_nugget",
+            "components": {
+              "minecraft:item_name": "clawther_coin"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_coin_plus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_nugget",
+            "components": {
+              "minecraft:item_name": "clawther_coin_plus"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_clawther_coin",
+      "get_clawther_coin_plus"
+    ]
+  ],
+  "rewards": {}
+}

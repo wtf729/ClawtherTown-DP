@@ -1,0 +1,129 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "wing_vi"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.wing_collector",
+      "color": "red"
+    },
+    "description": [
+      {
+        "text": "收集每一种羽翼!",
+        "color": "gold"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:wing_crafted",
+  "criteria": {
+    "wing_i_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "wing_i"
+            }
+          }
+        ]
+      }
+    },
+    "wing_ii_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "wing_ii"
+            }
+          }
+        ]
+      }
+    },
+    "wing_iii_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "wing_iii"
+            }
+          }
+        ]
+      }
+    },
+    "wing_iv_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "wing_iv"
+            }
+          }
+        ]
+      }
+    },
+    "wing_v_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "wing_v"
+            }
+          }
+        ]
+      }
+    },
+    "wing_vi_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "wing_vi"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wing_i_crafted"
+    ],
+    [
+      "wing_ii_crafted"
+    ],
+    [
+      "wing_iii_crafted"
+    ],
+    [
+      "wing_iv_crafted"
+    ],
+    [
+      "wing_v_crafted"
+    ],
+    [
+      "wing_vi_crafted"
+    ]
+  ],
+  "rewards": {}
+}

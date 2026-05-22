@@ -1,0 +1,50 @@
+{
+  "description": {
+    "translate": "enchantment.scr.soul_looting",
+    "color": "dark_green"
+  },
+  "supported_items": "#minecraft:enchantable/sword",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:soul"
+          },
+          "horizontal_position": {
+            "type": "entity_position"
+          },
+          "vertical_position": {
+            "type": "entity_position",
+            "offset": 2
+          },
+          "horizontal_velocity": {
+            "movement_scale": 0.1
+          },
+          "vertical_velocity": {
+            "movement_scale": 0.2
+          },
+          "speed": 0.5
+        }
+      }
+    ]
+  }
+}

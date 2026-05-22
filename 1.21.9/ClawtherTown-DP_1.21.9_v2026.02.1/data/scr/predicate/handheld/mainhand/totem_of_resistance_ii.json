@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:totem_of_undying",
+        "components": {
+          "minecraft:item_name": "totem_of_resistance_ii"
+        }
+      }
+    }
+  }
+}

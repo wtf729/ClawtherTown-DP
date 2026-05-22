@@ -1,0 +1,3 @@
+tellraw @s {"text":"","extra":[{"text":"--------------------------------------------------\n","color":"dark_gray"},{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"欢迎来到鹰翎镇展览馆!","color":"yellow"},{"text":"\n"},{"text":"          "},{"text":"多彩画作","underlined":true,"color":"aqua","click_event":{"action":"run_command","command":"/trigger gallery set 1000"}},{"text":"     "},{"text":"异界唱片","underlined":true,"color":"aqua","click_event":{"action":"run_command","command":"/trigger gallery set 5001"}},{"text":"     "},{"text":"\n--------------------------------------------------","color":"dark_gray"}]}
+
+scoreboard players set @s gallery 0

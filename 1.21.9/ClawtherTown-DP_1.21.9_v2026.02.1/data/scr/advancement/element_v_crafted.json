@@ -1,0 +1,156 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_crystals",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "element_v"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.element_v_crafted",
+      "color": "red"
+    },
+    "description": [
+      {
+        "text": "世界元素",
+        "color": "light_purple"
+      },
+      {
+        "text": "\n元素材料",
+        "color": "gold"
+      },
+      {
+        "text": "\n高级合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "C",
+        "color": "light_purple"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "AAA",
+        "color": "gold"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "D",
+        "color": "red"
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "E",
+        "color": "green"
+      },
+      {
+        "text": "\nA",
+        "color": "gold"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "鹰翎",
+        "color": "green"
+      },
+      {
+        "text": "\nB",
+        "color": "aqua"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "原始元素",
+        "color": "light_purple"
+      },
+      {
+        "text": "\nC",
+        "color": "light_purple"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "探索元素",
+        "color": "light_purple"
+      },
+      {
+        "text": "\nD",
+        "color": "red"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "富足元素",
+        "color": "light_purple"
+      },
+      {
+        "text": "\nE",
+        "color": "green"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "异域元素",
+        "color": "light_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:elements",
+  "criteria": {
+    "get_element_v": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_crystals",
+            "components": {
+              "minecraft:item_name": "element_v"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_element_v"
+    ]
+  ],
+  "rewards": {
+    "function": "scr:advancements/elements"
+  }
+}

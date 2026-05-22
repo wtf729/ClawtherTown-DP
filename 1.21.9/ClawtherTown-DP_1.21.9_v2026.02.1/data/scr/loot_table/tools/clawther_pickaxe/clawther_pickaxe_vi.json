@@ -1,0 +1,359 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "为矿洞中暗藏的风险增加了刀刃设计",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "升级方式:",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "  ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "D",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "D",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "  ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "C",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "A",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "C",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "  ",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "A",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": ": ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "翎之镐 - VI",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "B",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": ": ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "富足元素",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "C",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": ": ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "探索元素",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "D",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": ": ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "原始元素",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "工具",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "\"如果是这样的话...",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": true
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "我愿意再增加一些预算\"",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": true
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "clawther_pickaxe_vi"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.clawther_pickaxe_vi",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "clawther_pickaxe_vi"
+                ],
+                "mode": "append"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 6,
+                "minecraft:unbreaking": 6,
+                "minecraft:mending": 1,
+                "minecraft:fortune": 3,
+                "minecraft:sharpness": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

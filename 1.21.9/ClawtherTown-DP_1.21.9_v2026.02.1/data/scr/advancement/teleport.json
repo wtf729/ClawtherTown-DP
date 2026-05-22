@@ -1,0 +1,26 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:ender_pearl"
+	  },
+	  "title": {
+		"translate": "advancements.clawther.teleport",
+		"color": "yellow"
+	  },
+	  "description": [
+		{
+		  "text": "更加便捷的交通",
+		  "color": "gold"
+		}
+	  ],
+	  "show_toast": false,
+	  "announce_to_chat": false
+	},
+	"parent": "scr:enter_server",
+	"criteria": {
+	  "tick": {
+		"trigger": "minecraft:tick"
+	  }
+	}
+  }
+  

@@ -1,0 +1,77 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther_pickaxe_viii"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther_pickaxe_iii",
+      "color": "red"
+    },
+    "description": [
+      {
+        "text": "将翎之镐的材质\n升级为下界合金",
+        "color": "gold"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:clawther_pickaxe_ii",
+  "criteria": {
+    "get_clawther_pickaxe_viii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_viii"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_ix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_ix"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_x": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_x"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_clawther_pickaxe_viii",
+      "get_clawther_pickaxe_ix",
+      "get_clawther_pickaxe_x"
+    ]
+  ],
+  "rewards": {}
+}

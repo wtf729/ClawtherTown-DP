@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"已成功获取艺术品!","color":"yellow"}]}

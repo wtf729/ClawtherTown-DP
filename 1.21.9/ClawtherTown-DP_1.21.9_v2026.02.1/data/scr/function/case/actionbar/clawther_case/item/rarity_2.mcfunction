@@ -1,0 +1,2 @@
+execute as @s if score @s case_opening_luck matches 4111..12100 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"魔法树枝 | 澄澈之水","bold":true,"color":"#b400ff"},{"text":" <","color":"white"}]}
+execute as @s if score @s case_opening_luck matches 12101..20090 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"魔法树枝 | 海之泡沫","bold":true,"color":"#b400ff"},{"text":" <","color":"white"}]}

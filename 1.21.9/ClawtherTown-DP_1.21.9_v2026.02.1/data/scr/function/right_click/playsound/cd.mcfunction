@@ -1,0 +1,1 @@
+playsound minecraft:block.beacon.activate block @s ~ ~ ~ 1 0.5

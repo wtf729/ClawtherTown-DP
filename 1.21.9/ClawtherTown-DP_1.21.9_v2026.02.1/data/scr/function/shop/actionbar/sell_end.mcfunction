@@ -1,0 +1,1 @@
+execute as @s run title @s actionbar {"text":"","extra":[{"text":"---","color":"dark_gray"},{"text":"总计收入 ","color":"light_purple","bold":true},{"score":{"name":"@s","objective":"shop_income"},"bold":true,"color":"yellow"},{"text":"---","color":"dark_gray"}]}

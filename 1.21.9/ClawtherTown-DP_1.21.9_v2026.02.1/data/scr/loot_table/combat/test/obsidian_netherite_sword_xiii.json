@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "下界黑晶剑的最终形态",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "武器",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "一切的付出都值得了...",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": true
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 30,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "generic.movement_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "obsidian_netherite_sword_xiii"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.obsidian_netherite_sword_xiii",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "obsidian_netherite_sword_xiii"
+                ],
+                "mode": "append"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_aspect": 10,
+                "minecraft:sweeping_edge": 10,
+                "scr:coin_looting": 3,
+                "scr:soul_looting": 3,
+                "minecraft:looting": 5,
+                "minecraft:smite": 10,
+                "minecraft:bane_of_arthropods": 10
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

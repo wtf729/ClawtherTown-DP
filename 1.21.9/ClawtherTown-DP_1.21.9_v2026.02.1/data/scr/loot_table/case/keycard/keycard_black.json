@@ -1,0 +1,417 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "钥匙卡 #07",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "可定期使用以获取奖励",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "包含下列物品之一:",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "A",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "A",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "C",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "D",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "E",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "F",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "]",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "或一件极其罕见的 ★   ★ !",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "钥匙卡",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": "keycard_black"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.keycard_black",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "keycard_black"
+                ],
+                "mode": "append"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

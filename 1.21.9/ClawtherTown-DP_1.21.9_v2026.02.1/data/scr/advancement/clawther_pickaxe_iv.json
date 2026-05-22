@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther_pickaxe_x"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther_pickaxe_iv",
+      "color": "#f00a14"
+    },
+    "description": [
+      {
+        "text": "翎之镐的极限",
+        "color": "gold"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:clawther_pickaxe_iii",
+  "criteria": {
+    "get_clawther_pickaxe_x": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_x"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_clawther_pickaxe_x"
+    ]
+  ],
+  "rewards": {
+    "function": "scr:title/grant/advancements_3"
+  }
+}

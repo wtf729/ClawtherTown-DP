@@ -1,0 +1,1 @@
+advancement revoke @a only scr:technical/killed_player

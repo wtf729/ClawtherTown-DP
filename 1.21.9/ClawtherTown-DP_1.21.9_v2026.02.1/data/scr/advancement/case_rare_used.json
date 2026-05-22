@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "case_special_item_i"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.case_rare_used",
+      "color": "#ff7300",
+      "bold": false
+    },
+    "description": [
+      {
+        "text": "使用一件极其珍稀物品",
+        "color": "yellow"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:miscellaneous",
+  "criteria": {
+    "case_rare_used": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "case_rare_used"
+    ]
+  ],
+  "rewards": {}
+}

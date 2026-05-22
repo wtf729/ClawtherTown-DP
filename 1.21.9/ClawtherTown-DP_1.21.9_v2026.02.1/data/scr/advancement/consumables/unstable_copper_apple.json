@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unstable_copper_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "unstable_copper_apple"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr:advancements/consumables/unstable_copper_apple"
+  }
+}

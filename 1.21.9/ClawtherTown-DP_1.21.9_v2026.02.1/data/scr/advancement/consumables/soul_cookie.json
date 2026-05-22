@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "soul_cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "soul_cookie"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr:advancements/consumables/soul_cookie"
+  }
+}

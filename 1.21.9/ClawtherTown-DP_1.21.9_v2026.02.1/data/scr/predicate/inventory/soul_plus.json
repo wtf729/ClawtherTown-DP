@@ -1,0 +1,35 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "slots": {
+          "inventory.*": {
+            "items": "minecraft:iron_nugget",
+            "components": {
+              "minecraft:item_name": "soul_plus"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "slots": {
+          "hotbar.*": {
+            "items": "minecraft:iron_nugget",
+            "components": {
+              "minecraft:item_name": "soul_plus"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

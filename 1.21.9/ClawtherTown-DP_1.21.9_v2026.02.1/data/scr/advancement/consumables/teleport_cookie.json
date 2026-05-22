@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "teleport_cookie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "teleport_cookie"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr:advancements/consumables/teleport_cookie"
+  }
+}

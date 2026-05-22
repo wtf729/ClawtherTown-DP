@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:painting",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "colorful_painting"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.furry",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "输入",
+        "color": "green"
+      },
+      {
+        "text": "\n/trigger gallery",
+        "color": "yellow"
+      },
+      {
+        "text": "\n以打开画廊界面",
+        "color": "gold"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:miscellaneous",
+  "criteria": {
+    "get_colorful_painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:painting",
+            "components": {
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "colorful_painting"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "get_colorful_dynamic_painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": "minecraft:painting",
+            "components": {
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "colorful_dynamic_painting"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_colorful_painting",
+      "get_colorful_dynamic_painting"
+    ]
+  ],
+  "rewards": {}
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "golden_carrot_plus": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "golden_carrot_plus"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr:advancements/consumables/golden_carrot_plus"
+  }
+}

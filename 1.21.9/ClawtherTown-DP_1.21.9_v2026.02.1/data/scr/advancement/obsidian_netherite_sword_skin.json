@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "obsidian_netherite_sword_custom_1"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.obsidian_netherite_sword_skin",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "武器幻化",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "\n为神剑上色",
+        "color": "gold"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n幻化材料*1",
+        "color": "aqua"
+      },
+      {
+        "text": "\n下界黑晶剑XIII",
+        "color": "aqua"
+      },
+      {
+        "text": "\n\n幻化材料",
+        "color": "light_purple"
+      },
+      {
+        "text": "包括:",
+        "color": "white"
+      },
+      {
+        "text": "\n钻石块",
+        "color": "aqua"
+      },
+      {
+        "text": "\n绿宝石块",
+        "color": "aqua"
+      },
+      {
+        "text": "\n金块",
+        "color": "aqua"
+      },
+      {
+        "text": "\n多彩挂画",
+        "color": "aqua"
+      },
+      {
+        "text": "\n\n还原:",
+        "color": "white"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n铁锭*1\n下界黑晶剑XIII",
+        "color": "aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:obsidian_netherite_sword_v",
+  "criteria": {
+    "obsidian_netherite_sword_skin": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "obsidian_netherite_sword_skin"
+    ]
+  ],
+  "rewards": {}
+}

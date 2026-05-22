@@ -1,0 +1,116 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_crystals",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "element_iii"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.element_iii_crafted",
+      "color": "yellow"
+    },
+    "description": [
+      {
+        "text": "富足元素",
+        "color": "light_purple"
+      },
+      {
+        "text": "\n元素材料",
+        "color": "gold"
+      },
+      {
+        "text": "\n高级合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "CCC",
+        "color": "light_purple"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "BBB",
+        "color": "aqua"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "AAA",
+        "color": "gold"
+      },
+      {
+        "text": "\nA",
+        "color": "gold"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "钻石 (奇珍)",
+        "color": "aqua"
+      },
+      {
+        "text": "\nB",
+        "color": "aqua"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "金锭 (奇珍)",
+        "color": "aqua"
+      },
+      {
+        "text": "\nC",
+        "color": "light_purple"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "铁锭 (奇珍)",
+        "color": "aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:elements",
+  "criteria": {
+    "get_element_iii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_crystals",
+            "components": {
+              "minecraft:item_name": "element_iii"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_element_iii"
+    ]
+  ],
+  "rewards": {
+    "function": "scr:advancements/elements"
+  }
+}

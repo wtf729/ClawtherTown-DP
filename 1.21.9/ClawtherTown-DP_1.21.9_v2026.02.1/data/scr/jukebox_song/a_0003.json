@@ -1,0 +1,10 @@
+{
+  "sound_event": {
+    "sound_id": "scr:records.a_0003"
+  },
+  "description": {
+    "translate": "jukebox_song.scr.a_0003"
+  },
+  "length_in_seconds": 213,
+  "comparator_output": 15
+}

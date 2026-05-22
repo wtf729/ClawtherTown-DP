@@ -1,0 +1,194 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.clawther.unexpected_fortune",
+      "color": "aqua"
+    },
+    "description": [
+      {
+        "text": "矿洞中的惊喜",
+        "color": "gold"
+      },
+      {
+        "text": "\n奇珍获取概率:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n基础:",
+        "color": "blue"
+      },
+      {
+        "text": "\n1 %",
+        "color": "gold"
+      },
+      {
+        "text": "\n时运3及以上:",
+        "color": "blue"
+      },
+      {
+        "text": "\n1.99 %",
+        "color": "gold"
+      },
+      {
+        "text": "\n时运4及以上:",
+        "color": "blue"
+      },
+      {
+        "text": "\n2.97 %",
+        "color": "gold"
+      },
+      {
+        "text": "\n时运5及以上:",
+        "color": "blue"
+      },
+      {
+        "text": "\n3.94 %",
+        "color": "gold"
+      },
+      {
+        "text": "\n\n奇珍表:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n绿宝石 ",
+        "color": "green"
+      },
+      {
+        "text": "钻石",
+        "color": "aqua"
+      },
+      {
+        "text": "\n金锭 ",
+        "color": "yellow"
+      },
+      {
+        "text": "铁锭",
+        "color": "white"
+      },
+      {
+        "text": "\n铜锭 ",
+        "color": "gold"
+      },
+      {
+        "text": "煤炭",
+        "color": "gray"
+      },
+      {
+        "text": "\n青金石",
+        "color": "dark_aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:ingredients",
+  "criteria": {
+    "get_rare_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald",
+            "components": {
+              "minecraft:item_name": "rare_emerald"
+            }
+          }
+        ]
+      }
+    },
+    "get_rare_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond",
+            "components": {
+              "minecraft:item_name": "rare_diamond"
+            }
+          }
+        ]
+      }
+    },
+    "get_rare_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot",
+            "components": {
+              "minecraft:item_name": "rare_gold_ingot"
+            }
+          }
+        ]
+      }
+    },
+    "get_rare_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot",
+            "components": {
+              "minecraft:item_name": "rare_iron_ingot"
+            }
+          }
+        ]
+      }
+    },
+    "get_rare_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot",
+            "components": {
+              "minecraft:item_name": "rare_copper_ingot"
+            }
+          }
+        ]
+      }
+    },
+    "get_rare_coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal",
+            "components": {
+              "minecraft:item_name": "rare_coal"
+            }
+          }
+        ]
+      }
+    },
+    "get_rare_lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli",
+            "components": {
+              "minecraft:item_name": "rare_lapis_lazuli"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_rare_emerald",
+      "get_rare_diamond",
+      "get_rare_gold_ingot",
+      "get_rare_iron_ingot",
+      "get_rare_copper_ingot",
+      "get_rare_coal",
+      "get_rare_lapis_lazuli"
+    ]
+  ],
+  "rewards": {}
+}

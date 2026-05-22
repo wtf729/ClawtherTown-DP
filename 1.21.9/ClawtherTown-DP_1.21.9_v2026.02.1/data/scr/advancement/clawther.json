@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "鹰翎",
+        "color": "green"
+      },
+      {
+        "text": "\n鹰翎镇的常见物品",
+        "color": "gold"
+      },
+      {
+        "text": "\n用途广泛",
+        "color": "gold"
+      },
+      {
+        "text": "\n\n鹰翎获取概率:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n钓鱼: ",
+        "color": "green"
+      },
+      {
+        "text": "20 %",
+        "color": "gold"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:ingredients",
+  "criteria": {
+    "get_clawther": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:feather",
+            "components": {
+              "minecraft:item_name": "clawther"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_clawther"
+    ]
+  ],
+  "rewards": {}
+}

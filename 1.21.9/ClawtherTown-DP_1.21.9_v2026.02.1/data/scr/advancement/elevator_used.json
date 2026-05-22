@@ -1,0 +1,153 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sticky_piston"
+    },
+    "title": {
+      "translate": "advancements.clawther.elevator_used",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "在任意地方搭建并使用电梯",
+        "color": "light_purple"
+      },
+      {
+        "text": "\n便捷! 造价低廉!",
+        "color": "gold"
+      },
+      {
+        "text": "\n电梯框架: (剖面图)",
+        "color": "yellow"
+      },
+      {
+        "text": "\n  ...\n  "
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "\n  ...\n  "
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "\nA",
+        "color": "gold"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "#电梯基座",
+        "color": "light_purple"
+      },
+      {
+        "text": "\nB",
+        "color": "aqua"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "红石块",
+        "color": "white"
+      },
+      {
+        "text": " (仅需最底层)",
+        "color": "yellow"
+      },
+      {
+        "text": "\n#电梯基座",
+        "color": "light_purple"
+      },
+      {
+        "text": "可以是:",
+        "color": "white"
+      },
+      {
+        "text": "\n任意羊毛方块",
+        "color": "aqua"
+      },
+      {
+        "text": "\n任意信标基座方块",
+        "color": "aqua"
+      },
+      {
+        "text": "\n在相同",
+        "color": "yellow"
+      },
+      {
+        "text": "x,z坐标",
+        "color": "light_purple"
+      },
+      {
+        "text": " 不同",
+        "color": "yellow"
+      },
+      {
+        "text": "y坐标",
+        "color": "light_purple"
+      },
+      {
+        "text": "下\n建造多个即可形成电梯",
+        "color": "yellow"
+      },
+      {
+        "text": "\n站在",
+        "color": "yellow"
+      },
+      {
+        "text": "#电梯基座",
+        "color": "light_purple"
+      },
+      {
+        "text": "上时:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n跳跃: ",
+        "color": "blue"
+      },
+      {
+        "text": "向上一层",
+        "color": "gold"
+      },
+      {
+        "text": "\n潜行: ",
+        "color": "blue"
+      },
+      {
+        "text": "向下一层",
+        "color": "gold"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:teleport",
+  "criteria": {
+    "elevator": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "elevator"
+    ]
+  ],
+  "rewards": {}
+}
