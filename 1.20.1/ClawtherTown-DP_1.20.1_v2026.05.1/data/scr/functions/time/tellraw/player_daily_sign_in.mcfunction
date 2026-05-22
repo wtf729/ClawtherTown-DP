@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"考勤鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你今天已经在鹰翎镇度过了 ","color":"aqua"},{"score":{"name":"@s","objective":"time_daily_minute_only"},"color":"light_purple"},{"text":" 分钟! 签到成功!","color":"aqua"}]}

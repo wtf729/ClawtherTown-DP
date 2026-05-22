@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"散发着微弱的黑晶之力","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"升级方式:","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"A","color":"gold","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"A","color":"gold","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"下界黑晶剑 - II","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"B","color":"aqua","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"黑曜石","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"武器","color":"red","bold":false,"italic":false}]
+							]
+						},
+			            {
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+							  {
+								"attribute": "generic.attack_damage",
+								"name": "generic.attack_damage",
+								"amount": 9,
+								"operation": "addition",
+								"slot": "mainhand"
+							  },
+							  {
+								"attribute": "generic.attack_speed",
+								"name": "generic.attack_speed",
+								"amount": 0.2,
+								"operation": "addition",
+								"slot": "mainhand"
+							  }
+							]
+						  },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:obsidian_netherite_sword_ii\",display:{Name:'{\"text\":\"下界黑晶剑 - II\",\"color\":\"yellow\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:1s,id:\"minecraft:fire_aspect\"},{lvl:2s,id:\"minecraft:sweeping\"},{lvl:2s,id:\"minecraft:looting\"}],Unbreakable:1b,RepairCost:0,CustomModelData:14290101}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

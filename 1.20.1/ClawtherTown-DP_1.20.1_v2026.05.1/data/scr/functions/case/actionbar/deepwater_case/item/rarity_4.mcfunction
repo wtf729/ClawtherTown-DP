@@ -1,0 +1,1 @@
+execute as @s if score @s case_opening_luck matches 261..910 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"A | A","bold":true,"color":"red"},{"text":" <","color":"white"}]}

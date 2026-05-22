@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"更轻 更好用","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"升级方式:","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"C","color":"light_purple","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"A","color":"gold","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"BBB","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"A","color":"gold","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"翎之镐 - I","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"B","color":"aqua","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"鹰翎","color":"green","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"C","color":"light_purple","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"煤炭 (奇珍)","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"工具","color":"green","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"经过轻量化设计","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:clawther_pickaxe_i\",display:{Name:'{\"text\":\"翎之镐 - I\",\"color\":\"yellow\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:2s,id:\"minecraft:efficiency\"},{lvl:3s,id:\"minecraft:unbreaking\"}],RepairCost:0,CustomModelData:14290041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "dish_of_the_sea": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{id:'scr:dish_of_the_sea'}"
+          }
+        }
+      }
+    },
+    "rewards":{
+      "function": "scr:advancements/consumables/dish_of_the_sea"
+    }
+  }

@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 32,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"象征着你的阅历","color":"gold","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"极易消散","color":"gold","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"处于背包中时自动吸收","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"材料","color":"blue","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"逝者永存","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:soul\",display:{Name:'{\"text\":\"灵魂\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}'},CustomModelData:14290199}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

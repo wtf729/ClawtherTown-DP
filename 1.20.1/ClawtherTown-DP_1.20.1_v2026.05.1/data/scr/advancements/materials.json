@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stick"
+		},
+		"title":{
+			"text":"分类: 材料",
+			"color":"yellow",
+			"bold": true
+		},
+		"description": ["",{"text":"进入全新的领域","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "scr:enter_server",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:14290001,Enchantments:[{lvl:0s,id:\"0\"}]}"
+      },
+      "title":{
+          "text":"指引明路",
+          "color":"green"
+      },
+      "description": ["",{"text":"法杖 | 苍蓝星","color":"aqua"},{"text":"\n使用后回城","color":"gold"},{"text":"\n高级合成:","color":"yellow"},{"text":"\n  "},{"text":"D","color":"red"},{"text":"A","color":"gold"},{"text":"D","color":"red"},{"text":"\n  "},{"text":"B","color":"aqua"},{"text":"C","color":"light_purple"},{"text":"B","color":"aqua"},{"text":"\n  "},{"text":"D","color":"red"},{"text":"C","color":"light_purple"},{"text":"D","color":"red"},{"text":"\nA","color":"gold"},{"text":": ","color":"yellow"},{"text":"紫颂曲奇","color":"aqua"},{"text":"\nB","color":"aqua"},{"text":": ","color":"yellow"},{"text":"钻石","color":"white"},{"text":"\nC","color":"light_purple"},{"text":": ","color":"yellow"},{"text":"木棍","color":"white"},{"text":"\nD","color":"red"},{"text":": ","color":"yellow"},{"text":"鹰翎","color":"green"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:teleport_cookie_crafted", 
+    "criteria": { 
+      "get_sapphire_star_staff": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:sapphire_star_staff\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_sapphire_star_staff"]
+    ],
+    "rewards": { 
+    }
+  }

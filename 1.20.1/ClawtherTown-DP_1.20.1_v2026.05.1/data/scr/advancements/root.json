@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:feather"
+      },
+      "title":{
+          "text":"鹰翎镇",
+          "color":"white"
+      },
+      "description": ["",{"text":"神鹰的国度","color":"gold"}],
+      "frame": "task" , 
+      "background": "minecraft:textures/block/quartz_bricks.png", 
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hideen": false
+    },
+    "criteria": { 
+      "enter_server": {
+        "trigger": "minecraft:tick", 
+        "conditions": {
+        }
+      }
+    },
+    "requirements": [
+        ["enter_server"]
+    ],
+    "rewards": {
+      
+    }
+  }

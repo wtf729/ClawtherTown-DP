@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":"[","bold":true,"color":"gold"},{"text":"知识之书","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" 建立传送点","color":"yellow"},{"text":" ------------------------------","color":"green"},{"text":"\n允许居民建立自己的传送点与传送中心对接。","color":"aqua"},{"text":"\n需要准备","color":"yellow"},{"text":"传入点","bold":true,"color":"red"},{"text":"与","color":"yellow"},{"text":"传出点","bold":true,"color":"red"},{"text":"用于建立目标点与传送中心的双向传送。","color":"yellow"},{"text":"\n传入点: ","bold":true,"color":"red"},{"text":"\n进入传送中心的指定传送门后会到达的坐标点，无特殊粒子效果。","color":"gold"},{"text":"\n传出点: ","bold":true,"color":"red"},{"text":"\n在传入点附近建立的用于传回传送中心的坐标点，有传送门粒子特效。","color":"gold"},{"text":"\n将两个坐标提交给管理员后，管理员会帮助你完成建立。","color":"yellow"},{"text":"\n--------------------------------------------------","color":"green"}]
+
+
+
+scoreboard players set @s scrafthelp 0

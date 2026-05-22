@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:elytra",
+        "nbt": "{Enchantments:[{lvl:0s,id:\"0\"}],CustomModelData:14290072}"
+      },
+      "title":{
+          "text":"航空意外险",
+          "color":"red"
+      },
+      "description": ["",{"text":"末影龙鞘翅","color":"red"},{"text":"\n高护甲值的鞘翅","color":"gold"},{"text":"\n高级合成:","color":"yellow"},{"text":"\n  "},{"text":"C","color":"light_purple"},{"text":"D","color":"red"},{"text":"C","color":"light_purple"},{"text":"\n  "},{"text":"B","color":"aqua"},{"text":"A","color":"gold"},{"text":"B","color":"aqua"},{"text":"\n  "},{"text":"C","color":"light_purple"},{"text":"B","color":"aqua"},{"text":"C","color":"light_purple"},{"text":"\nA","color":"gold"},{"text":": ","color":"yellow"},{"text":"鞘翅","color":"yellow"},{"text":"\nB","color":"aqua"},{"text":": ","color":"yellow"},{"text":"鹰翎","color":"green"},{"text":"\nC","color":"light_purple"},{"text":": ","color":"yellow"},{"text":"末影龙宝玉","color":"light_purple"},{"text":"\nD","color":"red"},{"text":": ","color":"yellow"},{"text":"下界合金胸甲","color":"white"},{"text":"\n*将会重置附魔","color":"red"}],
+      "frame": "challenge" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:ender_dragon_gem", 
+    "criteria": {
+      "get_ender_dragon_elytra": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:ender_dragon_elytra\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_ender_dragon_elytra"]
+    ],
+    "rewards": { 
+    }
+  }

@@ -1,0 +1,2 @@
+tellraw @s {"text":"","extra":[{"text":"[","bold":true,"color":"gold"},{"text":"神鹰","bold":true,"color":"yellow"},{"text":"] ","bold":true,"color":"gold"},{"text":"你的灵魂等级与经验值为: ","color":"aqua"},{"text":"Lv.","color":"light_purple"},{"score":{"name":"@s","objective":"soul_level"},"color":"green"},{"text":"  "},{"score":{"name":"@s","objective":"soul"},"color":"yellow"},{"text":" / ","color":"light_purple"},{"score":{"name":"@s","objective":"soul_require"},"color":"aqua"}]}
+scoreboard players set @s exp 0

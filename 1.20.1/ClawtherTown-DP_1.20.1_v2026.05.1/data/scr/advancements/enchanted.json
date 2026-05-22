@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanting_table"
+      },
+      "title":{
+          "text":"神秘仪式",
+          "color":"green"
+      },
+      "description": ["",{"text":"将指定物品丢在\n附魔台上\n进行洗礼","color":"yellow"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:miscellaneous", 
+    "criteria": { 
+      "enchanted": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["enchanted"]
+    ],
+    "rewards": { 
+    }
+  }

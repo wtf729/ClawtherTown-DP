@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:end_portal_frame"
+      },
+      "title":{
+          "text":"跨维度旅行",
+          "color":"green"
+      },
+      "description": ["",{"text":"在主世界以外的维度进行回城","color":"gold"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:teleport_used", 
+    "criteria": { 
+      "teleport_used_dimension": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["teleport_used_dimension"]
+    ],
+    "rewards": { 
+    }
+  }

@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"幻化之基:","color":"light_purple","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"下界黑晶剑 - XIII","color":"red","bold":true,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"下界黑晶剑的最终形态","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"武器","color":"red","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"一切的付出都值得了...","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "generic.attack_damage",
+                  "amount": 30,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "generic.attack_speed",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movement_speed",
+                  "name": "generic.movement_speed",
+                  "amount": 0.05,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:obsidian_netherite_sword_xiii\",display:{Name:'{\"text\":\"翠光剑\",\"color\":\"red\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:10s,id:\"minecraft:fire_aspect\"},{lvl:10s,id:\"minecraft:sweeping\"},{lvl:5s,id:\"minecraft:looting\"},{lvl:10s,id:\"minecraft:smite\"},{lvl:10s,id:\"minecraft:bane_of_arthropods\"}],Unbreakable:1b,RepairCost:0,CustomModelData:14290108}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

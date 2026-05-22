@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:compass"
+      },
+      "title":{
+          "text":"似曾相识的世界",
+          "color":"green"
+      },
+      "description": ["",{"text":"前往不稳定维度","color":"light_purple"},{"text":"\n混乱的生物群系","color":"gold"},{"text":"\n传送门框架: (俯视图)","color":"yellow"},{"text":"\n  "},{"text":"AAA","color":"gold"},{"text":"\n  "},{"text":"A","color":"gold"},{"text":"B","color":"aqua"},{"text":"A","color":"gold"},{"text":"\n  "},{"text":"AAA","color":"gold"},{"text":"\nA","color":"gold"},{"text":": ","color":"yellow"},{"text":"铁块","color":"white"},{"text":"\nB","color":"aqua"},{"text":": ","color":"yellow"},{"text":"金块","color":"white"},{"text":"\n\n将框架","color":"yellow"},{"text":"平铺","color":"light_purple"},{"text":"于地面","color":"yellow"},{"text":"\n站在","color":"yellow"},{"text":"金块","color":"light_purple"},{"text":"上","color":"yellow"},{"text":"\n即可进行","color":"yellow"},{"text":"传送","color":"light_purple"},{"text":"\n\n可在","color":"yellow"},{"text":"主世界","color":"light_purple"},{"text":"与","color":"yellow"},{"text":"\n不稳定维度","color":"light_purple"},{"text":"中使用","color":"yellow"},{"text":"\n*请勿定居或留下财产!","color":"red"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:teleport", 
+    "criteria": {
+      "unstable_zone": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "scr:unstable_zone"
+        }
+      }
+    },
+    "requirements": [
+        ["unstable_zone"]
+    ],
+    "rewards": { 
+    }
+  }

@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":"[","bold":true,"color":"gold"},{"text":"知识之书","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" 回城与设置重生点","color":"yellow"},{"text":" ------------------------------","color":"green"},{"text":"\n使用","color":"aqua"},{"text":"苍蓝星之杖","bold":true,"color":"red"},{"text":"或食用","color":"aqua"},{"text":"紫颂曲奇","bold":true,"color":"red"},{"text":"回城，食用","color":"aqua"},{"text":"灵魂曲奇","bold":true,"color":"red"},{"text":"设置重生点。","color":"aqua"},{"text":"\n法杖 | 苍蓝星: ","bold":true,"color":"red"},{"text":"\n通过高级工作台合成，配方请见","color":"gold"},{"text":"[ESC]-[进度]-[鹰翎]-","color":"yellow"},{"text":"[指引明路]","color":"light_purple"},{"text":"中的介绍。","color":"gold"},{"text":"\n紫颂曲奇: ","bold":true,"color":"red"},{"text":"\n将金粒与火把丢在地面的同一格内即可自动合成。","color":"gold"},{"text":"\n灵魂曲奇: ","bold":true,"color":"red"},{"text":"\n将铁粒与火把丢在地面的同一格内即可自动合成。","color":"gold"},{"text":"\n--------------------------------------------------","color":"green"}]
+
+
+
+scoreboard players set @s scrafthelp 0

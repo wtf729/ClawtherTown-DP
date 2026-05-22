@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand":{
+        "nbt": "{id:'scr:totem_of_haste_i'}"
+      }
+    }
+  }
+}
