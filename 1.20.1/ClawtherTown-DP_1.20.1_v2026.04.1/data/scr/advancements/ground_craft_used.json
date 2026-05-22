@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "title":{
+          "text":"发生甚么事了?",
+          "color":"green"
+      },
+      "description": ["",{"text":"将配方指定的物品\n丢在地面的同一格内\n以使用地面合成","color":"yellow"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:miscellaneous", 
+    "criteria": { 
+      "ground_craft_used": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["ground_craft_used"]
+    ],
+    "rewards": { 
+    }
+  }

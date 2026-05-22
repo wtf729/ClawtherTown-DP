@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:melon_slice"
+      },
+      "title":{
+          "text":"你是故意找茬是不是?",
+          "color":"red"
+      },
+      "description": ["",{"text":"这都是神鹰的馈赠!\n你要不要?!","color":"gold"}],
+      "frame": "challenge" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:wing_crafted", 
+    "criteria": { 
+      "wing_unlucky": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["wing_unlucky"]
+    ],
+    "rewards": { 
+      "function": "scr:title/grant/advancements_4"
+    }
+  }

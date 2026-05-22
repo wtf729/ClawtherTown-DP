@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:elytra",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"融入了末影龙素材的鞘翅","color":"gold","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"压倒性的能量从缝隙中涌出","color":"gold","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"发出强烈无比的锐气","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"防具","color":"dark_green","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"\"那是鸟!\" \"那是飞机!\"","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"——\"那是末影龙!\"","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:ender_dragon_elytra\",display:{Name:'{\"text\":\"末影龙鞘翅\",\"color\":\"red\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:3s,id:\"minecraft:unbreaking\"},{lvl:4s,id:\"minecraft:protection\"},{lvl:1s,id:\"minecraft:mending\"}],CustomModelData:14290072,RepairCost:0,AttributeModifiers:[{Slot:\"chest\",AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1145141919,1145141919,1145141919,1145141919]},{Slot:\"chest\",AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:12,Operation:0,UUID:[I;1145141919,1145141919,1145141919,1145141919]}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

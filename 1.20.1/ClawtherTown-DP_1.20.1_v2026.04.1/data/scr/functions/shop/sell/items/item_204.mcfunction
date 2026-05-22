@@ -1,0 +1,6 @@
+scoreboard players set @s shop_sell_selected_item 10204
+scoreboard players set @s shop_sell_unit_price 175
+
+tellraw @s {"text":"","extra":[{"text":"--------------------------------------------------\n","color":"dark_gray"},{"text":"[","color":"gold","bold":true},{"text":"行商鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"看来你想要出售 ","color":"yellow"},{"text":"[金锭 (奇珍)]","color":"aqua"},{"text":" !","color":"yellow"},{"text":"\n它的售价是","color":"yellow"},{"score":{"name":"@s","objective":"shop_sell_unit_price"},"color":"green"},{"text":"鹰翎币","color":"green"},{"text":"每件! ","color":"yellow"},{"text":"你觉得怎么样?","color":"yellow"},{"text":"\n\n     > ","color":"light_purple"},{"text":"将背包内的物品全部出售","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger shop set 21"}},{"text":"     > ","color":"light_purple"},{"text":"不卖了, 润了","underlined":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger shop set 10"}},{"text":"\n--------------------------------------------------","color":"dark_gray"}]}
+playsound minecraft:entity.villager.trade ambient @s ~ ~ ~
+scoreboard players set @s shop 0

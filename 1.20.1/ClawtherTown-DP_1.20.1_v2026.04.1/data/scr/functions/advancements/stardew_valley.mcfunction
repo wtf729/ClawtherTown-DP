@@ -1,0 +1,1 @@
+advancement grant @s only scr:stardew_valley

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:copper_ingot",
+        "nbt": "{Enchantments:[{lvl:0s,id:\"0\"}]}"
+      },
+      "title":{
+          "text":"不稳定压缩",
+          "color":"green"
+      },
+      "description": ["",{"text":"不稳定铜锭","color":"aqua"},{"text":"\n一种特殊材料","color":"gold"},{"text":"\n地面合成:","color":"yellow"},{"text":"\n铜锭*64\n书*1","color":"aqua"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:materials", 
+    "criteria": { 
+      "get_unstable_copper_ingot": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:unstable_copper_ingot\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_unstable_copper_ingot"]
+    ],
+    "rewards": { 
+    }
+  }

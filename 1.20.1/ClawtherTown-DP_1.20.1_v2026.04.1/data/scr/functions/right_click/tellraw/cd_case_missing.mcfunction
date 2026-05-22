@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你缺少钥匙所对应的神秘箱!","color":"red"}]}

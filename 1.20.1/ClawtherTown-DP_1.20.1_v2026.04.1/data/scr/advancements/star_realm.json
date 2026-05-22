@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:nether_star"
+      },
+      "title":{
+          "text":"星辰即为极限",
+          "color":"green"
+      },
+      "description": ["",{"text":"前往星辰之地维度","color":"light_purple"},{"text":"\n通过困难挑战\n获取特殊称号","color":"gold"},{"text":"\n输入\n/trigger star","color":"yellow"},{"text":"\n即可","color":"yellow"},{"text":"传送","color":"light_purple"},{"text":"\n输入\n/trigger spawn","color":"yellow"},{"text":"\n即可","color":"yellow"},{"text":"返回","color":"light_purple"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:teleport", 
+    "criteria": {
+      "star_realm": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "scr:star_realm"
+        }
+      }
+    },
+    "requirements": [
+        ["star_realm"]
+    ],
+    "rewards": { 
+    }
+  }
