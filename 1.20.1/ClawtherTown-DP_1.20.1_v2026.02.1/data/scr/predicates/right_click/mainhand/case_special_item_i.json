@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand":{
+        "nbt": "{id:'scr:case_special_item_i'}"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"并不符合安全食物标准","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"食用后:","color":"gray","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"夜视 (24:00)","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"饥饿值 +6","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"食物","color":"dark_purple","bold":false,"italic":false}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:golden_carrot_plus\",display:{Name:'{\"text\":\"金胡萝卜+\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:0s,id:\"0\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

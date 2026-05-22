@@ -1,0 +1,3 @@
+tellraw @s {"text":"","extra":[{"text":"数据包: ","color":"aqua","bold":false},{"text":"v2026.02.1","underlined":false,"color":"light_purple"},{"text":"   资源包: ","color":"aqua","bold":false},{"text":"v4.1.9 (25.8.11)","color":"light_purple"},{"text":"\n+ 1.20.1整理更新","color":"red"},{"text":"","color":"yellow"},{"text":"","color":"light_purple"}]}
+
+tellraw @s {"text":"","extra":[{"text":"\n+ 发放了更新奖励 [鹰翎币]*50","color":"green"}]}

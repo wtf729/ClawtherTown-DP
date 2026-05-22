@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"末影龙的力量使它坚不可摧","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"升级方式:","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"A","color":"gold","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"A","color":"gold","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"下界合金剑+","color":"dark_green","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"B","color":"aqua","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"黑曜石","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"武器","color":"red","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"前途无量","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:forged_netherite_sword\",display:{Name:'{\"text\":\"下界合金剑+\",\"color\":\"dark_green\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:0s,id:\"0\"}],Unbreakable:1b,RepairCost:0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

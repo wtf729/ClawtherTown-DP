@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"从神鹰身上落下的羽毛","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"使用同级鹰翎解放进行羽翼合成","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"材料","color":"blue","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"神鹰黑明庇佑着你","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:feather\",display:{Name:'{\"text\":\"鹰翎\",\"color\":\"green\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:0s,id:\"0\"}],CustomModelData:14290020}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

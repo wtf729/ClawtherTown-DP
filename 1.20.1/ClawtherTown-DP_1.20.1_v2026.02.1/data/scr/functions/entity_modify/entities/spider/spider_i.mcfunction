@@ -1,0 +1,1 @@
+data merge entity @s {Tags:["modified","spider_i"],CustomName:'[{"text":" [原始]","color":"gray","bold":true,"italic":false},{"text":" 蜘蛛 ","color":"white","bold":false,"italic":false}]',CustomNameVisible:0b,DeathLootTable:"scr:entities/spider/spider_i"}

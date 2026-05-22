@@ -1,0 +1,3 @@
+function scr:right_click/operations/calculate_duration_soul_double
+
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"已激活","color":"green"},{"text":" [双倍灵魂] ","color":"yellow"},{"text":"加成! ","color":"green"},{"text":"此加成剩余有效时间 ","color":"yellow"},{"score":{"name":"@s","objective":"duration_hour_soul_double"},"color":"white"},{"text":"时","color":"white"},{"score":{"name":"@s","objective":"duration_minute_soul_double"},"color":"white"},{"text":"分","color":"white"},{"score":{"name":"@s","objective":"duration_second_soul_double"},"color":"white"},{"text":"秒","color":"white"},{"text":" !","color":"yellow"}]}

@@ -1,0 +1,2 @@
+scoreboard players set @s stage 2
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你解锁了新称号: ","color":"yellow"},{"text":"[渐入佳境]","color":"dark_green"},{"text":" !   ","color":"yellow"},{"text":"立即佩戴","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger title set 102"}}]}

@@ -1,0 +1,69 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_sword",
+        "nbt": "{CustomModelData:14290104}"
+      },
+      "title":{
+          "text":"黑晶觉醒",
+          "color":"red"
+      },
+      "description": ["",{"text":"下界黑晶剑之力\n到达了巅峰","color":"gold","bold": false}],
+      "frame": "challenge" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": true
+    },
+    "parent": "scr:obsidian_netherite_sword_iii", 
+    "criteria": { 
+      "get_obsidian_netherite_sword_x": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:obsidian_netherite_sword_x\"}"
+            }
+        ]
+        }
+      },
+      "get_obsidian_netherite_sword_xi": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:obsidian_netherite_sword_xi\"}"
+            }
+        ]
+        }
+      },
+      "get_obsidian_netherite_sword_xii": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:obsidian_netherite_sword_xii\"}"
+            }
+        ]
+        }
+      },
+      "get_obsidian_netherite_sword_xiii": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:obsidian_netherite_sword_xiii\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_obsidian_netherite_sword_x","get_obsidian_netherite_sword_xi","get_obsidian_netherite_sword_xii","get_obsidian_netherite_sword_xiii"]
+    ],
+    "rewards": { 
+    }
+  }

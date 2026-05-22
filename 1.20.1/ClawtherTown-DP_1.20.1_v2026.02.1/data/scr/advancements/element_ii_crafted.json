@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:prismarine_crystals",
+        "nbt": "{CustomModelData:14290052}"
+      },
+      "title":{
+          "text":"探索脚步",
+          "color":"yellow"
+      },
+      "description": ["",{"text":"探索元素","color":"light_purple"},{"text":"\n元素材料","color":"gold"},{"text":"\n高级合成:","color":"yellow"},{"text":"\n  "},{"text":"E","color":"green"},{"text":"A","color":"gold"},{"text":"E","color":"green"},{"text":"\n  "},{"text":"D","color":"red"},{"text":"B","color":"aqua"},{"text":"D","color":"red"},{"text":"\n  "},{"text":"C","color":"light_purple"},{"text":"B","color":"aqua"},{"text":"C","color":"light_purple"},{"text":"\nA","color":"gold"},{"text":": ","color":"yellow"},{"text":"钻石 (奇珍)","color":"aqua"},{"text":"\nB","color":"aqua"},{"text":": ","color":"yellow"},{"text":"金锭 (奇珍)","color":"aqua"},{"text":"\nC","color":"light_purple"},{"text":": ","color":"yellow"},{"text":"铁锭 (奇珍)","color":"aqua"},{"text":"\nD","color":"red"},{"text":": ","color":"yellow"},{"text":"铜锭 (奇珍)","color":"aqua"},{"text":"\nE","color":"green"},{"text":": ","color":"yellow"},{"text":"煤炭 (奇珍)","color":"aqua"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:elements", 
+    "criteria": { 
+      "get_element_ii": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:element_ii\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_element_ii"]
+    ],
+    "rewards": {
+      "function": "scr:advancements/elements"
+    }
+  }
