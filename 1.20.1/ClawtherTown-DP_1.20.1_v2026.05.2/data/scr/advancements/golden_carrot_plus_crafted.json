@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_carrot",
+        "nbt": "{Enchantments:[{lvl:0s,id:\"0\"}]}"
+      },
+      "title":{
+          "text":"两眼放光",
+          "color":"green"
+      },
+      "description": ["",{"text":"金胡萝卜+","color":"aqua"},{"text":"\n食用后获得夜视","color":"gold"},{"text":"\n地面合成:","color":"yellow"},{"text":"\n胡萝卜*1\n金块*1","color":"aqua"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:foods", 
+    "criteria": { 
+      "get_golden_carrot_plus": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:golden_carrot_plus\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_golden_carrot_plus"]
+    ],
+    "rewards": { 
+    }
+  }

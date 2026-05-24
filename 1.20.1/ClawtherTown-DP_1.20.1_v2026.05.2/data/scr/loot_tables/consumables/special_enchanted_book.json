@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"知识的力量","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"魔法","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:special_enchanted_book\",display:{Name:'{\"text\":\"神奇附魔书\",\"color\":\"yellow\",\"bold\":false,\"italic\":false}'},StoredEnchantments:[{lvl:1s,id:\"minecraft:aqua_affinity\"},{lvl:5s,id:\"minecraft:efficiency\"},{lvl:4s,id:\"minecraft:feather_falling\"},{lvl:2s,id:\"minecraft:fire_aspect\"},{lvl:1s,id:\"minecraft:flame\"},{lvl:5s,id:\"minecraft:impaling\"},{lvl:3s,id:\"minecraft:looting\"},{lvl:3s,id:\"minecraft:luck_of_the_sea\"},{lvl:3s,id:\"minecraft:lure\"},{lvl:1s,id:\"minecraft:mending\"},{lvl:5s,id:\"minecraft:power\"},{lvl:4s,id:\"minecraft:protection\"},{lvl:2s,id:\"minecraft:punch\"},{lvl:3s,id:\"minecraft:quick_charge\"},{lvl:3s,id:\"minecraft:respiration\"},{lvl:3s,id:\"minecraft:soul_speed\"},{lvl:3s,id:\"minecraft:swift_sneak\"},{lvl:3s,id:\"minecraft:sweeping\"},{lvl:3s,id:\"minecraft:thorns\"},{lvl:3s,id:\"minecraft:unbreaking\"}],CustomModelData:14290009}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

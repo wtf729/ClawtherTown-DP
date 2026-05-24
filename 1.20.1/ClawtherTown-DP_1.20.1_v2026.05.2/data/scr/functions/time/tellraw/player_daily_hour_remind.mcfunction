@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"告示鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你今天已经玩了","color":"aqua"},{"score":{"name":"@s","objective":"time_daily_hour"},"color":"light_purple"},{"text":"个小时了! 休息一下吧! 去看个书好不好?","color":"aqua"}]}

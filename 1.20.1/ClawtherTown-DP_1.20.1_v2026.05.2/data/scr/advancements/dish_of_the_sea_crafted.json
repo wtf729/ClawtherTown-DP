@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_cod",
+        "nbt": "{CustomModelData:14290005}"
+      },
+      "title":{
+          "text":"海的味道我知道",
+          "color":"green"
+      },
+      "description": ["",{"text":"海之菜肴","color":"aqua"},{"text":"\n食用后获得幸运","color":"gold"},{"text":"\n地面合成:","color":"yellow"},{"text":"\n生鳕鱼*1\n生鲑鱼*1\n河豚*1\n土豆*1","color":"aqua"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:stardew_valley", 
+    "criteria": { 
+      "get_dish_of_the_sea": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:dish_of_the_sea\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_dish_of_the_sea"]
+    ],
+    "rewards": {
+      "function": "scr:advancements/stardew_valley"
+    }
+  }

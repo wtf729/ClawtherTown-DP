@@ -1,0 +1,56 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:feather",
+        "nbt": "{Enchantments:[{lvl:0s,id:\"0\"}]}"
+      },
+      "title":{
+          "text":"新鲜的空气",
+          "color":"aqua"
+      },
+      "description": ["",{"text":"欢迎来到鹰翎镇!","color":"gold"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:root", 
+    "criteria": { 
+      "enter_server": {
+        "trigger": "minecraft:tick", 
+        "conditions": {
+        }
+      }
+    },
+    "requirements": [
+        ["enter_server"]
+    ],
+    "rewards": {  
+      "recipes": [
+        "scr:blast_diamond_horse_armor",
+        "scr:blast_glass",
+        "scr:blast_golden_horse_armor",
+        "scr:blast_iron_horse_armor",
+        "scr:blast_stone",
+        "scr:craft_andesite",
+        "scr:craft_arrow",
+        "scr:craft_bundle",
+        "scr:craft_chest",
+        "scr:craft_cobblestone",
+        "scr:craft_crying_obsidian",
+        "scr:craft_dropper",
+        "scr:craft_enchanted_golden_apple",
+        "scr:craft_fermented_spider_eye",
+        "scr:craft_glow_ink_sac",
+        "scr:craft_name_tag",
+        "scr:craft_paper",
+        "scr:craft_slime_ball",
+        "scr:craft_villager_spawn_egg",
+        "scr:smelt_diamond_horse_armor",
+        "scr:smelt_golden_apple",
+        "scr:smelt_golden_horse_armor",
+        "scr:smelt_iron_horse_armor",
+        "scr:smelt_leather"
+      ]
+    }
+  }

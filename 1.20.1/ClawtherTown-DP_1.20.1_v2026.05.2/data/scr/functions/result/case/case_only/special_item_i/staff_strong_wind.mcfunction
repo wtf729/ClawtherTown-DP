@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot scr:tools/staff/staff_strong_wind

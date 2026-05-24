@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:paper",
+        "nbt": "{Enchantments:[{lvl:0s,id:\"0\"}],CustomModelData:14290006}"
+      },
+      "title":{
+          "text":"鹰的强化术",
+          "color":"red"
+      },
+      "description": ["",{"text":"鹰翎卷轴","bold":false,"color":"red"},{"text":"\n高等级强化材料","color":"gold"},{"text":"\n高级合成:","color":"yellow"},{"text":"\n  "},{"text":"BBB","color":"aqua"},{"text":"\n  "},{"text":"C","color":"light_purple"},{"text":"A","color":"gold"},{"text":"C","color":"light_purple"},{"text":"\n  "},{"text":"BBB","color":"aqua"},{"text":"\nA","color":"gold"},{"text":": ","color":"yellow"},{"text":"纸","color":"white"},{"text":"\nB","color":"aqua"},{"text":": ","color":"yellow"},{"text":"鹰翎","color":"green"},{"text":"\nC","color":"light_purple"},{"text":": ","color":"yellow"},{"text":"下界之星","color":"yellow"}],
+      "frame": "challenge" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:obsidian_netherite_sword_iv", 
+    "criteria": {
+      "get_clawther_scroll": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:clawther_scroll\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_clawther_scroll"]
+    ],
+    "rewards": { 
+    }
+  }

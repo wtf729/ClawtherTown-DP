@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:written_book"
+		},
+		"title":{
+			"text":"需要帮助?              ",
+			"color":"yellow",
+			"bold": true
+		},
+		"description": ["",{"text":"输入 ","color":"green"},{"text":"/trigger scrafthelp","color":"yellow"},{"text":" 来打开鹰翎镇的知识之书!","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "scr:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:quartz",
+        "nbt": "{CustomModelData:14290025}"
+      },
+      "title":{
+          "text":"展翅高飞",
+          "color":"red"
+      },
+      "description": ["",{"text":"收集每一种羽翼!","color":"gold"}],
+      "frame": "challenge" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:wing_crafted", 
+    "criteria": { 
+      "wing_i_crafted": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:wing_i\"}"
+            }
+        ]
+        }
+      },
+      "wing_ii_crafted": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+          {
+              "nbt":
+                  "{id:\"scr:wing_ii\"}"
+          }
+        ]
+        }
+      },
+      "wing_iii_crafted": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:wing_iii\"}"
+            }
+        ]
+        }
+      },
+      "wing_iv_crafted": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:wing_iv\"}"
+            }
+        ]
+        }
+      },
+      "wing_v_crafted": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:wing_v\"}"
+            }
+        ]
+        }
+      },
+      "wing_vi_crafted": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:wing_vi\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["wing_i_crafted"],["wing_ii_crafted"],["wing_iii_crafted"],["wing_iv_crafted"],["wing_v_crafted"],["wing_vi_crafted"]
+    ],
+    "rewards": { 
+    }
+  }

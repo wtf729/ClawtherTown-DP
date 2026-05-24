@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_sword",
+        "nbt": "{CustomModelData:14290105}"
+      },
+      "title":{
+          "text":"黑晶爆发",
+          "color":"red",
+          "bold": true
+      },
+      "description": ["",{"text":"下界黑晶剑之力\n到达了极限","color":"gold","bold": true}],
+      "frame": "challenge" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": true
+    },
+    "parent": "scr:obsidian_netherite_sword_iv", 
+    "criteria": { 
+      "get_obsidian_netherite_sword_xiii": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:obsidian_netherite_sword_xiii\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_obsidian_netherite_sword_xiii"]
+    ],
+    "rewards": { 
+      "function": "scr:title/grant/advancements_2"
+    }
+  }

@@ -1,0 +1,1 @@
+execute as @s run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"★ 罕见的特殊物品 ★","bold":true,"color":"yellow"},{"text":" <","color":"white"}]}

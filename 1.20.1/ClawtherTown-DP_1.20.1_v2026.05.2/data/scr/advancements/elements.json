@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:potion",
+        "nbt": "{Enchantments:[{lvl:0s,id:\"0\"}]}"
+      },
+      "title":{
+          "text":"神秘力量",
+          "color":"light_purple"
+      },
+      "description": ["",{"text":"首次接触元素","color":"gold"}],
+      "frame": "goal" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:unexpected_fortune", 
+    "criteria": { 
+      "elements": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["elements"]
+    ],
+    "rewards": { 
+    }
+  }

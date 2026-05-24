@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:nether_star"
+      },
+      "title":{
+          "text":"星露谷的回忆",
+          "color":"green"
+      },
+      "description": ["",{"text":"那让你想起鹈鹕镇","color":"gold"}],
+      "frame": "goal" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:foods", 
+    "criteria": { 
+      "stardew_valley": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["stardew_valley"]
+    ],
+    "rewards": { 
+    }
+  }

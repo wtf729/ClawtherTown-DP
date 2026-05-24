@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"破冰设计将其效率提高至极致","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"升级方式:","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"BBB","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"B","color":"aqua","bold":false,"italic":false},{"text":"A","color":"gold","bold":false,"italic":false},{"text":"B","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"  ","color":"white","italic":false},{"text":"BBB","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"A","color":"gold","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"翎之镐 - IX","color":"red","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"B","color":"aqua","bold":false,"italic":false},{"text":": ","color":"yellow","bold":false,"italic":false},{"text":"世界元素","color":"red","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"","color":"white","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"工具","color":"green","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"\"专利使用费实在令人难以接受...","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"不过你让我重新考虑一下...\"","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+						{
+						  "function": "minecraft:set_attributes",
+						  "modifiers": [
+							{
+							  "attribute": "generic.attack_damage",
+							  "name": "generic.attack_damage",
+							  "amount": 15,
+							  "operation": "addition",
+							  "slot": "mainhand"
+							},
+							{
+							  "attribute": "generic.movement_speed",
+							  "name": "generic.movement_speed",
+							  "amount": 0.02,
+							  "operation": "addition",
+							  "slot": "mainhand"
+							}
+						  ]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:clawther_pickaxe_ix\",display:{Name:'{\"text\":\"翎之镐 - IX\",\"color\":\"red\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:10s,id:\"minecraft:efficiency\"},{lvl:4s,id:\"minecraft:fortune\"},{lvl:9s,id:\"minecraft:unbreaking\"},{lvl:1s,id:\"minecraft:mending\"},{lvl:2s,id:\"minecraft:fire_aspect\"}],RepairCost:0,CustomModelData:14290044}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

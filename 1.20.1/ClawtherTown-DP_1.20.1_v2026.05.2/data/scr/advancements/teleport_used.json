@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ender_eye"
+      },
+      "title":{
+          "text":"绝非巧合",
+          "color":"green"
+      },
+      "description": ["",{"text":"进行一次回城","color":"gold"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:teleport_cookie_crafted", 
+    "criteria": { 
+      "teleport_used": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+        ["teleport_used"]
+    ],
+    "rewards": { 
+    }
+  }

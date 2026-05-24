@@ -1,0 +1,1 @@
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"考勤鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"生涯签到天数: ","color":"white"},{"score":{"name":"@s","objective":"time_daily_sign_in_times"},"color":"light_purple"},{"text":" 天","color":"aqua"}]}
