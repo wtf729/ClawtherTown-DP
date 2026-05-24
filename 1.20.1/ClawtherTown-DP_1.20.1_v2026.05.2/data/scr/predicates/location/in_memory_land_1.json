@@ -2,6 +2,6 @@
   "condition": "minecraft:location_check",
   "entity": "this",
   "predicate": {
-    "dimension": "scr:memory_land_iii"
+    "dimension": "scr:memory_land_1"
   }
 }
