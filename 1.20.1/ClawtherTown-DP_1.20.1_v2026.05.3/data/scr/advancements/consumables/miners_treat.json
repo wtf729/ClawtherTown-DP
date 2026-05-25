@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "miners_treat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{id:'scr:miners_treat'}"
+          }
+        }
+      }
+    },
+    "rewards":{
+      "function": "scr:advancements/consumables/miners_treat"
+    }
+  }

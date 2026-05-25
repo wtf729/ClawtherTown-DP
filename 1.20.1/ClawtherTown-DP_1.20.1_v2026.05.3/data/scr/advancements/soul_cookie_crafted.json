@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cookie",
+        "nbt": "{CustomModelData:14290003}"
+      },
+      "title":{
+          "text":"鹰的报酬金保险",
+          "color":"green"
+      },
+      "description": ["",{"text":"灵魂曲奇","color":"aqua"},{"text":"\n食用后设置重生点","color":"gold"},{"text":"\n地面合成:","color":"yellow"},{"text":"\n火把*1\n铁粒*1","color":"aqua"}],
+      "frame": "task" , 
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hideen": false
+    },
+    "parent": "scr:foods", 
+    "criteria": { 
+      "get_soul_cookie": {
+        "trigger": "minecraft:inventory_changed", 
+        "conditions": {
+          "items": [
+            {
+                "nbt":
+                    "{id:\"scr:soul_cookie\"}"
+            }
+        ]
+        }
+      }
+    },
+    "requirements": [
+        ["get_soul_cookie"]
+    ],
+    "rewards": { 
+    }
+  }

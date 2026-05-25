@@ -1,0 +1,15 @@
+scoreboard players remove @a[scores={item_consume_soul=1..,cd_case=0}] item_consume_soul 1
+scoreboard players remove @a[scores={item_consume_cold_down=1..}] item_consume_cold_down 1
+execute as @a[scores={item_consume_soul=1}] at @s run function scr:soul/soul_consume
+
+
+
+execute as @a[predicate=scr:inventory/soul] at @s run function scr:soul/count/soul_inventory_count
+execute as @a[predicate=scr:inventory/soul_plus] at @s run function scr:soul/count/soul_plus_inventory_count
+execute as @a at @s as @e[type=minecraft:item,distance=..5,nbt={Item:{id:"minecraft:iron_nugget",tag:{id:"scr:soul"}}}] run function scr:soul/count/soul_ground_count
+execute as @a at @s as @e[type=minecraft:item,distance=..5,nbt={Item:{id:"minecraft:iron_nugget",tag:{id:"scr:soul_plus"}}}] run function scr:soul/count/soul_plus_ground_count
+
+
+execute as @a[scores={item_consume_cold_down=0,soul_add=1..,cd_case=0}] at @s run function scr:soul/actionbar
+
+execute as @a at @s if score @s soul >= @s soul_require run function scr:soul/level_up

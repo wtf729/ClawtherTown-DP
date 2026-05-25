@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"凝聚了神秘力量的法杖","color":"gold","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"使用后:","color":"gray","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"将范围内的实体传送回家","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"施法半径: ","color":"gray","bold":false,"italic":false},{"text":"1格","color":"red","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"引导时长: ","color":"gray","bold":false,"italic":false},{"text":"瞬发","color":"green","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"冷却时长: ","color":"gray","bold":false,"italic":false},{"text":"30s","color":"yellow","bold":false,"italic":false}]
+							]
+						},
+            {
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"魔法","color":"aqua","bold":false,"italic":false}]
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[{"text":"指引明路","color":"dark_gray","bold":false,"italic":true}]
+							]
+						},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"scr:staff_sapphire_star\",display:{Name:'{\"text\":\"法杖 | 苍蓝星\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}'},Enchantments:[{lvl:0s,id:\"0\"}],CustomModelData:14290001,Unbreakable:1b,RepairCost:0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

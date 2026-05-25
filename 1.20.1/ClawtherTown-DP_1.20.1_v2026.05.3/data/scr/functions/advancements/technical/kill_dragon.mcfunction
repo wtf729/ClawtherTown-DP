@@ -1,0 +1,1 @@
+schedule function scr:advancements/technical/kill_dragon_execute 1t replace

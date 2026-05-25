@@ -1,0 +1,4 @@
+tellraw @s {"text":"","extra":[{"text":"--------------------------------------------------\n","color":"dark_gray"},{"text":"[","color":"gold","bold":true},{"text":"行商鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"看来你看上了这件 ","color":"yellow"},{"text":"[深海之箱]","color":"gold"},{"text":" !","color":"yellow"},{"text":"\n非常遗憾! 此物品属于非卖品! 仅通过","color":"red"},{"text":"钓鱼","color":"aqua"},{"text":"获得!","color":"red"},{"text":"\n\n     > ","color":"light_purple"},{"text":"奶奶滴","underlined":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger shop set 10"}},{"text":"          > ","color":"light_purple"},{"text":"淦!","underlined":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger shop set 10"}},{"text":"\n--------------------------------------------------","color":"dark_gray"}]}
+execute as @s at @s run playsound minecraft:entity.villager.no ambient @s ~ ~ ~
+
+scoreboard players set @s shop 0

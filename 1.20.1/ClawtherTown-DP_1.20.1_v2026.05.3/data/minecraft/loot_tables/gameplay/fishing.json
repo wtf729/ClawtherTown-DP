@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1000,
+          "quality": -200,
+          "name": "minecraft:gameplay/fishing/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "fishing_hook": {
+                  "in_open_water": true
+                }
+              },
+              "entity": "this"
+            }
+          ],
+          "weight": 500,
+          "quality": 200,
+          "name": "minecraft:gameplay/fishing/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8500,
+          "quality": -100,
+          "name": "minecraft:gameplay/fishing/fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "fishing_hook": {
+                  "in_open_water": true
+                }
+              },
+              "entity": "this"
+            }
+          ],
+          "weight": 100,
+          "quality": 50,
+          "name": "scr:gameplay/fishing/rare_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "fishing_hook": {
+                  "in_open_water": true
+                }
+              },
+              "entity": "this"
+            }
+          ],
+          "weight": 20,
+          "quality": 10,
+          "name": "scr:gameplay/fishing/epic_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "fishing_hook": {
+                  "in_open_water": true
+                }
+              },
+              "entity": "this"
+            }
+          ],
+          "weight": 10,
+          "quality": 5,
+          "name": "scr:gameplay/fishing/legendary_treasure"
+        }
+      ]
+    }
+  ]
+}
