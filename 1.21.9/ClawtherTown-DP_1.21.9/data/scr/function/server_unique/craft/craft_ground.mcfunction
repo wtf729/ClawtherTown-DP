@@ -46,16 +46,16 @@ execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:emerald_block",count:
 
 
 
-#星辉剑
+#多普勒
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_name":"obsidian_netherite_sword_xiii"}}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:diamond_block",count:1}}] run function scr:server_unique/craft/recipe/ground_obsidian_netherite_sword_xiii_diamond
 
-#金煌剑
+#传说
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_name":"obsidian_netherite_sword_xiii"}}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:gold_block",count:1}}] run function scr:server_unique/craft/recipe/ground_obsidian_netherite_sword_xiii_gold
 
-#翠影剑
+#伽玛多普勒
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_name":"obsidian_netherite_sword_xiii"}}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:emerald_block",count:1}}] run function scr:server_unique/craft/recipe/ground_obsidian_netherite_sword_xiii_emerald
 
-#月之剑
+#月蚀
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_name":"obsidian_netherite_sword_xiii"}}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:painting",count:1,components:{"minecraft:item_name":"painting_a_0009"}}}] run function scr:server_unique/craft/recipe/ground_obsidian_netherite_sword_xiii_custom_i
 
 #还原

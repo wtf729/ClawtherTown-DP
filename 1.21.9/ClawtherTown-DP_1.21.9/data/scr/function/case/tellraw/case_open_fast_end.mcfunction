@@ -1,1 +1,1 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"开箱","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"开启完毕, 本次共开启了","color":"aqua"},{"score":{"name":"@s","objective":"case_opening_fast_total"},"color":"light_purple"},{"text":"个物品!","color":"aqua"}]}
+tellraw @s {"text":"","extra":[{"text":"开启完毕, 本次共开启了","color":"aqua"},{"score":{"name":"@s","objective":"case_opening_fast_total"},"color":"light_purple"},{"text":"件物品!","color":"aqua"}]}

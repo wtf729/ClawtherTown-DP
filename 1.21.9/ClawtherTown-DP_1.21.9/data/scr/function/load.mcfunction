@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 10
+scoreboard players set #server version 11
 
 #初始设定
 forceload add 0 0
