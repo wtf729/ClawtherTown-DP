@@ -1,3 +1,0 @@
-tellraw @a {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"清洁鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"我看到地面上有","color":"gray"},{"score":{"name":"#item_count_item","objective":"item_cleaning"},"color":"#e5e6a7"},{"text":"个物品与","color":"gray"},{"score":{"name":"#item_count_exp","objective":"item_cleaning"},"color":"#e5e6a7"},{"text":"个经验球, 看来不需要我出马了!","color":"gray"}]}
-
-scoreboard players set #item_cleaning_stage item_cleaning 0

@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": [
-      {"item": "minecraft:iron_horse_armor"}
-    ],
-    "result": "minecraft:iron_block",
-    "experience": 2,
-    "cookingtime": 800
-  }

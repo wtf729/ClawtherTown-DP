@@ -1,5 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":"--------------------------------------------------\n","color":"dark_gray"},{"text":"[","color":"gold","bold":true},{"text":"行商鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"支付失败! ","color":"red"},{"text":"\n你现在只有","color":"yellow"},{"score":{"name":"@s","objective":"mystic_coin"},"color":"green"},{"text":"枚秘币","color":"green"},{"text":"! ","color":"yellow"},{"text":"无法支付","color":"yellow"},{"score":{"name":"@s","objective":"shop_key_bill"},"color":"red"},{"text":"枚秘币","color":"red"},{"text":"的账单! ","color":"yellow"},{"text":"\n看来你得想办法再搞点钱了!","color":"yellow"},{"text":"\n--------------------------------------------------","color":"dark_gray"}]}
-playsound minecraft:entity.villager.no ambient @s ~ ~ ~
-
-scoreboard players set @s shop_key_amount 0
-scoreboard players set @s shop_key_bill 0

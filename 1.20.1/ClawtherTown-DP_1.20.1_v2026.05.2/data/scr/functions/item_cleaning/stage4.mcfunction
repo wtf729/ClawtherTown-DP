@@ -1,3 +1,0 @@
-tellraw @a {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"清洁鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"嗨害嗨，地面上有","color":"red"},{"score":{"name":"#item_count_item","objective":"item_cleaning"},"color":"light_purple"},{"text":"个物品与","color":"red"},{"score":{"name":"#item_count_exp","objective":"item_cleaning"},"color":"light_purple"},{"text":"个经验球! ","color":"red"},{"text":"15秒","color":"light_purple"},{"text":"后全给你扬咯!","color":"red"}]}
-
-scoreboard players set #item_cleaning_stage item_cleaning 5

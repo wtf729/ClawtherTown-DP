@@ -1,1 +1,0 @@
-loot spawn ~ ~ ~ loot scr:consumables/totem/totem_of_strength_i

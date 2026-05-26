@@ -1,2 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":"[","bold":true,"color":"gold"},{"text":"行商鹰","bold":true,"color":"yellow"},{"text":"] ","bold":true,"color":"gold"},{"text":"我猜你身上现在有 ","color":"aqua"},{"score":{"name":"@s","objective":"clawther_coin"},"color":"yellow"},{"text":" 枚鹰翎币!","color":"aqua"}]}
-scoreboard players set @s money 0

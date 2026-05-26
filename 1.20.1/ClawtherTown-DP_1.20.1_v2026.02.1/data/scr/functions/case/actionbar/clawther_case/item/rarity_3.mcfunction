@@ -1,2 +1,0 @@
-execute as @s if score @s case_opening_luck matches 911..2510 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"不死图腾 | 屠夫","bold":true,"color":"light_purple"},{"text":" <","color":"white"}]}
-execute as @s if score @s case_opening_luck matches 2511..4110 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"不死图腾 | 监工","bold":true,"color":"light_purple"},{"text":" <","color":"white"}]}

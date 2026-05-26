@@ -1,7 +1,0 @@
-gamerule doFireTick false
-gamerule mobGriefing false
-gamerule keepInventory true
-gamerule sendCommandFeedback true
-gamerule commandBlockOutput false
-gamerule disableElytraMovementCheck true
-gamerule spawnRadius 0

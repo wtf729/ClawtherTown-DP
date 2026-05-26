@@ -1,1 +1,0 @@
-execute if score #server timecounter >= #second timecounter run function scr:time/server/count_server_second

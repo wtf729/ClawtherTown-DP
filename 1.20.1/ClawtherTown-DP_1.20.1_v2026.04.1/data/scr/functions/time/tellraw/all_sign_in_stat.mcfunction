@@ -1,3 +1,0 @@
-function scr:time/tellraw/player_daily_sign_in_times
-function scr:time/tellraw/player_daily_sign_in_streak
-function scr:time/tellraw/player_daily_sign_in_streak_record

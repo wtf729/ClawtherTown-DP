@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:shulker] at @s run data merge entity @s {NoAI:1b}

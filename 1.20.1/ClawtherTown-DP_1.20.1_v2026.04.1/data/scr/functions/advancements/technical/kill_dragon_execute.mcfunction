@@ -1,3 +1,0 @@
-execute in minecraft:the_end positioned 0 64 0 unless entity @e[type=item,distance=..200,nbt={Item:{id:"minecraft:nether_star",tag:{id:"scr:ender_dragon_gem"}}}] as @a[nbt={Dimension:"minecraft:the_end"},distance=..200] at @s run playsound scr:ui.mh_mission_complete ambient @s ~ ~ ~
-execute in minecraft:the_end positioned 0 64 0 if entity @e[type=item,distance=..200,nbt={Item:{id:"minecraft:nether_star",tag:{id:"scr:ender_dragon_gem"}}}] as @a[nbt={Dimension:"minecraft:the_end"},distance=..200] at @s run playsound scr:ui.mh_mission_complete_epic ambient @s ~ ~ ~
-advancement revoke @a only scr:technical/kill_dragon

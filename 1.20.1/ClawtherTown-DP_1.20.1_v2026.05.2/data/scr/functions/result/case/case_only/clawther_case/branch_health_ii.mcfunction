@@ -1,1 +1,0 @@
-loot spawn ~ ~ ~ loot scr:tools/branch/branch_health_ii

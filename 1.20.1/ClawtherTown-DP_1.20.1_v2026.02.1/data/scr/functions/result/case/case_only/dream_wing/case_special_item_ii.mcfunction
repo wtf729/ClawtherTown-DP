@@ -1,1 +1,0 @@
-loot spawn ~ ~ ~ loot scr:case/case/case_special_item_ii

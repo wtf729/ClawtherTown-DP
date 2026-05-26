@@ -1,2 +1,0 @@
-execute if entity @s[type=player,predicate=scr:operation/is_sneaking] if block ~ ~-1 ~ #scr:elevator align xyz positioned ~0.5 ~-1.5 ~0.5 run function scr:elevator/player/elevator_checks/find_activator
-execute if entity @s[type=player,tag=elevator_jump] align xyz positioned ~0.5 ~-1.5 ~0.5 run function scr:elevator/player/elevator_checks/find_activator

@@ -1,1 +1,0 @@
-execute as @s run title @s actionbar {"text":"","extra":[{"text":"[ ","color":"white"},{"text":"正在开启","bold":true,"color":"yellow"},{"text":" - ","bold":true,"color":"white"},{"text":"[","color":"yellow"},{"translate":"item.scr.case_special_item_i","bold":true,"color":"yellow"},{"text":"]","color":"yellow"},{"text":" ]","color":"white"}]}

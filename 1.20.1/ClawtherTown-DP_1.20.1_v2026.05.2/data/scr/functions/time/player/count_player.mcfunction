@@ -1,1 +1,0 @@
-execute as @a at @s if score @s timecounter >= #second timecounter run function scr:time/player/count_player_all_second

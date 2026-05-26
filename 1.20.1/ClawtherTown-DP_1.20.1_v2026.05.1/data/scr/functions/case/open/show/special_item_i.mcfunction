@@ -1,1 +1,0 @@
-function scr:case/actionbar/special_item_i/item/pool

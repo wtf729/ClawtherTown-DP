@@ -1,1 +1,0 @@
-execute if score #item_cleaning timecounter matches 100.. run scoreboard players set #instant_clear item_cleaning 3

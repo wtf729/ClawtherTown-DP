@@ -1,1 +1,0 @@
-execute store result score @s time_daily_sign_in_streak_record run scoreboard players get @s time_daily_sign_in_streak

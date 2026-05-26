@@ -1,1 +1,0 @@
-data merge entity @s {Tags:["modified","zombie_i"],CustomName:'[{"text":" [原始]","color":"gray","bold":true,"italic":false},{"text":" 僵尸 ","color":"white","bold":false,"italic":false}]',CustomNameVisible:0b,DeathLootTable:"scr:entities/zombie/zombie_i"}

@@ -1,1 +1,0 @@
-scoreboard players operation @s star_realm_challenge_i_checkpoint = @s star_realm_challenge_i_load

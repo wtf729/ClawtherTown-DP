@@ -1,1 +1,0 @@
-execute as @s run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"★ 奇珍矿脉 ★","bold":true,"color":"yellow"},{"text":" <","color":"white"}]}

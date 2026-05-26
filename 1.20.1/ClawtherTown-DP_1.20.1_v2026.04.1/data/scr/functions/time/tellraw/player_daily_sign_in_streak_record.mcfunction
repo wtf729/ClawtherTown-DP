@@ -1,1 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"考勤鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"最高连续签到: ","color":"white"},{"score":{"name":"@s","objective":"time_daily_sign_in_streak_record"},"color":"light_purple"},{"text":" 天","color":"aqua"}]}

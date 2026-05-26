@@ -1,3 +1,0 @@
-scoreboard players set @s title_special_1 1
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"神鹰为你颁发了新称号: ","color":"yellow"},{"translate":"team.scr.title_special_1.prefix","color":"gold"},{"text":" !   ","color":"yellow"},{"text":"立即佩戴","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger title set 1001"}}]}
-playsound scr:ui.mh_mission_complete ambient @s ~ ~ ~

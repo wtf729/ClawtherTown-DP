@@ -1,1 +1,0 @@
-scoreboard players add @s mystic_coin 6

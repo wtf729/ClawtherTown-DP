@@ -1,1 +1,0 @@
-execute as @s run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"★ 未鉴定的宝藏 ★","bold":true,"color":"yellow"},{"text":" <","color":"white"}]}

@@ -1,3 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"Roll点结果为: ","color":"yellow"},{"score":{"name":"#random100000","objective":"scr_random"},"color":"light_purple"},{"text":"/","color":"aqua"},{"text":"100000","color":"yellow"},{"text":" !","color":"yellow"}]}
-
-function scr:random/random100000

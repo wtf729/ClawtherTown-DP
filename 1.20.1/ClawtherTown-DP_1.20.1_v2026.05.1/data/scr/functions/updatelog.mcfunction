@@ -1,3 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":"数据包: ","color":"aqua","bold":false},{"text":"v2026.05.1","underlined":false,"color":"light_purple"},{"text":"   资源包: ","color":"aqua","bold":false},{"text":"v3.4.0","color":"light_purple"},{"text":"\n+ 等级系统调整","color":"red"},{"text":"\n+ 秘尘问题修复","color":"yellow"},{"text":"","color":"light_purple"},{"text":"\n+ 发放了更新奖励 [鹰翎币]*50","color":"green"}]}
-
-tellraw @s {"text":"","extra":[{"text":"\n+ 发放了更新奖励 [鹰翎币]*50","color":"green"}]}

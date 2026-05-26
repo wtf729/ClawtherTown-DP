@@ -1,1 +1,0 @@
-loot spawn ~ ~ ~ loot scr:vanilla_items/emerald_ore

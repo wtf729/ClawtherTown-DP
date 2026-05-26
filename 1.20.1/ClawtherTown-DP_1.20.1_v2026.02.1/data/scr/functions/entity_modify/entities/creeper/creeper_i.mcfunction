@@ -1,1 +1,0 @@
-data merge entity @s {Tags:["modified","creeper_i"],CustomName:'[{"text":" [原始]","color":"gray","bold":true,"italic":false},{"text":" 爬行者 ","color":"white","bold":false,"italic":false}]',CustomNameVisible:0b,powered:0b,DeathLootTable:"scr:entities/creeper/creeper_i"}

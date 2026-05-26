@@ -1,1 +1,0 @@
-scoreboard players set @s item_consume_clawther_coin 100

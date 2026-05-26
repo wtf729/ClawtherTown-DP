@@ -1,1 +1,0 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"告示鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你今天已在鹰翎镇度过了 ","color":"aqua"},{"score":{"name":"@s","objective":"time_daily_hour"},"color":"light_purple"},{"text":" 个小时!","color":"aqua"}]}
