@@ -1,5 +1,5 @@
 kill @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:gold_nugget",Count:1b}}]
-loot spawn ~ ~ ~ loot scr:consumables/teleport_cookie
+loot spawn ~ ~ ~ loot scr:food/teleport_cookie
 playsound minecraft:block.anvil.use block @a ~ ~ ~ 0.3
 particle minecraft:happy_villager ~ ~1 ~ 0.3 0.3 0.3 0 10
 

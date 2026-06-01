@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/soul",
+          "name": "scr:ingredients/soul",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/clawther_coin",
+          "name": "scr:ingredients/clawther_coin",
           "functions": [
             {
               "function": "minecraft:set_count",

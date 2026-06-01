@@ -129,7 +129,7 @@
                   "chance": 0.80
                 }
               ],
-              "name": "scr:materials/clawther_coin",
+              "name": "scr:ingredients/clawther_coin",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -178,7 +178,7 @@
                   "chance": 0.80
                 }
               ],
-              "name": "scr:materials/soul",
+              "name": "scr:ingredients/soul",
               "functions": [
                 {
                   "function": "minecraft:set_count",

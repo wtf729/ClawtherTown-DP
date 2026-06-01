@@ -8,7 +8,7 @@ function scr:cd
 function scr:handheld
 
 #高级合成
-execute as @a at @s if block ~ ~-1 ~ minecraft:dropper run function scr:droppercraft
+execute as @a at @s if block ~ ~-1 ~ minecraft:dropper run function scr:server_unique/craft/craft_dropper
 
 #地面合成
 function scr:server_unique/craft/craft_ground

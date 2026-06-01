@@ -29,7 +29,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/ender_dragon_gem",
+          "name": "scr:ingredients/ender_dragon_gem",
           "weight": 10,
           "quality": 4
         },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/soul",
+          "name": "scr:ingredients/soul",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -76,7 +76,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/clawther_coin",
+          "name": "scr:ingredients/clawther_coin",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -101,7 +101,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/soul_plus",
+          "name": "scr:ingredients/soul_plus",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -126,7 +126,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "scr:materials/clawther_coin_plus",
+          "name": "scr:ingredients/clawther_coin_plus",
           "functions": [
             {
               "function": "minecraft:set_count",

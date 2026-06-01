@@ -1,7 +1,7 @@
 kill @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:sugar",Count:1b}}]
 kill @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:carrot",Count:1b}}]
 kill @e[type=item,limit=1,distance=..1,nbt={Item:{id:"minecraft:apple",Count:1b}}]
-loot spawn ~ ~ ~ loot scr:consumables/miners_treat
+loot spawn ~ ~ ~ loot scr:food/miners_treat
 playsound minecraft:block.anvil.use block @a ~ ~ ~ 0.3
 particle minecraft:happy_villager ~ ~1 ~ 0.3 0.3 0.3 0 10
 

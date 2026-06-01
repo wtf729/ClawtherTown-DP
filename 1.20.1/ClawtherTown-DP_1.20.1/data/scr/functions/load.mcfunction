@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 117
+scoreboard players set #server version 118
 
 
 #菜单
