@@ -53,6 +53,8 @@ execute in scr:memory_land positioned -8 100 0 as @a[distance=..1] run execute i
 execute as @a[predicate=scr:location/in_memory_land_4,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
 
 
+
+
 ##记忆之地1传送
 #中心 > HB
 execute in scr:memory_land_1 run particle minecraft:portal -6 57 9 0 0 0 1 2
@@ -199,3 +201,8 @@ execute in scr:memory_land_2 positioned -5 100 0 as @a[distance=..1] run tp @s -
 #宸之屋 > 中心
 execute in scr:memory_land_2 run particle minecraft:portal -177 74 331 0 0 0 1 2
 execute in scr:memory_land_2 positioned -177 74 331 as @a[distance=..1] run tp @s 0 100 0
+
+
+
+##模组服传送
+function scr:server_unique/teleport_mod

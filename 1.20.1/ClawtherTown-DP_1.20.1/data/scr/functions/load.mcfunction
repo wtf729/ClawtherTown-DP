@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 118
+scoreboard players set #server version 119
 
 
 #菜单
@@ -52,11 +52,13 @@ scoreboard objectives add cd_staff_wind dummy
 
 #强力怪物
 scoreboard objectives add entity_modify dummy
-scoreboard players set #entity_modify entity_modify 0
+#默认开启
+execute unless score #server entity_modify matches 0.. run scoreboard players set #server entity_modify 1
 
 #生存锁
 scoreboard objectives add survivallock dummy
-scoreboard players set #server survivallock 0
+#默认关闭
+execute unless score #server survivallock matches 0.. run scoreboard players set #server survivallock 0
 
 #服务器特殊
 scoreboard objectives add scraftglowing dummy
@@ -140,7 +142,8 @@ function scr:random/random100000_entity_modify
 
 #物品清理
 scoreboard objectives add item_cleaning dummy
-scoreboard players set #item_cleaning item_cleaning 1
+#默认开启
+execute unless score #item_cleaning item_cleaning matches 0.. run scoreboard players set #item_cleaning item_cleaning 1
 scoreboard players set #item_limit item_cleaning 250
 scoreboard players set #instant_clear_limit item_cleaning 500
 scoreboard players add #item_cleaning_stage item_cleaning 0
@@ -148,8 +151,8 @@ scoreboard players add #instant_clear item_cleaning 0
 
 #在线奖励
 scoreboard objectives add treward dummy
-scoreboard players set #treward treward 1
-
+#默认开启
+execute unless score #treward treward matches 0.. run scoreboard players set #treward treward 1
 scoreboard objectives add treward_stage dummy
 scoreboard objectives add treward_mark dummy
 scoreboard objectives add treward_fa dummy

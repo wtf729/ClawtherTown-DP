@@ -19,21 +19,28 @@
       "condition": "minecraft:location_check",
       "entity": "this",
       "predicate": {
-        "dimension": "scr:memory_land_i"
+        "dimension": "scr:memory_land_1"
       }
     },
     {
       "condition": "minecraft:location_check",
       "entity": "this",
       "predicate": {
-        "dimension": "scr:memory_land_ii"
+        "dimension": "scr:memory_land_2"
       }
     },
     {
       "condition": "minecraft:location_check",
       "entity": "this",
       "predicate": {
-        "dimension": "scr:memory_land_iii"
+        "dimension": "scr:memory_land_3"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "dimension": "scr:memory_land_4"
       }
     },
     {

@@ -4,7 +4,7 @@ team join stage_1
 give @s minecraft:iron_sword 1
 give @s minecraft:iron_pickaxe 1
 give @s minecraft:iron_axe 1
-give @s minecraft:oak_log 16
+# give @s minecraft:oak_log 16
 give @s minecraft:bread 64
 give @s minecraft:torch 64
 # function scr:serveruni/help/helpbook

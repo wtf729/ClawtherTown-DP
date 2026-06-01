@@ -52,11 +52,11 @@ execute if score #item_cleaning item_cleaning matches 1 run function scr:item_cl
 #在线奖励
 execute if score #treward treward matches 1 run function scr:treward/treward
 #强力怪物
-execute if score #entity_modify entity_modify matches 1 run function scr:entity_modify/entities
+execute if score #server entity_modify matches 1 run function scr:entity_modify/entities
 
 
 
-function scr:teleport
+function scr:server_unique/teleport
 
 function scr:soul/soul
 function scr:clawther_coin/clawther_coin
