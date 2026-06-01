@@ -5,3 +5,5 @@ gamerule sendCommandFeedback true
 gamerule commandBlockOutput false
 gamerule disableElytraMovementCheck true
 gamerule spawnRadius 0
+gamerule doInsomnia false
+gamerule playersSleepingPercentage 10

@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "原材料之箱 (调试)",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "包含下列物品:",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "所有原材料",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *1",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:chest",
+              "name": "scr:chests/open/chest_ingredients"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
