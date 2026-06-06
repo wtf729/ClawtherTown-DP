@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 119
+scoreboard players set #server version 120
 
 
 #菜单
@@ -52,13 +52,29 @@ scoreboard objectives add cd_staff_wind dummy
 
 #强力怪物
 scoreboard objectives add entity_modify dummy
-#默认开启
 execute unless score #server entity_modify matches 0.. run scoreboard players set #server entity_modify 1
 
 #生存锁
-scoreboard objectives add survivallock dummy
-#默认关闭
-execute unless score #server survivallock matches 0.. run scoreboard players set #server survivallock 0
+scoreboard objectives add survival_lock dummy
+execute unless score #server survival_lock matches 0.. run scoreboard players set #server survival_lock 0
+
+#物品清理
+scoreboard objectives add item_cleaning dummy
+execute unless score #server item_cleaning matches 0.. run scoreboard players set #server item_cleaning 1
+scoreboard players set #item_limit item_cleaning 250
+scoreboard players set #instant_clear_limit item_cleaning 500
+scoreboard players add #item_cleaning_stage item_cleaning 0
+scoreboard players add #instant_clear item_cleaning 0
+
+#在线奖励
+scoreboard objectives add treward dummy
+execute unless score #server treward matches 0.. run scoreboard players set #server treward 1
+scoreboard objectives add treward_mark dummy
+scoreboard objectives add treward_fa dummy
+scoreboard players add #treward_stage treward 0
+scoreboard players add #treward_cycle treward 0
+execute if score #treward_cycle treward matches 0 run scoreboard players set #treward_cycle treward 1
+
 
 #服务器特殊
 scoreboard objectives add scraftglowing dummy
@@ -139,27 +155,6 @@ scoreboard objectives add birthday_tommorrow dummy
 scoreboard objectives add scr_random dummy
 function scr:random/random100000
 function scr:random/random100000_entity_modify
-
-#物品清理
-scoreboard objectives add item_cleaning dummy
-#默认开启
-execute unless score #item_cleaning item_cleaning matches 0.. run scoreboard players set #item_cleaning item_cleaning 1
-scoreboard players set #item_limit item_cleaning 250
-scoreboard players set #instant_clear_limit item_cleaning 500
-scoreboard players add #item_cleaning_stage item_cleaning 0
-scoreboard players add #instant_clear item_cleaning 0
-
-#在线奖励
-scoreboard objectives add treward dummy
-#默认开启
-execute unless score #treward treward matches 0.. run scoreboard players set #treward treward 1
-scoreboard objectives add treward_stage dummy
-scoreboard objectives add treward_mark dummy
-scoreboard objectives add treward_fa dummy
-scoreboard objectives add treward_cycle dummy
-scoreboard players add #treward treward_stage 0
-scoreboard players add #treward treward_cycle 0
-execute if score #treward treward_cycle matches 0 run scoreboard players set #treward treward_cycle 1
 
 
 #商店
