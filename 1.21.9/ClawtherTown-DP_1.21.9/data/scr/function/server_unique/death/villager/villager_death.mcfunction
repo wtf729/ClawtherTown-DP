@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:stick",components:{"minecraft:item_name":'"villager_death"'}}}] at @s run function scr:server_unique/death/villager/died

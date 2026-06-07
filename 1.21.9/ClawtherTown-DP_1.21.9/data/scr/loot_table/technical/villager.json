@@ -9,10 +9,16 @@
           "weight": 1,
           "functions": [
             {
+              "function": "minecraft:set_custom_data",
+              "tag": "{villager_death:1b}"
+            },
+            {
               "function": "minecraft:set_name",
               "entity": "this",
-              "target": "item_name",
-              "name": "villager_death"
+              "name": {
+                "selector": "@s"
+              },
+              "target": "item_name"
             }
           ]
         }

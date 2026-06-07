@@ -4,10 +4,10 @@ execute as @s[scores={soul_add=1..}] run scoreboard players set @s item_consume_
 execute as @s[scores={soul_add=1..}] run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 0.5 1
 execute as @s[scores={soul_add=1..}] run scoreboard players add @s soul_calculate 1
 execute as @s[scores={soul_add=1..}] run scoreboard players remove @s soul_add 1
-execute as @s[scores={soul_add=20..}] run scoreboard players add @s soul_calculate 6
-execute as @s[scores={soul_add=20..}] run scoreboard players remove @s soul_add 6
-execute as @s[scores={soul_add=200..}] run scoreboard players add @s soul_calculate 112
-execute as @s[scores={soul_add=200..}] run scoreboard players remove @s soul_add 112
+execute as @s[scores={soul_add=20..}] run scoreboard players add @s soul_calculate 11
+execute as @s[scores={soul_add=20..}] run scoreboard players remove @s soul_add 11
+execute as @s[scores={soul_add=200..}] run scoreboard players add @s soul_calculate 57
+execute as @s[scores={soul_add=200..}] run scoreboard players remove @s soul_add 57
 
 scoreboard players operation @s soul_calculate *= @s soul_multiplier
 scoreboard players operation @s soul += @s soul_calculate

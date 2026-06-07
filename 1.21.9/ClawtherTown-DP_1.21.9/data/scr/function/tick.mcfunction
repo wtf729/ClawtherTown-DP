@@ -20,8 +20,6 @@ function scr:server_unique/craft/cutter
 function scr:time/time
 
 
-#村民死亡
-function scr:server_unique/death/villager/villager_death
 
 
 
@@ -59,11 +57,15 @@ scoreboard players enable @a sethat
 #生存锁
 execute if score #server survival_lock matches 1 run function scr:gamemode/survival_lock
 #自动清扫
-execute if score #item_cleaning item_cleaning matches 1 run function scr:item_cleaning/item_cleaning
+execute if score #server item_cleaning matches 1 run function scr:item_cleaning/item_cleaning
 #在线奖励
-execute if score #treward treward matches 1 run function scr:treward/treward
+execute if score #server treward matches 1 run function scr:treward/treward
 #强力怪物
-execute if score #entity_modify entity_modify matches 1 run function scr:entity_modify/entities
+execute if score #server entity_modify matches 1 run function scr:entity_modify/entities
+
+
+#村民
+function scr:villager/tick
 
 
 

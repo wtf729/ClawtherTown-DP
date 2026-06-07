@@ -7,5 +7,5 @@ execute as @a at @s if score @s treward_mark matches 9.. as @s run scoreboard pl
 scoreboard objectives remove treward_mark
 scoreboard objectives add treward_mark dummy
 scoreboard players set #treward treward_fa 0
-scoreboard players add #treward treward_cycle 1
-scoreboard players set #treward treward_stage -1
+scoreboard players add #treward_cycle treward 1
+scoreboard players set #treward_stage treward -1
