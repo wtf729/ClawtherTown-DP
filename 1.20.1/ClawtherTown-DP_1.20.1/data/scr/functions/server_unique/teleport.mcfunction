@@ -205,4 +205,4 @@ execute in scr:memory_land_2 positioned -177 74 331 as @a[distance=..1] run tp @
 
 
 ##模组服传送
-function scr:server_unique/teleport_mod
+# function scr:server_unique/teleport_mod

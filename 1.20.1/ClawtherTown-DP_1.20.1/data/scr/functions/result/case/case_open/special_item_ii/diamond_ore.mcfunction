@@ -1,4 +1,4 @@
-tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":"打开","color":"yellow"},{"text":"[★ 奇珍矿脉 ★]","color":"yellow","bold":false},{"text":"获得了","color":"yellow"},{"text":"[","color":"#b400ff"},{"text":"钻石矿石","color":"#b400ff"},{"text":"","color":"yellow"},{"text":"]","color":"#b400ff"},{"text":"!","color":"yellow"}]}
+tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":"打开","color":"yellow"},{"text":"[★ 奇珍矿脉 ★]","color":"yellow","bold":false},{"text":"获得了","color":"yellow"},{"text":"[","color":"#b400ff"},{"text":"钻石矿石","color":"#b400ff"},{"text":" *4","color":"yellow"},{"text":"]","color":"#b400ff"},{"text":"!","color":"yellow"}]}
 
 function scr:result/case/case_only/special_item_ii/diamond_ore
 

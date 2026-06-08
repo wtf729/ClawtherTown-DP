@@ -39,14 +39,14 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								[{"text":"[","color":"dark_purple","bold":false,"italic":false},{"text":"钻石原矿","color":"dark_purple","bold":false,"italic":false},{"text":"","color":"yellow","bold":false,"italic":false},{"text":"]","color":"dark_purple","bold":false,"italic":false}]
+								[{"text":"[","color":"dark_purple","bold":false,"italic":false},{"text":"钻石原矿","color":"dark_purple","bold":false,"italic":false},{"text":" *4","color":"yellow","bold":false,"italic":false},{"text":"]","color":"dark_purple","bold":false,"italic":false}]
 							]
 						},
             {
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								[{"text":"[","color":"dark_purple","bold":false,"italic":false},{"text":"绿宝石原矿","color":"dark_purple","bold":false,"italic":false},{"text":"","color":"yellow","bold":false,"italic":false},{"text":"]","color":"dark_purple","bold":false,"italic":false}]
+								[{"text":"[","color":"dark_purple","bold":false,"italic":false},{"text":"绿宝石原矿","color":"dark_purple","bold":false,"italic":false},{"text":" *4","color":"yellow","bold":false,"italic":false},{"text":"]","color":"dark_purple","bold":false,"italic":false}]
 							]
 						},
             {

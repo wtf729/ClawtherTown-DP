@@ -20,7 +20,7 @@ loot spawn ~ ~ ~ loot scr:case/case/case_rare_ore
 
 #特殊升级奖励
 # function scr:soul/level_up_reward/special/special_1
-function scr:soul/level_up_reward/special/special_2
+# function scr:soul/level_up_reward/special/special_2
 
 
 
