@@ -1,5 +1,5 @@
-function scr:gallery/tellraw/fail_empty
+function scr:gallery/tellraw/success
 
-#loot give @s loot scr:painting/c/c_0005
+loot give @s loot scr:painting/c/c_0005
 
 scoreboard players set @s gallery 0

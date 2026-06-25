@@ -27,6 +27,18 @@ execute if score @s gallery matches 10017 run function scr:gallery/painting/a/it
 execute if score @s gallery matches 10018 run function scr:gallery/painting/a/items/a_0018
 execute if score @s gallery matches 10019 run function scr:gallery/painting/a/items/a_0019
 execute if score @s gallery matches 10020 run function scr:gallery/painting/a/items/a_0020
+#page3
+execute if score @s gallery matches 1003 run function scr:gallery/painting/a/pages/page_3
+execute if score @s gallery matches 10021 run function scr:gallery/painting/a/items/a_0021
+execute if score @s gallery matches 10022 run function scr:gallery/painting/a/items/a_0022
+execute if score @s gallery matches 10023 run function scr:gallery/painting/a/items/a_0023
+execute if score @s gallery matches 10024 run function scr:gallery/painting/a/items/a_0024
+execute if score @s gallery matches 10025 run function scr:gallery/painting/a/items/a_0025
+execute if score @s gallery matches 10026 run function scr:gallery/painting/a/items/a_0026
+execute if score @s gallery matches 10027 run function scr:gallery/painting/a/items/a_0027
+execute if score @s gallery matches 10028 run function scr:gallery/painting/a/items/a_0028
+execute if score @s gallery matches 10029 run function scr:gallery/painting/a/items/a_0029
+execute if score @s gallery matches 10030 run function scr:gallery/painting/a/items/a_0030
 ##painting_b
 #page1
 execute if score @s gallery matches 2001 run function scr:gallery/painting/b/pages/page_1

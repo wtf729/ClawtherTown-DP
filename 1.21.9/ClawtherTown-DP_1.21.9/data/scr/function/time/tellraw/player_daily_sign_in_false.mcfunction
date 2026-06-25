@@ -1,1 +1,1 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"考勤鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"签到状态: ","color":"aqua"},{"text":"未完成今日签到","color":"red"}]}
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"考勤鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"签到状态: ","color":"white"},{"text":"未完成今日签到","color":"red"}]}

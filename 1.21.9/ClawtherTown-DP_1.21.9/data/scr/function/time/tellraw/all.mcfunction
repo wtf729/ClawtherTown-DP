@@ -1,0 +1,15 @@
+function scr:time/tellraw/player_back
+function scr:time/tellraw/player_daily_hour_remind
+function scr:time/tellraw/player_daily_hour
+function scr:time/tellraw/player_daily_sign_in_false
+function scr:time/tellraw/player_daily_sign_in_streak_record
+function scr:time/tellraw/player_daily_sign_in_streak
+function scr:time/tellraw/player_daily_sign_in_times
+function scr:time/tellraw/player_daily_sign_in_true
+function scr:time/tellraw/player_daily_sign_in
+function scr:time/tellraw/player_daily
+function scr:time/tellraw/player
+function scr:time/tellraw/server_day
+function scr:time/tellraw/server_hour
+function scr:time/tellraw/server_year
+function scr:time/tellraw/server

@@ -14,4 +14,4 @@ scoreboard players add @s mystic_coin 2
 
 
 tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"邮递鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你收到了升级奖励: ","color":"yellow"},{"text":"[奇珍矿石]","color":"light_purple"}]}
-loot spawn ~ ~ ~ loot scr:case/case/case_rare_ore
+loot give @s loot scr:case/case/case_rare_ore

@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 13
+scoreboard players set #server version 14
 
 #初始设定
 forceload add 0 0
@@ -12,10 +12,6 @@ scoreboard objectives add i trigger
 
 #超级op
 scoreboard objectives add superop dummy
-
-#Home
-scoreboard objectives add home_target dummy
-scoreboard objectives add home_affected dummy
 
 #胡萝卜钓竿右键检测
 scoreboard objectives add scr_right_click minecraft.used:minecraft.carrot_on_a_stick
@@ -239,7 +235,7 @@ scoreboard objectives add clawther_coin_calculate dummy
 scoreboard objectives add clawther_coin_multiplier dummy
 #灵魂
 scoreboard objectives add soul dummy
-scoreboard objectives add soul_level dummy {"text":"","extra":[{"text":"灵魂等级","bold":true,"color":"light_purple"}]}
+scoreboard objectives add soul_level dummy {"text":"","extra":[{"text":"灵魂等级","bold":true,"color":"#4dd9ff"}]}
 scoreboard objectives add soul_add dummy
 scoreboard objectives add soul_calculate dummy
 scoreboard objectives add soul_require dummy
@@ -410,11 +406,57 @@ execute in scr:memory_land run summon minecraft:text_display 8 101 0 {text:"二�
 execute in scr:memory_land run summon minecraft:text_display 0 101 8 {text:"三周目",shadow:true,billboard:center,brightness:{block:15,sky:15}}
 execute in scr:memory_land run summon minecraft:text_display -8 101 0 {text:"四周目",shadow:true,billboard:center,brightness:{block:15,sky:15}}
 
+#Home
+scoreboard objectives add home_target dummy
+scoreboard objectives add home_affected dummy
 
 #外部数据包
-function back:config/enable_death
+scoreboard objectives add back trigger "Back"
+scoreboard objectives add back.config dummy "Back Config"
+scoreboard objectives add back.dummy dummy
+scoreboard objectives add back.delay dummy
+scoreboard objectives add back.cooldown dummy
+scoreboard objectives add back.deaths deathCount
+scoreboard objectives add back.x dummy
+scoreboard objectives add back.y dummy
+scoreboard objectives add back.z dummy
+execute unless score #death back.config matches 0..1 run scoreboard players set #death back.config 0
+execute unless score #delay back.config matches 0.. run scoreboard players set #delay back.config 0
+execute unless score #cooldown back.config matches 0.. run scoreboard players set #cooldown back.config 0
+execute in minecraft:overworld store result score #prevOverworldDoImmediateRespawn back.dummy run gamerule doImmediateRespawn
+execute in minecraft:the_nether store result score #prevNetherDoImmediateRespawn back.dummy run gamerule doImmediateRespawn
+execute in minecraft:overworld run gamerule doImmediateRespawn true
+execute in minecraft:the_nether run gamerule doImmediateRespawn false
+execute in minecraft:overworld store result score #dimGameRules back.dummy run gamerule doImmediateRespawn
+execute if score #prevOverworldDoImmediateRespawn back.dummy matches 0 in minecraft:overworld run gamerule doImmediateRespawn false
+execute if score #prevOverworldDoImmediateRespawn back.dummy matches 1 in minecraft:overworld run gamerule doImmediateRespawn true
+execute if score #prevNetherDoImmediateRespawn back.dummy matches 1 in minecraft:the_nether run gamerule doImmediateRespawn true
+scoreboard players set #prevOverworldDoImmediateRespawn back.dummy 0
+scoreboard players set #prevNetherDoImmediateRespawn back.dummy 0
+scoreboard players set #prevEndDoImmediateRespawn back.dummy 0
+scoreboard players reset * back.deaths
+
+scoreboard players set #death back.config 1
 scoreboard players set #delay back.config 20
 scoreboard players set #cooldown back.config 3
+
+scoreboard objectives add sethome trigger "Set Home"
+scoreboard objectives add homes trigger "Homes"
+scoreboard objectives add home trigger "Home"
+scoreboard objectives add namehome trigger "Name Home"
+scoreboard objectives add delhome trigger "Delete Home"
+scoreboard objectives add homes.target dummy
+scoreboard objectives add homes.delay dummy
+scoreboard objectives add homes.cooldown dummy
+scoreboard objectives add homes.dummy dummy
+scoreboard objectives add homes.config dummy "Homes Config"
+scoreboard objectives add homes.x dummy
+scoreboard objectives add homes.y dummy
+scoreboard objectives add homes.z dummy
+scoreboard objectives add homes.limit dummy "Max Home Limit"
+execute unless score #limit homes.config matches 0.. run scoreboard players set #limit homes.config 1
+execute unless score #delay homes.config matches 0.. run scoreboard players set #delay homes.config 0
+execute unless score #cooldown homes.config matches 0.. run scoreboard players set #cooldown homes.config 0
 
 scoreboard players set #limit homes.config 1000
 scoreboard players set #delay homes.config 20
@@ -422,7 +464,7 @@ scoreboard players set #cooldown homes.config 3
 
 
 ##临时指令
-scoreboard objectives remove survivallock
+scoreboard objectives modify soul_level displayname {"text":"","extra":[{"text":"灵魂等级","bold":true,"color":"#4dd9ff"}]}
 
 
 
