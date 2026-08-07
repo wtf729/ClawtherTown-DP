@@ -1,3 +1,5 @@
+function scr:time/player/update_daily_scoreboard
+
 execute if score @s not_newcomer matches 1 run function scr:time/tellraw/player_back
 execute if score @s not_newcomer matches 1 run function scr:time/tellraw/player
 function scr:time/player/synchronize

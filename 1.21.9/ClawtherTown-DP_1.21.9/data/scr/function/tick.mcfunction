@@ -1,5 +1,3 @@
-function scr:tick_update
-
 #使用胡萝卜钓竿
 execute as @a[scores={scr_right_click=1..}] run function scr:right_click/use
 #工具冷却

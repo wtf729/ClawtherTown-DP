@@ -107,5 +107,9 @@ execute if score @s gallery matches 50019 run function scr:gallery/disc/a/items/
 execute if score @s gallery matches 50020 run function scr:gallery/disc/a/items/a_0020
 
 
+#execute if score @s gallery matches 6000 run function scr:gallery/collectible/collectible
+##collectible
+#page1
+execute if score @s gallery matches 6001 run function scr:gallery/collectible/a/pages/page_1
 
 scoreboard players set @s gallery 0

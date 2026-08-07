@@ -2,7 +2,6 @@ scoreboard players add #server timecounter 1
 scoreboard players add @a timecounter 1
 
 function scr:time/player/count_player
-function scr:time/player/count_player_daily
 
 function scr:time/server/count_server
 

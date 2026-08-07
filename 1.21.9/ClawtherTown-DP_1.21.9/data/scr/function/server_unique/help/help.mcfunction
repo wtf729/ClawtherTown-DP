@@ -8,7 +8,7 @@ execute if score @s scrhelp matches 103 run function scr:server_unique/help/help
 execute if score @s scrhelp matches 104 run function scr:server_unique/help/help4
 execute if score @s scrhelp matches 105 run function scr:server_unique/help/help5
 execute if score @s scrhelp matches 106 run function scr:server_unique/help/help6
-execute if score @s scrhelp matches 107 run function scr:server_unique/help/help7
+#execute if score @s scrhelp matches 107 run function scr:server_unique/help/help7
 
 execute if score @s scrhelp matches 999 run function scr:server_unique/help/showupdate
 execute if score @s scrhelp matches 1000 run function scr:server_unique/help/introduction

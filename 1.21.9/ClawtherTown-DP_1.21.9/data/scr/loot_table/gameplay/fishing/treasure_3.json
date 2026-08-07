@@ -7,7 +7,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "value": "minecraft:netherite_block",
           "name": "minecraft:netherite_ingot",
           "weight": 2
         },

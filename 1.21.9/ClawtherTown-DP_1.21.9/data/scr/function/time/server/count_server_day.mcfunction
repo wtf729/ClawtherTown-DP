@@ -14,6 +14,8 @@ scoreboard objectives add time_daily_hour dummy
 scoreboard objectives remove time_daily_sign_in
 scoreboard objectives add time_daily_sign_in dummy
 
+execute as @a run function scr:time/player/update_daily_scoreboard
+
 execute if score #server time_day < #year timecounter run function scr:time/tellraw/server_day
 execute if score #server time_day >= #year timecounter run function scr:time/server/count_server_year
 

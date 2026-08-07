@@ -15,8 +15,8 @@ execute as @s[scores={shop=104}] run function scr:shop/buy/items/item_104
 execute as @s[scores={shop=105}] run function scr:shop/buy/items/item_105
 execute as @s[scores={shop=106}] run function scr:shop/buy/items/item_106
 
-execute as @s[scores={shop=200}] run function scr:shop/buy/pages/page_2
-execute as @s[scores={shop=300}] run function scr:shop/buy/pages/page_3
+#execute as @s[scores={shop=200}] run function scr:shop/buy/pages/page_2
+#execute as @s[scores={shop=300}] run function scr:shop/buy/pages/page_3
 
 #sell
 execute as @s[scores={shop=10100}] run function scr:shop/sell/pages/page_1
@@ -73,5 +73,5 @@ execute as @s[scores={shop=100104}] run function scr:shop/case/items/item_104
 execute as @s[scores={shop=100105}] run function scr:shop/case/items/item_105
 
 
-execute as @s[scores={shop=100200}] run function scr:shop/case/pages/page_2
-execute as @s[scores={shop=100300}] run function scr:shop/case/pages/page_3
+#execute as @s[scores={shop=100200}] run function scr:shop/case/pages/page_2
+#execute as @s[scores={shop=100300}] run function scr:shop/case/pages/page_3

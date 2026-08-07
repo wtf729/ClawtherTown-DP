@@ -1,3 +1,5 @@
+function scr:server_unique/update_scoreboard
+
 tellraw @s {"text":"","extra":[{"text":"你不在的这段时间里，鹰翎镇发生了这些改变:","color":"yellow"}]}
 function scr:updatelog
 function scr:time/tellraw/player

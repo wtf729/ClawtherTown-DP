@@ -1,3 +1,5 @@
+function scr:server_unique/update_scoreboard
+
 scoreboard players set @s stage 1
 team join stage_1
 
