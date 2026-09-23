@@ -1,23 +1,23 @@
 ##维度传送门
 #主世界 > 矿区
-execute as @a[predicate=scr:location/in_overworld,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:gold_block if block ~1 ~-1 ~1 minecraft:iron_block if block ~1 ~-1 ~ minecraft:iron_block if block ~1 ~-1 ~-1 minecraft:iron_block if block ~ ~-1 ~1 minecraft:iron_block if block ~ ~-1 ~-1 minecraft:iron_block if block ~-1 ~-1 ~1 minecraft:iron_block if block ~-1 ~-1 ~ minecraft:iron_block if block ~-1 ~-1 ~-1 minecraft:iron_block run execute in scr:unstable_zone run function scr:dimension/unstable_zone/spawn
+execute as @a[predicate=scr:location/in_overworld,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:gold_block if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:unstable_zone run function scr:dimension/unstable_zone/spawn
 
 #矿区 > 主世界
-execute as @a[predicate=scr:location/in_unstable_zone,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:gold_block if block ~1 ~-1 ~1 minecraft:iron_block if block ~1 ~-1 ~ minecraft:iron_block if block ~1 ~-1 ~-1 minecraft:iron_block if block ~ ~-1 ~1 minecraft:iron_block if block ~ ~-1 ~-1 minecraft:iron_block if block ~-1 ~-1 ~1 minecraft:iron_block if block ~-1 ~-1 ~ minecraft:iron_block if block ~-1 ~-1 ~-1 minecraft:iron_block run function scr:dimension/overworld/spawn_only
+execute as @a[predicate=scr:location/in_unstable_zone,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:gold_block if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run function scr:dimension/overworld/spawn_only
 
 
 #主世界 > 建筑区
-execute as @a[predicate=scr:location/in_overworld,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:emerald_block if block ~1 ~-1 ~1 minecraft:smooth_stone if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:smooth_stone if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:smooth_stone if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:smooth_stone run execute in scr:building_zone run teleport @s 0 64 0
+execute as @a[predicate=scr:location/in_overworld,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:emerald_block if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:building_zone run teleport @s 0 64 0
 
 #建筑区 > 主世界
-execute as @a[predicate=scr:location/in_building_zone,predicate=scr:operation/is_sneaking] at @s in scr:building_zone if block ~ ~-1 ~ minecraft:emerald_block if block ~1 ~-1 ~1 minecraft:smooth_stone if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:smooth_stone if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:smooth_stone if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:smooth_stone run function scr:dimension/overworld/spawn_only
+execute as @a[predicate=scr:location/in_building_zone,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:emerald_block if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run function scr:dimension/overworld/spawn_only
 
 
 #主世界 > 记忆之地传送中心
-execute as @a[predicate=scr:location/in_overworld,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
+execute as @a[predicate=scr:location/in_overworld,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
 
 #记忆之地传送中心 > 主世界
-execute as @a[predicate=scr:location/in_memory_land,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run function scr:dimension/overworld/spawn_only
+execute as @a[predicate=scr:location/in_memory_land,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run function scr:dimension/overworld/spawn_only
 
 ##记忆之地传送中心
 #记忆之地传送中心 > 一周目
@@ -25,7 +25,7 @@ execute in scr:memory_land run particle minecraft:portal 0 100 -8 0 0 0 1 2
 execute in scr:memory_land positioned 0 100 -8 as @a[distance=..1] run execute in scr:memory_land_1 run teleport @s 0 65 0
 
 #一周目 > 记忆之地传送中心
-execute as @a[predicate=scr:location/in_memory_land_1,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
+execute as @a[predicate=scr:location/in_memory_land_1,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
 
 
 #记忆之地传送中心 > 二周目
@@ -33,7 +33,7 @@ execute in scr:memory_land run particle minecraft:portal 8 100 0 0 0 0 1 2
 execute in scr:memory_land positioned 8 100 0 as @a[distance=..1] run execute in scr:memory_land_2 run teleport @s 0 100 0
 
 #二周目 > 记忆之地传送中心
-execute as @a[predicate=scr:location/in_memory_land_2,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
+execute as @a[predicate=scr:location/in_memory_land_2,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
 
 
 
@@ -42,7 +42,7 @@ execute in scr:memory_land run particle minecraft:portal 0 100 8 0 0 0 1 2
 execute in scr:memory_land positioned 0 100 8 as @a[distance=..1] run execute in scr:memory_land_3 run teleport @s -88 63 91 180 0
 
 #三周目 > 记忆之地传送中心
-execute as @a[predicate=scr:location/in_memory_land_3,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
+execute as @a[predicate=scr:location/in_memory_land_3,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
 
 
 #记忆之地传送中心 > 四周目
@@ -50,7 +50,7 @@ execute in scr:memory_land run particle minecraft:portal -8 100 0 0 0 0 1 2
 execute in scr:memory_land positioned -8 100 0 as @a[distance=..1] run execute in scr:memory_land_4 run teleport @s -306 95 682 180 0
 
 #四周目 > 记忆之地传送中心
-execute as @a[predicate=scr:location/in_memory_land_4,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~1 ~-1 ~ minecraft:mossy_stone_bricks if block ~1 ~-1 ~-1 minecraft:mossy_stone_bricks if block ~ ~-1 ~1 minecraft:mossy_stone_bricks if block ~ ~-1 ~-1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~1 minecraft:mossy_stone_bricks if block ~-1 ~-1 ~ minecraft:mossy_stone_bricks if block ~-1 ~-1 ~-1 minecraft:mossy_stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
+execute as @a[predicate=scr:location/in_memory_land_4,predicate=scr:operation/is_sneaking] at @s if block ~ ~-1 ~ minecraft:chiseled_stone_bricks if block ~1 ~-1 ~1 minecraft:stone_bricks if block ~1 ~-1 ~ minecraft:smooth_stone if block ~1 ~-1 ~-1 minecraft:stone_bricks if block ~ ~-1 ~1 minecraft:smooth_stone if block ~ ~-1 ~-1 minecraft:smooth_stone if block ~-1 ~-1 ~1 minecraft:stone_bricks if block ~-1 ~-1 ~ minecraft:smooth_stone if block ~-1 ~-1 ~-1 minecraft:stone_bricks run execute in scr:memory_land run teleport @s -2 100 0
 
 
 ##记忆之地_i传送

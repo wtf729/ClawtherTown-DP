@@ -24,8 +24,31 @@
         "text": "\n  "
       },
       {
-        "text": "AAA",
+        "text": "A",
         "color": "gold"
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "C",
+        "color": "light_purple"
+      },
+      {
+        "text": "B",
+        "color": "aqua"
       },
       {
         "text": "\n  "
@@ -43,13 +66,6 @@
         "color": "gold"
       },
       {
-        "text": "\n  "
-      },
-      {
-        "text": "AAA",
-        "color": "gold"
-      },
-      {
         "text": "\nA",
         "color": "gold"
       },
@@ -58,12 +74,24 @@
         "color": "yellow"
       },
       {
-        "text": "铁块",
+        "text": "石砖",
         "color": "white"
       },
       {
         "text": "\nB",
         "color": "aqua"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "平滑石头",
+        "color": "white"
+      },
+      {
+        "text": "\nC",
+        "color": "light_purple"
       },
       {
         "text": ": ",
@@ -94,8 +122,12 @@
         "color": "light_purple"
       },
       {
-        "text": "上下蹲",
+        "text": "上",
         "color": "yellow"
+      },
+      {
+        "text": "下蹲",
+        "color": "light_purple"
       },
       {
         "text": "\n即可进行",

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "#minecraft:is_jungle",
+    "minecraft:grove",
+    "#minecraft:is_savanna",
+    "#minecraft:is_badlands",
+    "minecraft:forest"
+  ]
+}

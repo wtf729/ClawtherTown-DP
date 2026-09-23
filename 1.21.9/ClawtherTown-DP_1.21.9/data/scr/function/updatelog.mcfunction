@@ -1,2 +1,2 @@
-tellraw @s {"text":"","extra":[{"text":"数据包: ","color":"#de90ee","bold":false},{"text":"v2026.09.1","underlined":false,"color":"#e5e6a7"},{"text":"   资源包: ","color":"#1ddddd","bold":false},{"text":"v2026.08.1","color":"#e5e6a7"},{"text":"\n+ 修复强力生物的装备、附魔及染色数据异常","color":"#de90ee"},{"text":"","color":"#1ddddd"}]}
+tellraw @s {"text":"","extra":[{"text":"数据包: ","color":"#de90ee","bold":false},{"text":"v2026.09.2","underlined":false,"color":"#e5e6a7"},{"text":"   资源包: ","color":"#1ddddd","bold":false},{"text":"v2026.09.1","color":"#e5e6a7"},{"text":"\n+ 添加了稀有狼变种\n+ 添加了异界唱片\n+ 修改了维度传送门结构","color":"#de90ee"},{"text":"\n+ 添加了狼变种材质\n+ 添加了异界唱片音频","color":"#1ddddd"}]}
 tellraw @s {"text":"","extra":[{"text":"+ 发放了更新补偿","color":"green"}]}
