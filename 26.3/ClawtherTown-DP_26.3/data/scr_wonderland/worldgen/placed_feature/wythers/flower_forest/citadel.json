@@ -1,0 +1,15 @@
+{
+  "feature": {
+    "type": "minecraft:sequence",
+    "features": [
+      "scr_wonderland:wythers/flower_forest/floor",
+      "scr_wonderland:wythers/flower_forest/edges",
+      "scr_wonderland:wythers/flower_forest/ground_cleanup"
+    ]
+  },
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "scr:location/in_overworld",
+    "scr:location/in_unstable_zone",
+    "scr:location/in_wonderland",
+    "scr:location/in_the_nether",
+    "scr:location/in_the_end"
+  ]
+}

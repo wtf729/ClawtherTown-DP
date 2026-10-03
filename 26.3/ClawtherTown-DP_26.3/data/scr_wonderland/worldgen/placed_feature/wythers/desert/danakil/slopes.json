@@ -1,0 +1,11 @@
+{
+  "feature": {
+    "features": [
+      "scr_wonderland:wythers/desert/danakil/base",
+      "scr_wonderland:wythers/desert/danakil/mounds",
+      "scr_wonderland:wythers/desert/danakil/activity"
+    ],
+    "type": "minecraft:sequence"
+  },
+  "placement": []
+}

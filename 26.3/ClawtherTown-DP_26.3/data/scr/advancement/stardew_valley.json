@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.clawther.stardew_valley",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "那让你想起鹈鹕镇",
+        "color": "gold"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:foods",
+  "criteria": {
+    "stardew_valley": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "stardew_valley"
+    ]
+  ],
+  "rewards": {}
+}

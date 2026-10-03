@@ -1,0 +1,6 @@
+{
+  "predicate": {
+    "dimension": "scr:unstable_zone"
+  },
+  "type": "minecraft:location_check"
+}

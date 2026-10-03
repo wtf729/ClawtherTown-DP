@@ -1,0 +1,6 @@
+{
+  "predicate": {
+    "dimension": "scr:building_zone"
+  },
+  "type": "minecraft:location_check"
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/sand",
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "minecraft:bamboo",
+    "minecraft:bamboo_sapling",
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel",
+    "#scr_wonderland:minecraft/supports_vegetation",
+    "minecraft:bamboo_fence",
+    "minecraft:cactus"
+  ]
+}

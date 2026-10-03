@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/taiga",
+    "scr_wonderland:minecraft/snowy_taiga",
+    "scr_wonderland:minecraft/old_growth_pine_taiga",
+    "scr_wonderland:minecraft/old_growth_spruce_taiga"
+  ]
+}

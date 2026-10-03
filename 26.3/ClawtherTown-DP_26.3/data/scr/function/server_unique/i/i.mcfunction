@@ -1,0 +1,1 @@
+execute if score @s i matches 1.. run function scr:server_unique/i/show_i

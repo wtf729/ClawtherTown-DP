@@ -1,0 +1,19 @@
+{
+  "feature": {
+    "type": "minecraft:sequence",
+    "features": [
+      "scr_wonderland:wythers/mushroom/terrain_layer_0",
+      "scr_wonderland:wythers/mushroom/terrain_layer_1",
+      "scr_wonderland:wythers/mushroom/terrain_layer_2",
+      "scr_wonderland:wythers/mushroom/terrain_layer_3",
+      "scr_wonderland:wythers/mushroom/terrain_layer_4",
+      "scr_wonderland:wythers/mushroom/terrain_layer_5",
+      "scr_wonderland:wythers/mushroom/terrain_layer_6",
+      "scr_wonderland:wythers/mushroom/terrain_layer_7",
+      "scr_wonderland:wythers/mushroom/terrain_layer_8",
+      "scr_wonderland:wythers/mushroom/terrain_layer_9",
+      "scr_wonderland:wythers/mushroom/mycelium_layer"
+    ]
+  },
+  "placement": []
+}

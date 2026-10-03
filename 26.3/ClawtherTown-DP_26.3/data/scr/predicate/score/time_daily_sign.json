@@ -1,0 +1,9 @@
+{
+  "entity": "this",
+  "scores": {
+    "time_daily_minute_only": {
+      "min": 5
+    }
+  },
+  "type": "minecraft:entity_scores"
+}

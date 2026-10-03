@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/base_stone_overworld",
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "#scr_wonderland:minecraft/terracotta",
+    "minecraft:red_sand",
+    "minecraft:clay",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:snow_block",
+    "minecraft:powder_snow"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/base_stone_overworld",
+    "#scr_wonderland:minecraft/cave_vines",
+    "#scr_wonderland:minecraft/dirt",
+    "#scr_wonderland:minecraft/mud",
+    "#scr_wonderland:minecraft/moss_blocks",
+    "#scr_wonderland:minecraft/grass_blocks"
+  ]
+}

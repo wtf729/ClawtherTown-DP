@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther_pickaxe_x_slow"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther_pickaxe_slow",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "翎之稿 - S",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "\n让翎之稿慢下来",
+        "color": "gold"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n翎之稿 - X\n红石块*1",
+        "color": "aqua"
+      },
+      {
+        "text": "\n\n还原:",
+        "color": "white"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n翎之稿 - S\n铁锭*1",
+        "color": "aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:clawther_pickaxe_iv",
+  "criteria": {
+    "clawther_pickaxe_slow": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "clawther_pickaxe_slow"
+    ]
+  ],
+  "rewards": {}
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/flower_swamp",
+    "scr_wonderland:minecraft/flower_meadow",
+    "scr_wonderland:minecraft/flower_cherry",
+    "scr_wonderland:minecraft/wildflower",
+    "scr_wonderland:minecraft/flower_pale_garden"
+  ]
+}

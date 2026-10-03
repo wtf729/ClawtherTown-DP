@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "#minecraft:is_jungle",
+    "minecraft:grove",
+    "#minecraft:is_savanna",
+    "#minecraft:is_badlands",
+    "minecraft:forest",
+    "scr_wonderland:minecraft/snowy_taiga",
+    "scr_wonderland:minecraft/ice_spikes",
+    "scr_wonderland:minecraft/dark_forest",
+    "scr_wonderland:minecraft/badlands",
+    "scr_wonderland:minecraft/eroded_badlands",
+    "scr_wonderland:minecraft/jungle",
+    "scr_wonderland:minecraft/bamboo_jungle",
+    "scr_wonderland:minecraft/sparse_jungle",
+    "scr_wonderland:minecraft/wooded_badlands",
+    "scr_wonderland:minecraft/snowy_plains",
+    "scr_wonderland:minecraft/snowy_slopes",
+    "scr_wonderland:minecraft/snowy_beach",
+    "scr_wonderland:minecraft/frozen_ocean",
+    "scr_wonderland:minecraft/deep_frozen_ocean",
+    "scr_wonderland:minecraft/savanna",
+    "scr_wonderland:minecraft/savanna_plateau",
+    "scr_wonderland:minecraft/windswept_savanna",
+    "scr_wonderland:minecraft/desert",
+    "scr_wonderland:minecraft/forest",
+    "scr_wonderland:minecraft/river"
+  ]
+}

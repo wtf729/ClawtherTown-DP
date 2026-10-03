@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "scr_wonderland:minecraft/oak_checked",
+  "features": [
+    {
+      "chance": 0.1,
+      "feature": "scr_wonderland:minecraft/fancy_oak_checked"
+    }
+  ]
+}

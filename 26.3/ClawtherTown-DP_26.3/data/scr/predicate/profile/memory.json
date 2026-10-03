@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "scr:location/in_memory_land",
+    "scr:location/in_memory_land_1",
+    "scr:location/in_memory_land_2",
+    "scr:location/in_memory_land_3",
+    "scr:location/in_memory_land_4"
+  ]
+}

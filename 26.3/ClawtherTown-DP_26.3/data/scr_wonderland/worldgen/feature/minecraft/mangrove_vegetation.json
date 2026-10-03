@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "scr_wonderland:minecraft/mangrove_checked",
+  "features": [
+    {
+      "chance": 0.85,
+      "feature": "scr_wonderland:minecraft/tall_mangrove_checked"
+    }
+  ]
+}

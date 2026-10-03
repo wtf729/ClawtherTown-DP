@@ -1,0 +1,11 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:totem_of_undying"
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

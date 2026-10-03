@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "#scr_wonderland:minecraft/base_stone_overworld"
+  ]
+}

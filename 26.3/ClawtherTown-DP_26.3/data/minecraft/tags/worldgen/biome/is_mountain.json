@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/meadow",
+    "scr_wonderland:minecraft/frozen_peaks",
+    "scr_wonderland:minecraft/jagged_peaks",
+    "scr_wonderland:minecraft/stony_peaks",
+    "scr_wonderland:minecraft/snowy_slopes",
+    "scr_wonderland:minecraft/cherry_grove"
+  ]
+}

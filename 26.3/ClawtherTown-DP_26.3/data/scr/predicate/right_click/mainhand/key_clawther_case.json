@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:item_name": "key_clawther_case"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

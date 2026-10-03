@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/dirt",
+    "#scr_wonderland:minecraft/mud",
+    "#scr_wonderland:minecraft/moss_blocks",
+    "minecraft:podzol"
+  ]
+}

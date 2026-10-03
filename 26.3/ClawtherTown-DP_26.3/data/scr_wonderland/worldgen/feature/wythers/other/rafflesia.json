@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:template",
+  "templates": [
+    {
+      "weight": 1,
+      "data": {
+        "id": "scr_wonderland:wythers/feature/rafflesia",
+        "rotations": [
+          "none"
+        ]
+      }
+    }
+  ]
+}

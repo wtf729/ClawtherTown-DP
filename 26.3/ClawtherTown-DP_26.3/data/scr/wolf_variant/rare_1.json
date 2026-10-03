@@ -1,0 +1,24 @@
+{
+  "assets": {
+    "angry": "scr:entity/wolf/rare_1_angry",
+    "tame": "scr:entity/wolf/rare_1_tame",
+    "wild": "scr:entity/wolf/rare_1"
+  },
+  "baby_assets": {
+    "angry": "scr:entity/wolf/rare_1_angry_baby",
+    "tame": "scr:entity/wolf/rare_1_tame_baby",
+    "wild": "scr:entity/wolf/rare_1_baby"
+  },
+  "spawn_conditions": [
+    {
+      "priority": 0
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#scr:priority_1_wolf_biomes"
+      },
+      "priority": 1
+    }
+  ]
+}

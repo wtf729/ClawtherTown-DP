@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "scr_wonderland:minecraft/jungle_tree",
+  "features": [
+    {
+      "chance": 0.1,
+      "feature": "scr_wonderland:minecraft/fancy_oak_checked"
+    },
+    {
+      "chance": 0.5,
+      "feature": "scr_wonderland:minecraft/jungle_bush"
+    },
+    {
+      "chance": 0.0125,
+      "feature": "scr_wonderland:minecraft/fallen_jungle_tree"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/copper_ores",
+    "#scr_wonderland:minecraft/gold_ores",
+    "#scr_wonderland:minecraft/iron_ores",
+    "#scr_wonderland:minecraft/coal_ores",
+    "#scr_wonderland:minecraft/diamond_ores",
+    "#scr_wonderland:minecraft/emerald_ores",
+    "#scr_wonderland:minecraft/lapis_ores",
+    "#scr_wonderland:minecraft/redstone_ores",
+    "minecraft:nether_quartz_ore"
+  ]
+}

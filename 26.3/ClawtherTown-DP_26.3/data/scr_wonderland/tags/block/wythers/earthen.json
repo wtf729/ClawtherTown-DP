@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "minecraft:farmland",
+    "minecraft:dirt_path"
+  ]
+}

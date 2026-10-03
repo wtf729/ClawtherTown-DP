@@ -1,0 +1,5 @@
+tellraw @s ["",{"text":"[","bold":true,"color":"gold"},{"text":"知识之书","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" 特色合成","color":"yellow"},{"text":" ------------------------------","color":"green"},{"text":"\n鹰翎镇目前启用了三种特色合成。","color":"aqua"},{"text":"\n地面合成: ","bold":true,"color":"red"},{"text":"\n将合成物品所需的材料丢在地面上的同一格内，合成将自动进行。","color":"gold"},{"text":"\n\n高级合成: ","bold":true,"color":"red"},{"text":"\n将合成物品的配方放置在投掷器内，站在投掷器上后合成将自动进行。","color":"gold"},{"text":"\n高级工作台解放 (属于高级工作台合成) :","bold":false,"color":"red"},{"text":"\n将","color":"yellow"},{"text":"被解放物品","color":"light_purple"},{"text":"放置于中心，再将8个","color":"yellow"},{"text":"解放所需物品","color":"light_purple"},{"text":"放置于其周围进行解放。","color":"yellow"},{"text":"\n地面合成、高级合成的配方请至[Esc-进度-鹰翎]的相应进度介绍中查看","color":"aqua"},{"text":"\n\n原版特色合成: ","bold":true,"color":"red"},{"text":"\n在原版基础上覆盖添加的工作台配方，合成配方会在你进入服务器后自动发放至你的配方书中。","color":"gold"},{"text":"（如: 使用原版的普通工作台用9根竹子制作3张纸）","color":"yellow"},{"text":"\n--------------------------------------------------","color":"green"}]
+
+
+
+scoreboard players set @s scrhelp 0

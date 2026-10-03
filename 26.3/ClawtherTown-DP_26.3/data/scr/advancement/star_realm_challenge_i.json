@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 65535
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.star_realm_challenge_i",
+      "color": "red"
+    },
+    "description": [
+      {
+        "text": "星辰之地",
+        "color": "light_purple"
+      },
+      {
+        "text": "\n挑战1完成",
+        "color": "yellow"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:star_realm",
+  "criteria": {
+    "star_realm_challenge_i": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "star_realm_challenge_i"
+    ]
+  ],
+  "rewards": {}
+}

@@ -1,0 +1,35 @@
+{
+  "terms": [
+    {
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "inventory.*": {
+            "items": "minecraft:gold_nugget",
+            "components": {
+              "minecraft:item_name": "clawther_coin_plus"
+            }
+          }
+        },
+        "minecraft:entity_type": "minecraft:player"
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "hotbar.*": {
+            "items": "minecraft:gold_nugget",
+            "components": {
+              "minecraft:item_name": "clawther_coin_plus"
+            }
+          }
+        },
+        "minecraft:entity_type": "minecraft:player"
+      },
+      "type": "minecraft:entity_properties"
+    }
+  ],
+  "type": "minecraft:any_of"
+}

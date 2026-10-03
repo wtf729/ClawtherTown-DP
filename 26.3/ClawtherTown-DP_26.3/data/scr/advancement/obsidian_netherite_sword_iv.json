@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "obsidian_netherite_sword_x"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.obsidian_netherite_sword_iv",
+      "color": "#f03c14"
+    },
+    "description": [
+      {
+        "text": "下界黑晶剑之力\n到达了巅峰",
+        "color": "gold",
+        "bold": false
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:obsidian_netherite_sword_iii",
+  "criteria": {
+    "get_obsidian_netherite_sword_x": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "minecraft:item_name": "obsidian_netherite_sword_x"
+            }
+          }
+        ]
+      }
+    },
+    "get_obsidian_netherite_sword_xi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "minecraft:item_name": "obsidian_netherite_sword_xi"
+            }
+          }
+        ]
+      }
+    },
+    "get_obsidian_netherite_sword_xii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "minecraft:item_name": "obsidian_netherite_sword_xii"
+            }
+          }
+        ]
+      }
+    },
+    "get_obsidian_netherite_sword_xiii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "minecraft:item_name": "obsidian_netherite_sword_xiii"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_obsidian_netherite_sword_x",
+      "get_obsidian_netherite_sword_xi",
+      "get_obsidian_netherite_sword_xii",
+      "get_obsidian_netherite_sword_xiii"
+    ]
+  ],
+  "rewards": {}
+}

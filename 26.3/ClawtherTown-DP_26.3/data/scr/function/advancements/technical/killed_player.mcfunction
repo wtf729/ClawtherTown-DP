@@ -1,0 +1,1 @@
+schedule function scr:advancements/technical/killed_player_execute 1t replace

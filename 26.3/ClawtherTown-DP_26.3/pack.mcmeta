@@ -1,0 +1,22 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Secret Clawther Realm - 鹰翎镇数据包",
+        "color": "gold"
+      },
+      {
+        "text": "\nby wtf729",
+        "color": "yellow"
+      }
+    ],
+    "min_format": [
+      121,
+      0
+    ],
+    "max_format": [
+      121,
+      0
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/snowy_taiga",
+    "scr_wonderland:minecraft/snowy_plains",
+    "scr_wonderland:minecraft/snowy_slopes"
+  ]
+}

@@ -1,0 +1,1 @@
+execute if score #item_cleaning timecounter matches 7200.. run scoreboard players set #item_cleaning_stage item_cleaning 2

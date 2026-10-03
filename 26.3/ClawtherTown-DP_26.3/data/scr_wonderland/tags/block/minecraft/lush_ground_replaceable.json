@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/moss_replaceable",
+    "minecraft:clay",
+    "minecraft:gravel",
+    "minecraft:sand"
+  ]
+}

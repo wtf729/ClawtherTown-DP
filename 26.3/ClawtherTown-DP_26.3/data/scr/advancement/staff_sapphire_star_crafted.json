@@ -1,0 +1,150 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "staff_sapphire_star"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.staff_sapphire_star_crafted",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "法杖 | 苍蓝星",
+        "color": "aqua"
+      },
+      {
+        "text": "\n使用后回家",
+        "color": "gold"
+      },
+      {
+        "text": "\n高级合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "D",
+        "color": "red"
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "D",
+        "color": "red"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "C",
+        "color": "light_purple"
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "D",
+        "color": "red"
+      },
+      {
+        "text": "C",
+        "color": "light_purple"
+      },
+      {
+        "text": "D",
+        "color": "red"
+      },
+      {
+        "text": "\nA",
+        "color": "gold"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "紫颂曲奇",
+        "color": "aqua"
+      },
+      {
+        "text": "\nB",
+        "color": "aqua"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "钻石",
+        "color": "white"
+      },
+      {
+        "text": "\nC",
+        "color": "light_purple"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "木棍",
+        "color": "white"
+      },
+      {
+        "text": "\nD",
+        "color": "red"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "鹰翎",
+        "color": "green"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:teleport_cookie_crafted",
+  "criteria": {
+    "get_staff_sapphire_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot_on_a_stick",
+            "components": {
+              "minecraft:item_name": "staff_sapphire_star"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_staff_sapphire_star"
+    ]
+  ],
+  "rewards": {}
+}

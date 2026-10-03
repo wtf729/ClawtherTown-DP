@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:sequence",
+  "sequence": [
+    "scr_wonderland:minecraft/overworld/copper_ore_vein",
+    "scr_wonderland:minecraft/overworld/iron_ore_vein",
+    "scr_wonderland:minecraft/overworld/surface",
+    "scr_wonderland:minecraft/overworld/underground"
+  ]
+}

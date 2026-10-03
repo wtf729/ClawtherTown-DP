@@ -1,0 +1,3 @@
+execute as @s if score @s case_opening_luck matches 20091..46727 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"A | A","bold":true,"color":"#3c3cd7"},{"text":" <","color":"white"}]}
+execute as @s if score @s case_opening_luck matches 46728..73364 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"B | B","bold":true,"color":"#3c3cd7"},{"text":" <","color":"white"}]}
+execute as @s if score @s case_opening_luck matches 73365..100000 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"C | C","bold":true,"color":"#3c3cd7"},{"text":" <","color":"white"}]}

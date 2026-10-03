@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "scr:location/in_star_realm"
+  ]
+}

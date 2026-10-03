@@ -1,0 +1,6 @@
+{
+  "predicate": {
+    "dimension": "scr:wonderland"
+  },
+  "type": "minecraft:location_check"
+}

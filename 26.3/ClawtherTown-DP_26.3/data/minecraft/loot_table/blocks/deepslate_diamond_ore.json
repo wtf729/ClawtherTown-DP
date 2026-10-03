@@ -1,0 +1,253 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_ore",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "type": "minecraft:match_tool"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "scr:ingredients/rare_diamond",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:fortune",
+                            "levels": {
+                              "min": 5
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "type": "minecraft:match_tool"
+                  },
+                  {
+                    "chance": 0.01,
+                    "type": "minecraft:random_chance"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "scr:ingredients/rare_diamond",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:fortune",
+                            "levels": {
+                              "min": 4
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "type": "minecraft:match_tool"
+                  },
+                  {
+                    "chance": 0.01,
+                    "type": "minecraft:random_chance"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "scr:ingredients/rare_diamond",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:fortune",
+                            "levels": {
+                              "min": 3
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "type": "minecraft:match_tool"
+                  },
+                  {
+                    "chance": 0.01,
+                    "type": "minecraft:random_chance"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "scr:ingredients/rare_diamond",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "chance": 0.01,
+                    "type": "minecraft:random_chance"
+                  }
+                ]
+              },
+              "modifier": [
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond",
+              "modifier": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "type": "minecraft:apply_bonus"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:empty",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "type": "minecraft:match_tool"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "scr:ingredients/clawther_coin",
+              "modifier": [
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 16
+                  },
+                  "type": "minecraft:set_count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:empty",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "type": "minecraft:match_tool"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "scr:ingredients/soul",
+              "modifier": [
+                {
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 16
+                  },
+                  "type": "minecraft:set_count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/deepslate_diamond_ore"
+}

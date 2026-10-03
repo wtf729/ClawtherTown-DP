@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "#scr_wonderland:minecraft/sand",
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "#scr_wonderland:minecraft/sand",
+    "minecraft:sandstone_stairs",
+    "minecraft:farmland",
+    "minecraft:soul_soil"
+  ]
+}

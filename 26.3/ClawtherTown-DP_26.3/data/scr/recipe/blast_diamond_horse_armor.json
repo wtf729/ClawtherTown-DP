@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:diamond_horse_armor",
+  "result": {
+    "id": "minecraft:diamond_block"
+  },
+  "experience": 2,
+  "cookingtime": 800
+}

@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "modifier": [
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "painting.scr.title",
+                    "color": "yellow",
+                    "italic": false
+                  },
+                  {
+                    "translate": "painting.scr.a_0002.title",
+                    "color": "#9bffd3",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "painting.scr.author",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "translate": "painting.scr.a_0002.author",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "components": {
+                "minecraft:entity_data": {
+                  "CustomName": {
+                    "translate": "painting.scr.a_0002.title"
+                  },
+                  "CustomNameVisible": false,
+                  "variant": "scr:a_0002",
+                  "id": "minecraft:painting"
+                }
+              },
+              "type": "minecraft:set_components"
+            },
+            {
+              "entity": "this",
+              "target": "item_name",
+              "name": "painting_a_0002",
+              "type": "minecraft:set_name"
+            },
+            {
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.colorful_painting",
+                "color": "aqua",
+                "italic": false
+              },
+              "type": "minecraft:set_name"
+            },
+            {
+              "strings": {
+                "values": [
+                  "colorful_painting"
+                ],
+                "mode": "append"
+              },
+              "type": "minecraft:set_custom_model_data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

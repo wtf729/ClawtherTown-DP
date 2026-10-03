@@ -1,0 +1,11 @@
+{
+  "feature": {
+    "type": "minecraft:sequence",
+    "features": [
+      "scr_wonderland:wythers/pale_garden/floor",
+      "scr_wonderland:wythers/pale_garden/edges",
+      "scr_wonderland:wythers/pale_garden/ground_cleanup"
+    ]
+  },
+  "placement": []
+}

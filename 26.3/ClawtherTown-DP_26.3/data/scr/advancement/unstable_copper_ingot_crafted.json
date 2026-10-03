@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "unstable_copper_ingot"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.unstable_copper_ingot_crafted",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "不稳定铜锭",
+        "color": "aqua"
+      },
+      {
+        "text": "\n一种特殊材料",
+        "color": "gold"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n铜锭*64\n书*1",
+        "color": "aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:ingredients",
+  "criteria": {
+    "get_unstable_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot",
+            "components": {
+              "minecraft:item_name": "unstable_copper_ingot"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_unstable_copper_ingot"
+    ]
+  ],
+  "rewards": {}
+}

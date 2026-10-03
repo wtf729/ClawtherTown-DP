@@ -1,0 +1,1 @@
+tellraw @a {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"告示鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"现在是鹰翎镇时间: ","color":"#f5d76e"},{"score":{"name":"#server","objective":"time_hour"},"color":"#b8d8ff"},{"text":":00","color":"#b8d8ff"},{"text":" !","color":"#f5d76e"}]}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/lukewarm_ocean",
+    "scr_wonderland:minecraft/warm_ocean",
+    "scr_wonderland:minecraft/deep_lukewarm_ocean"
+  ]
+}

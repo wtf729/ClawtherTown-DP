@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/snowy_plains",
+    "scr_wonderland:minecraft/ice_spikes",
+    "scr_wonderland:minecraft/frozen_ocean",
+    "scr_wonderland:minecraft/snowy_taiga",
+    "scr_wonderland:minecraft/frozen_river",
+    "scr_wonderland:minecraft/snowy_beach",
+    "scr_wonderland:minecraft/frozen_peaks",
+    "scr_wonderland:minecraft/jagged_peaks",
+    "scr_wonderland:minecraft/snowy_slopes",
+    "scr_wonderland:minecraft/grove"
+  ]
+}

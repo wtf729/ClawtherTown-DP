@@ -1,0 +1,115 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "modifier": [
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "象征着你的阅历",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "极易消散",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "处于背包中时自动吸收",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "原材料",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "灵魂之聚",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": true
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "target": "item_name",
+              "name": "soul_plus",
+              "type": "minecraft:set_name"
+            },
+            {
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "translate": "item.scr.soul_plus",
+                "color": "aqua",
+                "italic": false
+              },
+              "type": "minecraft:set_name"
+            },
+            {
+              "strings": {
+                "values": [
+                  "soul_plus"
+                ],
+                "mode": "append"
+              },
+              "type": "minecraft:set_custom_model_data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

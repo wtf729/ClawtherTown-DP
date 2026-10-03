@@ -1,0 +1,11 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": "minecraft:air"
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

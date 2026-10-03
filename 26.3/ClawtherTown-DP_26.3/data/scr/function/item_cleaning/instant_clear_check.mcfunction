@@ -1,0 +1,1 @@
+execute if score #item_count item_cleaning > #instant_clear_limit item_cleaning run scoreboard players set #instant_clear item_cleaning 1

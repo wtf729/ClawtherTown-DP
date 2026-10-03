@@ -1,0 +1,638 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_hoe",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "chance": 0.3,
+                    "type": "minecraft:random_chance"
+                  }
+                ]
+              },
+              "modifier": [
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "exterior.scr.factory_new",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "工具之集:",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_axe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_hoe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_pickaxe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_shovel",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "工具",
+                        "color": "green",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "全能之才",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "target": "item_name",
+                  "name": "clawther_artifact",
+                  "type": "minecraft:set_name"
+                },
+                {
+                  "entity": "this",
+                  "target": "custom_name",
+                  "name": {
+                    "translate": "item.scr.clawther_artifact",
+                    "color": "red",
+                    "italic": false
+                  },
+                  "type": "minecraft:set_name"
+                },
+                {
+                  "strings": {
+                    "values": [
+                      "clawther_artifact"
+                    ],
+                    "mode": "append"
+                  },
+                  "type": "minecraft:set_custom_model_data"
+                },
+                {
+                  "enchantments": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:fortune": 3,
+                    "minecraft:mending": 1
+                  },
+                  "type": "minecraft:set_enchantments"
+                },
+                {
+                  "components": {
+                    "minecraft:tool": {
+                      "rules": [
+                        {
+                          "blocks": "#minecraft:mineable/axe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/hoe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/pickaxe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/shovel",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        }
+                      ],
+                      "default_mining_speed": 1,
+                      "damage_per_block": 1
+                    }
+                  },
+                  "type": "minecraft:set_components"
+                },
+                {
+                  "modifiers": [
+                    {
+                      "id": "generic.attack_damage",
+                      "attribute": "minecraft:attack_damage",
+                      "amount": {
+                        "min": 11,
+                        "max": 12,
+                        "type": "minecraft:uniform"
+                      },
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "player.mining_efficiency",
+                      "attribute": "minecraft:mining_efficiency",
+                      "amount": {
+                        "min": 39,
+                        "max": 40,
+                        "type": "minecraft:uniform"
+                      },
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "type": "minecraft:set_attributes"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_hoe",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "chance": 0.5,
+                    "type": "minecraft:random_chance"
+                  }
+                ]
+              },
+              "modifier": [
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "exterior.scr.minimal_wear",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "工具之集:",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_axe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_hoe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_pickaxe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_shovel",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "工具",
+                        "color": "green",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "全能之才",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "target": "item_name",
+                  "name": "clawther_artifact",
+                  "type": "minecraft:set_name"
+                },
+                {
+                  "entity": "this",
+                  "target": "custom_name",
+                  "name": {
+                    "translate": "item.scr.clawther_artifact",
+                    "color": "red",
+                    "italic": false
+                  },
+                  "type": "minecraft:set_name"
+                },
+                {
+                  "strings": {
+                    "values": [
+                      "clawther_artifact"
+                    ],
+                    "mode": "append"
+                  },
+                  "type": "minecraft:set_custom_model_data"
+                },
+                {
+                  "enchantments": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:fortune": 3,
+                    "minecraft:mending": 1
+                  },
+                  "type": "minecraft:set_enchantments"
+                },
+                {
+                  "components": {
+                    "minecraft:tool": {
+                      "rules": [
+                        {
+                          "blocks": "#minecraft:mineable/axe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/hoe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/pickaxe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/shovel",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        }
+                      ],
+                      "default_mining_speed": 1,
+                      "damage_per_block": 1
+                    }
+                  },
+                  "type": "minecraft:set_components"
+                },
+                {
+                  "modifiers": [
+                    {
+                      "id": "generic.attack_damage",
+                      "attribute": "minecraft:attack_damage",
+                      "amount": {
+                        "min": 10,
+                        "max": 11,
+                        "type": "minecraft:uniform"
+                      },
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "player.mining_efficiency",
+                      "attribute": "minecraft:mining_efficiency",
+                      "amount": {
+                        "min": 38,
+                        "max": 39,
+                        "type": "minecraft:uniform"
+                      },
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "type": "minecraft:set_attributes"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_hoe",
+              "modifier": [
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "exterior.scr.field_tested",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "工具之集:",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_axe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_hoe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_pickaxe",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    {
+                      "translate": "item.minecraft.netherite_shovel",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "工具",
+                        "color": "green",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "lore": [
+                    [
+                      {
+                        "text": "全能之才",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      }
+                    ]
+                  ],
+                  "mode": "append",
+                  "type": "minecraft:set_lore"
+                },
+                {
+                  "entity": "this",
+                  "target": "item_name",
+                  "name": "clawther_artifact",
+                  "type": "minecraft:set_name"
+                },
+                {
+                  "entity": "this",
+                  "target": "custom_name",
+                  "name": {
+                    "translate": "item.scr.clawther_artifact",
+                    "color": "red",
+                    "italic": false
+                  },
+                  "type": "minecraft:set_name"
+                },
+                {
+                  "strings": {
+                    "values": [
+                      "clawther_artifact"
+                    ],
+                    "mode": "append"
+                  },
+                  "type": "minecraft:set_custom_model_data"
+                },
+                {
+                  "enchantments": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:fortune": 3,
+                    "minecraft:mending": 1
+                  },
+                  "type": "minecraft:set_enchantments"
+                },
+                {
+                  "components": {
+                    "minecraft:tool": {
+                      "rules": [
+                        {
+                          "blocks": "#minecraft:mineable/axe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/hoe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/pickaxe",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        },
+                        {
+                          "blocks": "#minecraft:mineable/shovel",
+                          "speed": 9,
+                          "correct_for_drops": true
+                        }
+                      ],
+                      "default_mining_speed": 1,
+                      "damage_per_block": 1
+                    }
+                  },
+                  "type": "minecraft:set_components"
+                },
+                {
+                  "modifiers": [
+                    {
+                      "id": "generic.attack_damage",
+                      "attribute": "minecraft:attack_damage",
+                      "amount": {
+                        "min": 8,
+                        "max": 10,
+                        "type": "minecraft:uniform"
+                      },
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "player.mining_efficiency",
+                      "attribute": "minecraft:mining_efficiency",
+                      "amount": {
+                        "min": 36,
+                        "max": 38,
+                        "type": "minecraft:uniform"
+                      },
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "type": "minecraft:set_attributes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "teleport_cookie"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.teleport_cookie_crafted",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "紫颂曲奇",
+        "color": "aqua"
+      },
+      {
+        "text": "\n食用后回城",
+        "color": "gold"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n火把*1\n金粒*1",
+        "color": "aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:foods",
+  "criteria": {
+    "get_teleport_cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cookie",
+            "components": {
+              "minecraft:item_name": "teleport_cookie"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_teleport_cookie"
+    ]
+  ],
+  "rewards": {}
+}

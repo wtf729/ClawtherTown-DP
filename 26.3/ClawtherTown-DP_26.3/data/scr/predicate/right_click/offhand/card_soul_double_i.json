@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:item_name": "card_soul_double_i"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

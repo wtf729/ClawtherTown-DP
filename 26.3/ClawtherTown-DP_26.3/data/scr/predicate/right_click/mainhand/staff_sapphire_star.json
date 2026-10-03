@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:item_name": "staff_sapphire_star"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

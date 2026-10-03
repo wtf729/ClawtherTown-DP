@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/ceiling_hanging_signs",
+    "#scr_wonderland:minecraft/wall_hanging_signs"
+  ]
+}

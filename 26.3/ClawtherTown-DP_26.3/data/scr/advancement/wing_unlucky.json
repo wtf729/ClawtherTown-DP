@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_slice"
+    },
+    "title": {
+      "translate": "advancements.clawther.wing_unlucky",
+      "color": "red"
+    },
+    "description": [
+      {
+        "text": "这都是神鹰的馈赠!\n你要不要?!",
+        "color": "gold"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:wing_crafted",
+  "criteria": {
+    "wing_unlucky": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "wing_unlucky"
+    ]
+  ],
+  "rewards": {
+    "function": "scr:title/grant/advancements_4"
+  }
+}

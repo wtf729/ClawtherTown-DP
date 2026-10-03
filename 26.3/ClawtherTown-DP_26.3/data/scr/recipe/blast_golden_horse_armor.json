@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:golden_horse_armor",
+  "result": {
+    "id": "minecraft:gold_block"
+  },
+  "experience": 2,
+  "cookingtime": 800
+}

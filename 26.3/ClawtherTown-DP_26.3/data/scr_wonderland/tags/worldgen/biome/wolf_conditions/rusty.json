@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "scr_wonderland:minecraft/jungle",
+    "scr_wonderland:minecraft/bamboo_jungle",
+    "scr_wonderland:minecraft/sparse_jungle",
+    "scr_wonderland:minecraft/wooded_badlands"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:clay",
+    "minecraft:moss_block",
+    "#scr_wonderland:minecraft/supports_vegetation",
+    "#scr_wonderland:minecraft/sand",
+    "minecraft:small_dripleaf"
+  ]
+}

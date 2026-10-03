@@ -1,0 +1,1 @@
+execute as @s run title @s actionbar {"text":"","extra":[{"text":"[ ","color":"white"},{"text":"正在开启","bold":true,"color":"yellow"},{"text":" - ","bold":true,"color":"white"},{"text":"[","color":"green"},{"text":"幻梦翎片","bold":true,"color":"green"},{"text":"]","color":"green"},{"text":" ]","color":"white"}]}

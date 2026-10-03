@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ #scr:elevator align xyz positioned ~0.5 ~-1.5 ~0.5 run function scr:elevator/player/elevator_checks/manual/up_execute

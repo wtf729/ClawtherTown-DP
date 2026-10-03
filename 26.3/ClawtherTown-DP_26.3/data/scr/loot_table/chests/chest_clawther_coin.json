@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "modifier": [
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "鹰翎币之箱",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "包含下列物品:",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "鹰翎币",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " *?",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "mode": "append",
+              "type": "minecraft:set_lore"
+            },
+            {
+              "loot_table_id": "scr:chests/open/chest_clawther_coin",
+              "type": "minecraft:set_loot_table"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

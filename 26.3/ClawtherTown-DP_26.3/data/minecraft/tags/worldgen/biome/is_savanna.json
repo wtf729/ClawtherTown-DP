@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/savanna",
+    "scr_wonderland:minecraft/savanna_plateau",
+    "scr_wonderland:minecraft/windswept_savanna"
+  ]
+}

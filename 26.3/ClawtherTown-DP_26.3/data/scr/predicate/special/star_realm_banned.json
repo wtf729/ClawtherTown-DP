@@ -1,0 +1,178 @@
+{
+  "terms": [
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "chest": {
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:totem_of_undying"
+            ]
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:ender_pearl"
+            ]
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "items": "#minecraft:head_armor"
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "chest": {
+            "items": "#minecraft:chest_armor"
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "legs": {
+            "items": "#minecraft:leg_armor"
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "items": "#minecraft:foot_armor"
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:item_name": "staff_wind"
+            }
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:item_name": "staff_wind"
+            }
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:item_name": "staff_strong_wind"
+            }
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    },
+    {
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:item_name": "staff_strong_wind"
+            }
+          }
+        }
+      },
+      "type": "minecraft:entity_properties"
+    }
+  ],
+  "type": "minecraft:any_of"
+}

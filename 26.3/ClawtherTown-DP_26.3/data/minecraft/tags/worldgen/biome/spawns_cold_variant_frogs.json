@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/snowy_plains",
+    "scr_wonderland:minecraft/ice_spikes",
+    "scr_wonderland:minecraft/frozen_peaks",
+    "scr_wonderland:minecraft/jagged_peaks",
+    "scr_wonderland:minecraft/snowy_slopes",
+    "scr_wonderland:minecraft/frozen_ocean",
+    "scr_wonderland:minecraft/deep_frozen_ocean",
+    "scr_wonderland:minecraft/grove",
+    "scr_wonderland:minecraft/deep_dark",
+    "scr_wonderland:minecraft/frozen_river",
+    "scr_wonderland:minecraft/snowy_taiga",
+    "scr_wonderland:minecraft/snowy_beach",
+    "scr_wonderland:minecraft/lukewarm_ocean",
+    "scr_wonderland:minecraft/deep_lukewarm_ocean",
+    "scr_wonderland:minecraft/ocean",
+    "scr_wonderland:minecraft/deep_ocean",
+    "scr_wonderland:minecraft/cold_ocean",
+    "scr_wonderland:minecraft/deep_cold_ocean",
+    "scr_wonderland:minecraft/bamboo_jungle",
+    "scr_wonderland:minecraft/jungle",
+    "scr_wonderland:minecraft/sparse_jungle",
+    "scr_wonderland:minecraft/mangrove_swamp"
+  ]
+}

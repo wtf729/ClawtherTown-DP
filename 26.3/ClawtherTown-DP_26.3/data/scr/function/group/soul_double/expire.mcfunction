@@ -1,0 +1,2 @@
+tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你的","color":"red"},{"text":" [双倍灵魂] ","color":"yellow"},{"text":"加成已过期!","color":"red"}]}
+playsound minecraft:block.beacon.deactivate master @s ~ ~ ~ 0.5

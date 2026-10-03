@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/desert",
+    "scr_wonderland:minecraft/warm_ocean",
+    "scr_wonderland:minecraft/bamboo_jungle",
+    "scr_wonderland:minecraft/jungle",
+    "scr_wonderland:minecraft/sparse_jungle",
+    "scr_wonderland:minecraft/savanna",
+    "scr_wonderland:minecraft/savanna_plateau",
+    "scr_wonderland:minecraft/windswept_savanna",
+    "scr_wonderland:minecraft/badlands",
+    "scr_wonderland:minecraft/eroded_badlands",
+    "scr_wonderland:minecraft/wooded_badlands",
+    "scr_wonderland:minecraft/mangrove_swamp",
+    "scr_wonderland:minecraft/deep_lukewarm_ocean",
+    "scr_wonderland:minecraft/lukewarm_ocean",
+    "scr_wonderland:minecraft/dappled_forest"
+  ]
+}

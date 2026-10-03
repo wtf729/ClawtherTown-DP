@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:item_name": "case_special_item_i"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

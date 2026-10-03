@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/forest",
+    "scr_wonderland:minecraft/flower_forest",
+    "scr_wonderland:minecraft/birch_forest",
+    "scr_wonderland:minecraft/old_growth_birch_forest",
+    "scr_wonderland:minecraft/dappled_forest",
+    "scr_wonderland:minecraft/dark_forest",
+    "scr_wonderland:minecraft/pale_garden",
+    "scr_wonderland:minecraft/grove"
+  ]
+}

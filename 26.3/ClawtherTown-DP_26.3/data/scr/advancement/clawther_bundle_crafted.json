@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther_bundle"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther_bundle_crafted",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "鹰翎束",
+        "color": "aqua"
+      },
+      {
+        "text": "\n便于储存",
+        "color": "gold"
+      },
+      {
+        "text": "\n地面合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n鹰翎*64\n木棍*1",
+        "color": "aqua"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:clawther",
+  "criteria": {
+    "get_clawther_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz",
+            "components": {
+              "minecraft:item_name": "clawther_bundle"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_clawther_bundle"
+    ]
+  ],
+  "rewards": {}
+}

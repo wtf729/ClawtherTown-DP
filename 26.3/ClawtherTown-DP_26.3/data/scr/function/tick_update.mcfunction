@@ -1,0 +1,1 @@
+#玩家计分板初始化已迁移至 scr:server_unique/update_scoreboard

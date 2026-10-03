@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:sequence",
+  "features": [
+    "scr_wonderland:wythers/tree/complex_oak/1"
+  ]
+}

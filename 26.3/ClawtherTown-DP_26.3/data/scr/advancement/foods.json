@@ -1,0 +1,26 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:bread"
+	  },
+	  "title": {
+		"translate": "advancements.clawther.foods",
+		"color": "yellow"
+	  },
+	  "description": [
+		{
+		  "text": "食用获得特殊效果",
+		  "color": "gold"
+		}
+	  ],
+	  "show_toast": false,
+	  "announce_to_chat": false
+	},
+	"parent": "scr:enter_server",
+	"criteria": {
+	  "tick": {
+		"trigger": "minecraft:tick"
+	  }
+	}
+  }
+  

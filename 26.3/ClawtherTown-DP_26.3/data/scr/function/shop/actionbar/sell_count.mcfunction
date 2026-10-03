@@ -1,0 +1,1 @@
+execute as @s run title @s actionbar {"text":"","extra":[{"text":"[","bold":true,"color":"gold"},{"text":"邮递鹰","bold":true,"color":"yellow"},{"text":"] ","bold":true,"color":"gold"},{"text":"已收到的货物数量: ","bold":true,"color":"yellow"},{"score":{"name":"@s","objective":"shop_sell_amount"},"bold":true,"color":"light_purple"}]}

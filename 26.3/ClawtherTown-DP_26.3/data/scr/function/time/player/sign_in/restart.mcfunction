@@ -1,0 +1,1 @@
+scoreboard players set @s time_daily_sign_in_streak 1

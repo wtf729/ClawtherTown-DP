@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:item_name": "branch_absorption_i"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

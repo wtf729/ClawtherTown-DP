@@ -1,0 +1,61 @@
+{
+  "feature": "scr_wonderland:minecraft/spring_lava_overworld",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:very_biased_to_bottom",
+        "inner": 8,
+        "max_inclusive": {
+          "below_top": 8
+        },
+        "min_inclusive": {
+          "above_bottom": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_biomes",
+            "biomes": "#scr_wonderland:minecraft/is_nether"
+          },
+          {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_biomes",
+                  "biomes": "#scr_wonderland:minecraft/is_nether"
+                }
+              },
+              {
+                "type": "minecraft:height_range",
+                "min_inclusive": {
+                  "above_bottom": 0
+                },
+                "max_inclusive": {
+                  "relative_to_sea_level": -10
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

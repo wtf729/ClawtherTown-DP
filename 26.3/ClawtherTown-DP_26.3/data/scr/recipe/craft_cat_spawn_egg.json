@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:hay_block",
+    "B": "#scr:fishes"
+  },
+  "result": {
+    "id": "minecraft:cat_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "minecraft:farmland",
+    "minecraft:soul_soil",
+    "minecraft:mangrove_roots",
+    "minecraft:dead_bush",
+    "minecraft:sweet_berry_bush",
+    "minecraft:brown_concrete_powder",
+    "minecraft:suspicious_sand",
+    "minecraft:suspicious_gravel",
+    "minecraft:packed_mud",
+    "minecraft:sandstone_stairs",
+    "minecraft:bamboo"
+  ]
+}

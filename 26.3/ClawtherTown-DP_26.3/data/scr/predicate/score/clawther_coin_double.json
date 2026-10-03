@@ -1,0 +1,9 @@
+{
+  "entity": "this",
+  "scores": {
+    "clawther_coin_double": {
+      "min": 1
+    }
+  },
+  "type": "minecraft:entity_scores"
+}

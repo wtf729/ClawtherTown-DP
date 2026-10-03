@@ -1,0 +1,9 @@
+gamerule minecraft:fire_spread_radius_around_player 0
+gamerule minecraft:mob_griefing false
+gamerule minecraft:keep_inventory true
+gamerule minecraft:send_command_feedback true
+gamerule minecraft:command_block_output false
+gamerule minecraft:elytra_movement_check false
+gamerule minecraft:respawn_radius 0
+gamerule minecraft:spawn_phantoms false
+gamerule minecraft:players_sleeping_percentage 10

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane"
+  ],
+  "result": {
+    "id": "minecraft:slime_ball",
+    "count": 4
+  }
+}

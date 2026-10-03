@@ -1,0 +1,10 @@
+{
+  "feature": {
+    "features": [
+      "scr_wonderland:wythers/desert/danakil/valleys",
+      "scr_wonderland:wythers/desert/danakil/valley_pools"
+    ],
+    "type": "minecraft:sequence"
+  },
+  "placement": []
+}

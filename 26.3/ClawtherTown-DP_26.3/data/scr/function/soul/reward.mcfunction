@@ -1,0 +1,1 @@
+scoreboard players set @s item_consume_soul 100

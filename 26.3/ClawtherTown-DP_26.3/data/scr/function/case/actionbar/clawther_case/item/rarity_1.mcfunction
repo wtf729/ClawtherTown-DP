@@ -1,0 +1,3 @@
+execute as @s if score @s case_opening_luck matches 20091..46727 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"魔法树枝 | 水花","bold":true,"color":"#3c3cd7"},{"text":" <","color":"white"}]}
+execute as @s if score @s case_opening_luck matches 46728..73364 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"魔法树枝 | 泡沫","bold":true,"color":"#3c3cd7"},{"text":" <","color":"white"}]}
+execute as @s if score @s case_opening_luck matches 73365..100000 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"魔法树枝 | 红苹果","bold":true,"color":"#3c3cd7"},{"text":" <","color":"white"}]}

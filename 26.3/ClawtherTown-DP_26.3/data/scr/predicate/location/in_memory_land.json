@@ -1,0 +1,6 @@
+{
+  "predicate": {
+    "dimension": "scr:memory_land"
+  },
+  "type": "minecraft:location_check"
+}

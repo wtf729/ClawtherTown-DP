@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/sand",
+    "#scr_wonderland:minecraft/terracotta",
+    "#scr_wonderland:minecraft/supports_vegetation",
+    "minecraft:tall_grass",
+    "minecraft:sulfur",
+    "minecraft:cinnabar",
+    "minecraft:dripstone_block",
+    "minecraft:brown_concrete",
+    "minecraft:bamboo_fence"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "scr:a_0004",
+  "width": 1,
+  "height": 1,
+  "title": {
+    "translate": "painting.scr.a_0004.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.scr.a_0004.author",
+    "color": "gray"
+  }
+}

@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot scr:vanilla_items/netherite_ingot

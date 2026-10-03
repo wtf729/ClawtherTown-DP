@@ -1,0 +1,247 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.overworld.bamboo_jungle"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "count": 8,
+            "weight": 10
+          }
+        ],
+        "creature": [
+          {
+            "type": "minecraft:sheep",
+            "count": 4,
+            "weight": 12
+          },
+          {
+            "type": "minecraft:pig",
+            "count": 4,
+            "weight": 10
+          },
+          {
+            "type": "minecraft:chicken",
+            "count": 4,
+            "weight": 10
+          },
+          {
+            "type": "minecraft:cow",
+            "count": 4,
+            "weight": 8
+          },
+          {
+            "type": "minecraft:chicken",
+            "count": 4,
+            "weight": 10
+          }
+        ],
+        "monster": [
+          {
+            "type": "minecraft:spider",
+            "count": 4,
+            "weight": 100
+          },
+          {
+            "type": "minecraft:zombie",
+            "count": 4,
+            "weight": 95
+          },
+          {
+            "type": "minecraft:zombie_villager",
+            "count": 1,
+            "weight": 5
+          },
+          {
+            "type": "minecraft:skeleton",
+            "count": 4,
+            "weight": 100
+          },
+          {
+            "type": "minecraft:creeper",
+            "count": 4,
+            "weight": 100
+          },
+          {
+            "type": "minecraft:slime",
+            "count": 4,
+            "weight": 100
+          },
+          {
+            "type": "minecraft:enderman",
+            "count": {
+              "type": "minecraft:uniform",
+              "max_inclusive": 4,
+              "min_inclusive": 1
+            },
+            "weight": 10
+          },
+          {
+            "type": "minecraft:witch",
+            "count": 1,
+            "weight": 5
+          },
+          {
+            "type": "minecraft:ocelot",
+            "count": 1,
+            "weight": 2
+          }
+        ],
+        "underground_water_creature": [
+          {
+            "type": "minecraft:glow_squid",
+            "count": {
+              "type": "minecraft:uniform",
+              "max_inclusive": 6,
+              "min_inclusive": 4
+            },
+            "weight": 10
+          }
+        ],
+        "water_ambient": [
+          {
+            "type": "minecraft:pufferfish",
+            "weight": 5,
+            "count": {
+              "type": "minecraft:uniform",
+              "max_inclusive": 3,
+              "min_inclusive": 1
+            }
+          }
+        ],
+        "water_creature": []
+      }
+    },
+    "minecraft:gameplay/increased_fire_burnout": true,
+    "minecraft:visual/sky_color": 6269917,
+    "minecraft:visual/fog_color": 16318152,
+    "minecraft:visual/water_fog_color": "#4d7a60",
+    "minecraft:visual/water_fog_end_distance": {
+      "argument": 0.85,
+      "modifier": "multiply"
+    }
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.9,
+  "effects": {
+    "dry_foliage_color": 10648905,
+    "water_color": 3829036,
+    "grass_color": 11122488,
+    "foliage_color": 6788387
+  },
+  "features": [
+    [
+      "scr_wonderland:wythers/bedrock_seal",
+      "scr_wonderland:wythers/stony_cliffs",
+      "scr_wonderland:wythers/placer/jungle",
+      "scr_wonderland:wythers/jungle/paddy_fields_paths",
+      "scr_wonderland:wythers/jungle/paddy_fields"
+    ],
+    [
+      "scr_wonderland:minecraft/lake_lava_underground",
+      "scr_wonderland:minecraft/lake_lava_surface"
+    ],
+    [
+      "scr_wonderland:minecraft/amethyst_geode",
+      "scr_wonderland:wythers/jungle/trees_lowland_rainforest",
+      "scr_wonderland:wythers/jungle/banyans",
+      "scr_wonderland:wythers/jungle/paddy_fields_banyans",
+      "scr_wonderland:wythers/jungle/paddy_fields_trees",
+      "scr_wonderland:wythers/jungle/trees_monsoonal",
+      "scr_wonderland:wythers/jungle/trees_desert_edge",
+      "scr_wonderland:wythers/jungle/trees_austral_rainforest"
+    ],
+    [
+      "scr_wonderland:minecraft/monster_room",
+      "scr_wonderland:minecraft/monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "scr_wonderland:minecraft/ore_dirt",
+      "scr_wonderland:minecraft/ore_gravel",
+      "scr_wonderland:minecraft/ore_granite_upper",
+      "scr_wonderland:minecraft/ore_granite_lower",
+      "scr_wonderland:minecraft/ore_diorite_upper",
+      "scr_wonderland:minecraft/ore_diorite_lower",
+      "scr_wonderland:minecraft/ore_andesite_upper",
+      "scr_wonderland:minecraft/ore_andesite_lower",
+      "scr_wonderland:minecraft/ore_tuff",
+      "scr_wonderland:minecraft/ore_coal_upper",
+      "scr_wonderland:minecraft/ore_coal_lower",
+      "scr_wonderland:minecraft/ore_iron_upper",
+      "scr_wonderland:minecraft/ore_iron_middle",
+      "scr_wonderland:minecraft/ore_iron_small",
+      "scr_wonderland:minecraft/ore_gold",
+      "scr_wonderland:minecraft/ore_gold_lower",
+      "scr_wonderland:minecraft/ore_redstone",
+      "scr_wonderland:minecraft/ore_redstone_lower",
+      "scr_wonderland:minecraft/ore_diamond",
+      "scr_wonderland:minecraft/ore_diamond_medium",
+      "scr_wonderland:minecraft/ore_diamond_large",
+      "scr_wonderland:minecraft/ore_diamond_buried",
+      "scr_wonderland:minecraft/ore_lapis",
+      "scr_wonderland:minecraft/ore_lapis_buried",
+      "scr_wonderland:minecraft/ore_copper",
+      "scr_wonderland:minecraft/underwater_magma",
+      "scr_wonderland:wythers/coast/sandy_shore"
+    ],
+    [],
+    [
+      "scr_wonderland:minecraft/spring_water",
+      "scr_wonderland:minecraft/spring_lava"
+    ],
+    [
+      "scr_wonderland:minecraft/glow_lichen",
+      "scr_wonderland:wythers/coast/palms",
+      "scr_wonderland:wythers/coast/morning_glory",
+      "scr_wonderland:wythers/jungle/palms_lowland_rainforest",
+      "scr_wonderland:wythers/jungle/treeferns",
+      "scr_wonderland:wythers/jungle/bushes",
+      "scr_wonderland:wythers/jungle/rainforest_bushes",
+      "scr_wonderland:wythers/jungle/bamboo_palms_green",
+      "scr_wonderland:wythers/jungle/fairy_rings",
+      "scr_wonderland:wythers/jungle/dripleaves",
+      "scr_wonderland:wythers/jungle/bamboo_patch_small",
+      "scr_wonderland:wythers/jungle/large_ferns",
+      "scr_wonderland:wythers/jungle/flowers",
+      "scr_wonderland:minecraft/flower_warm",
+      "scr_wonderland:minecraft/patch_grass_jungle",
+      "scr_wonderland:wythers/river/patch_tall_grass",
+      "scr_wonderland:minecraft/brown_mushroom_normal",
+      "scr_wonderland:minecraft/red_mushroom_normal",
+      "scr_wonderland:minecraft/patch_pumpkin",
+      "scr_wonderland:minecraft/patch_sugar_cane",
+      "scr_wonderland:minecraft/patch_firefly_bush_near_water",
+      "scr_wonderland:minecraft/vines",
+      "scr_wonderland:minecraft/patch_melon",
+      "scr_wonderland:wythers/jungle/rainforest_lilypads"
+    ],
+    [
+      "scr_wonderland:minecraft/freeze_top_layer",
+      "scr_wonderland:wythers/fauna/green_parrots",
+      "scr_wonderland:wythers/fauna/macaws",
+      "scr_wonderland:wythers/fauna/hoglins",
+      "scr_wonderland:wythers/fauna/guineafowl",
+      "scr_wonderland:wythers/fauna/river_dolphin",
+      "scr_wonderland:wythers/fauna/panther",
+      "scr_wonderland:wythers/fauna/mud_fish",
+      "scr_wonderland:wythers/fauna/jungle_riverfish",
+      "scr_wonderland:wythers/fauna/koi"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": 0.95
+}

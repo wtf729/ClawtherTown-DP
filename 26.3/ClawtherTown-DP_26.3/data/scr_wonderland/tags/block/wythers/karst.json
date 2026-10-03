@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:wythers/dead_coral_blocks",
+    "#scr_wonderland:wythers/coral_blocks",
+    "minecraft:tuff",
+    "minecraft:mossy_cobblestone",
+    "minecraft:sand",
+    "minecraft:grass_block",
+    "minecraft:mycelium"
+  ]
+}

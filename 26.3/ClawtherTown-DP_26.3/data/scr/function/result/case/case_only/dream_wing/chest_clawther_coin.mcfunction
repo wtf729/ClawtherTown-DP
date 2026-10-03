@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot scr:chests/chest_clawther_coin

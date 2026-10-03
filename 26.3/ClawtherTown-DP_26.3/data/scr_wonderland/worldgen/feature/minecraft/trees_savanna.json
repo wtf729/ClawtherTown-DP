@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "scr_wonderland:minecraft/oak_checked",
+  "features": [
+    {
+      "chance": 0.8,
+      "feature": "scr_wonderland:minecraft/acacia_checked"
+    },
+    {
+      "chance": 0.0125,
+      "feature": "scr_wonderland:minecraft/fallen_oak_tree"
+    }
+  ]
+}

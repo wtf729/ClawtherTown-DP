@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": {
+      "translate": "advancements.clawther.stonecutter_used",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "将多余的收藏品\n丢在切石机上\n分解为",
+        "color": "yellow"
+      },
+      {
+        "text": "精粹",
+        "color": "light_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:miscellaneous",
+  "criteria": {
+    "stonecutter_used": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "stonecutter_used"
+    ]
+  ],
+  "rewards": {}
+}

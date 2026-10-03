@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/substrate_overworld",
+    "minecraft:mycelium",
+    "minecraft:podzol",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium"
+  ]
+}

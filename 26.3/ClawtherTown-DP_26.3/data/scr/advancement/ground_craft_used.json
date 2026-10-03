@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": {
+      "translate": "advancements.clawther.ground_craft_used",
+      "color": "green"
+    },
+    "description": [
+      {
+        "text": "将配方指定的物品\n丢在地面的同一格内\n以使用地面合成",
+        "color": "yellow"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:miscellaneous",
+  "criteria": {
+    "ground_craft_used": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "ground_craft_used"
+    ]
+  ],
+  "rewards": {}
+}

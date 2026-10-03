@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "modifier": [
+            {
+              "tag": "{villager_death:1b}",
+              "type": "minecraft:set_custom_data"
+            },
+            {
+              "entity": "this",
+              "name": {
+                "selector": "@s"
+              },
+              "target": "item_name",
+              "type": "minecraft:set_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:item_name": "staff_clear_spring_custom_1"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

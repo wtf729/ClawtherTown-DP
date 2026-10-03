@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/features_cannot_replace",
+    "#scr_wonderland:minecraft/leaves",
+    "#scr_wonderland:minecraft/logs"
+  ]
+}

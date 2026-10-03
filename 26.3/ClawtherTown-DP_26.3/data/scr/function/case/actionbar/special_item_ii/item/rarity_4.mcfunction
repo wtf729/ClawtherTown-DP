@@ -1,0 +1,1 @@
+execute as @s if score @s case_opening_luck matches 1001..2200 run title @s actionbar {"text":"","extra":[{"text":"> ","color":"white"},{"text":"[","bold":true,"color":"red"},{"text":"下界合金锭","bold":true,"color":"red"},{"text":"","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"red"},{"text":" <","color":"white"}]}

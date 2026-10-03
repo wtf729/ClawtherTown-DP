@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/flowers",
+    "#scr_wonderland:minecraft/saplings",
+    "#scr_wonderland:minecraft/air",
+    "minecraft:short_grass",
+    "minecraft:fern",
+    "minecraft:leaf_litter",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:bush",
+    "minecraft:firefly_bush",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass",
+    "minecraft:shelf_mushroom",
+    "minecraft:vine"
+  ]
+}

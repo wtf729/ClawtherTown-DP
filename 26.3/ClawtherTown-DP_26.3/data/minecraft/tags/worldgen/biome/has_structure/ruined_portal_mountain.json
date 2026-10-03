@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/badlands",
+    "scr_wonderland:minecraft/eroded_badlands",
+    "scr_wonderland:minecraft/wooded_badlands",
+    "scr_wonderland:minecraft/windswept_hills",
+    "scr_wonderland:minecraft/windswept_forest",
+    "scr_wonderland:minecraft/windswept_gravelly_hills",
+    "scr_wonderland:minecraft/savanna_plateau",
+    "scr_wonderland:minecraft/windswept_savanna",
+    "scr_wonderland:minecraft/stony_shore",
+    "scr_wonderland:minecraft/meadow",
+    "scr_wonderland:minecraft/frozen_peaks",
+    "scr_wonderland:minecraft/jagged_peaks",
+    "scr_wonderland:minecraft/stony_peaks",
+    "scr_wonderland:minecraft/snowy_slopes",
+    "scr_wonderland:minecraft/cherry_grove"
+  ]
+}

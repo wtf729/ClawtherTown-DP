@@ -1,0 +1,240 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther_pickaxe_i"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.clawther_pickaxe_i",
+      "color": "aqua"
+    },
+    "description": [
+      {
+        "text": "翎之镐",
+        "color": "yellow"
+      },
+      {
+        "text": "\n可强化强力工具",
+        "color": "gold"
+      },
+      {
+        "text": "\n高级合成:",
+        "color": "yellow"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "BBB",
+        "color": "aqua"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "A",
+        "color": "gold"
+      },
+      {
+        "text": "B",
+        "color": "aqua"
+      },
+      {
+        "text": "\n  "
+      },
+      {
+        "text": "BBB",
+        "color": "aqua"
+      },
+      {
+        "text": "\nA",
+        "color": "gold"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "铁镐",
+        "color": "white"
+      },
+      {
+        "text": "\nB",
+        "color": "aqua"
+      },
+      {
+        "text": ": ",
+        "color": "yellow"
+      },
+      {
+        "text": "鹰翎",
+        "color": "green"
+      },
+      {
+        "text": "\n*将会重置附魔",
+        "color": "red"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scr:unexpected_fortune",
+  "criteria": {
+    "get_clawther_pickaxe_i": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_i"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_ii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_ii"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_iii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_iii"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_iv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_iv"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_v": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_v"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_vi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_vi"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_vii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_vii"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_viii": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_viii"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_ix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_ix"
+            }
+          }
+        ]
+      }
+    },
+    "get_clawther_pickaxe_x": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_pickaxe",
+            "components": {
+              "minecraft:item_name": "clawther_pickaxe_x"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_clawther_pickaxe_i",
+      "get_clawther_pickaxe_ii",
+      "get_clawther_pickaxe_iii",
+      "get_clawther_pickaxe_iv",
+      "get_clawther_pickaxe_v",
+      "get_clawther_pickaxe_vi",
+      "get_clawther_pickaxe_vii",
+      "get_clawther_pickaxe_viii",
+      "get_clawther_pickaxe_ix",
+      "get_clawther_pickaxe_x"
+    ]
+  ],
+  "rewards": {}
+}

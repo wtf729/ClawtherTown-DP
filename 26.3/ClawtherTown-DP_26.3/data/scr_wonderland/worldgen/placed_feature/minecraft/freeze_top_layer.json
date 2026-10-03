@@ -1,0 +1,8 @@
+{
+  "feature": "scr_wonderland:minecraft/freeze_top_layer",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

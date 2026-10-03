@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/logs_that_burn",
+    "#scr_wonderland:minecraft/crimson_stems",
+    "#scr_wonderland:minecraft/warped_stems",
+    "minecraft:mangrove_roots"
+  ]
+}

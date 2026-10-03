@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#scr_wonderland:minecraft/jungle_logs",
+    "#scr_wonderland:minecraft/poplar_logs",
+    "minecraft:acacia_wood"
+  ]
+}

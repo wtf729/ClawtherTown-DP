@@ -1,0 +1,206 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": "minecraft:music.overworld.flower_forest"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 10
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "count": 4,
+              "weight": 12
+            },
+            {
+              "type": "minecraft:pig",
+              "count": 4,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:chicken",
+              "count": 4,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:cow",
+              "count": 4,
+              "weight": 8
+            },
+            {
+              "type": "minecraft:rabbit",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 2
+              },
+              "weight": 4
+            },
+            {
+              "type": "minecraft:fox",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 2
+              },
+              "weight": 4
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:zombie",
+              "count": 4,
+              "weight": 95
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "count": 1,
+              "weight": 5
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:creeper",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:slime",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 1
+              },
+              "weight": 10
+            },
+            {
+              "type": "minecraft:witch",
+              "count": 1,
+              "weight": 5
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 6,
+                "min_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/sky_color": 5211317,
+    "minecraft:visual/fog_color": 13224393,
+    "minecraft:visual/water_fog_color": "#375154",
+    "minecraft:visual/cloud_color": "#33ffffff"
+  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "downfall": 0.6,
+  "effects": {
+    "dry_foliage_color": "#8c3a04",
+    "foliage_color": 16679230,
+    "grass_color": "#df6827",
+    "water_color": 3239574
+  },
+  "features": [
+    [
+      "scr_wonderland:wythers/stony_cliffs",
+      "scr_wonderland:wythers/mountains/windswept_forest_floor"
+    ],
+    [
+      "scr_wonderland:minecraft/lake_lava_underground",
+      "scr_wonderland:minecraft/lake_lava_surface"
+    ],
+    [
+      "scr_wonderland:minecraft/amethyst_geode"
+    ],
+    [
+      "scr_wonderland:minecraft/monster_room",
+      "scr_wonderland:minecraft/monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "scr_wonderland:minecraft/ore_dirt",
+      "scr_wonderland:minecraft/ore_gravel",
+      "scr_wonderland:minecraft/ore_granite_upper",
+      "scr_wonderland:minecraft/ore_granite_lower",
+      "scr_wonderland:minecraft/ore_diorite_upper",
+      "scr_wonderland:minecraft/ore_diorite_lower",
+      "scr_wonderland:minecraft/ore_andesite_upper",
+      "scr_wonderland:minecraft/ore_andesite_lower",
+      "scr_wonderland:minecraft/ore_tuff",
+      "scr_wonderland:minecraft/ore_coal_upper",
+      "scr_wonderland:minecraft/ore_coal_lower",
+      "scr_wonderland:minecraft/ore_iron_upper",
+      "scr_wonderland:minecraft/ore_iron_middle",
+      "scr_wonderland:minecraft/ore_iron_small",
+      "scr_wonderland:minecraft/ore_gold",
+      "scr_wonderland:minecraft/ore_gold_lower",
+      "scr_wonderland:minecraft/ore_redstone",
+      "scr_wonderland:minecraft/ore_redstone_lower",
+      "scr_wonderland:minecraft/ore_diamond",
+      "scr_wonderland:minecraft/ore_diamond_medium",
+      "scr_wonderland:minecraft/ore_diamond_large",
+      "scr_wonderland:minecraft/ore_diamond_buried",
+      "scr_wonderland:minecraft/ore_lapis",
+      "scr_wonderland:minecraft/ore_lapis_buried",
+      "scr_wonderland:minecraft/ore_copper",
+      "scr_wonderland:minecraft/underwater_magma",
+      "scr_wonderland:minecraft/disk_sand",
+      "scr_wonderland:minecraft/disk_clay",
+      "scr_wonderland:minecraft/disk_gravel"
+    ],
+    [],
+    [
+      "scr_wonderland:minecraft/spring_water",
+      "scr_wonderland:minecraft/spring_lava"
+    ],
+    [
+      "scr_wonderland:minecraft/glow_lichen",
+      "scr_wonderland:minecraft/trees_dappled_forest",
+      "scr_wonderland:minecraft/brown_mushroom_dappled_forest",
+      "scr_wonderland:minecraft/patch_red_shrub",
+      "scr_wonderland:minecraft/patch_grass_forest"
+    ],
+    [
+      "scr_wonderland:minecraft/freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "temperature": 0.6
+}

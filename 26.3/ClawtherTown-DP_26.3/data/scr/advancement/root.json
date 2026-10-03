@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "clawther"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.clawther.root"
+    },
+    "description": [
+      {
+        "text": "神鹰的国度",
+        "color": "gold"
+      }
+    ],
+    "background": "block/quartz_bricks",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "enter_server": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "enter_server"
+    ]
+  ],
+  "rewards": {}
+}

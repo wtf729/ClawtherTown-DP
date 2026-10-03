@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "killed_player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:player"
+              },
+              "type": "minecraft:entity_properties"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr:advancements/technical/killed_player"
+  }
+}

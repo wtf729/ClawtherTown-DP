@@ -1,0 +1,56 @@
+{
+  "feature": {
+    "type": "minecraft:sequence",
+    "features": [
+      "scr_wonderland:wythers/ocean/frozen/ice_tunnel_1",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_68",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_69",
+      "scr_wonderland:wythers/ocean/frozen/ice_tunnel_2",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_75",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_76",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_77",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_78",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_79",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_80",
+      "scr_wonderland:wythers/ocean/frozen/snow_layer",
+      "scr_wonderland:wythers/ocean/frozen/ice_base",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_53",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_52",
+      "scr_wonderland:wythers/ocean/frozen/ice_layer_51",
+      "scr_wonderland:wythers/ocean/frozen/ice_banding_1",
+      "scr_wonderland:wythers/ocean/frozen/ice_banding_2"
+    ]
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "above_bottom": 0
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "blocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    }
+  ]
+}

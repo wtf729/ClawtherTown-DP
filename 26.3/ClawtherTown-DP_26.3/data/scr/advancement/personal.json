@@ -1,0 +1,26 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:player_head"
+	  },
+	  "title": {
+		"translate": "advancements.clawther.personal",
+		"color": "yellow"
+	  },
+	  "description": [
+		{
+		  "text": "你在鹰翎镇的经历",
+		  "color": "gold"
+		}
+	  ],
+	  "show_toast": false,
+	  "announce_to_chat": false
+	},
+	"parent": "scr:enter_server",
+	"criteria": {
+	  "tick": {
+		"trigger": "minecraft:tick"
+	  }
+	}
+  }
+  

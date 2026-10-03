@@ -1,0 +1,13 @@
+{
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:item_name": "staff_wind"
+        }
+      }
+    }
+  },
+  "type": "minecraft:entity_properties"
+}

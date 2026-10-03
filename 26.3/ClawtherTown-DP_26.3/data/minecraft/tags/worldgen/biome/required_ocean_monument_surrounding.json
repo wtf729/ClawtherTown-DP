@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "scr_wonderland:minecraft/deep_frozen_ocean",
+    "scr_wonderland:minecraft/deep_cold_ocean",
+    "scr_wonderland:minecraft/deep_ocean",
+    "scr_wonderland:minecraft/deep_lukewarm_ocean",
+    "scr_wonderland:minecraft/frozen_ocean",
+    "scr_wonderland:minecraft/ocean",
+    "scr_wonderland:minecraft/cold_ocean",
+    "scr_wonderland:minecraft/lukewarm_ocean",
+    "scr_wonderland:minecraft/warm_ocean",
+    "scr_wonderland:minecraft/river",
+    "scr_wonderland:minecraft/frozen_river"
+  ]
+}

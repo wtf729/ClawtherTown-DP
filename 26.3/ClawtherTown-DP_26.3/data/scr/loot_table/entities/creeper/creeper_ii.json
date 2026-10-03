@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false,
+              "type": "minecraft:set_count"
+            },
+            {
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "type": "minecraft:enchanted_count_increase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "items": "#minecraft:creeper_drop_music_discs"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "entity": "attacker",
+            "predicate": {
+              "minecraft:entity_type": "#minecraft:skeletons"
+            },
+            "type": "minecraft:entity_properties"
+          }
+        ]
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "scr:ingredients/soul",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "type": "minecraft:set_count"
+            },
+            {
+              "enchantment": "scr:soul_looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "type": "minecraft:enchanted_count_increase"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
+          }
+        ]
+      }
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "scr:ingredients/clawther_coin",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "type": "minecraft:set_count"
+            },
+            {
+              "enchantment": "scr:coin_looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "type": "minecraft:enchanted_count_increase"
+            }
+          ]
+        }
+      ],
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
+          }
+        ]
+      }
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}

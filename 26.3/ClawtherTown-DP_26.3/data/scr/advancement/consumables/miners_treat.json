@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "miners_treat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:item_name": "miners_treat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr:advancements/consumables/miners_treat"
+  }
+}

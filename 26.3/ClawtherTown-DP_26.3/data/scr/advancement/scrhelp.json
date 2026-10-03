@@ -1,0 +1,35 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:written_book"
+	  },
+	  "title": {
+		"translate": "advancements.clawther.scrhelp",
+		"color": "yellow",
+		"bold": true
+	  },
+	  "description": [
+		{
+		  "text": "输入 ",
+		  "color": "green"
+		},
+		{
+		  "text": "/trigger scrhelp",
+		  "color": "yellow"
+		},
+		{
+		  "text": " 来打开鹰翎镇的知识之书!",
+		  "color": "gold"
+		}
+	  ],
+	  "show_toast": false,
+	  "announce_to_chat": false
+	},
+	"parent": "scr:root",
+	"criteria": {
+	  "tick": {
+		"trigger": "minecraft:tick"
+	  }
+	}
+  }
+  

@@ -1,0 +1,3 @@
+scoreboard players operation @a[advancements={scr:technical/killed_player=true}] clawther_coin_add += @s death_loss
+execute as @a[advancements={scr:technical/killed_player=true}] run function scr:clawther_coin/reward
+tellraw @a[advancements={scr:technical/killed_player=true}] {"text":"","extra":[{"text":"你从","color":"white"},{"selector":"@s"},{"text":"的口袋中翻出了","color":"white"},{"score":{"name":"@s","objective":"death_loss"},"color":"light_purple"},{"text":"枚鹰翎币!","color":"white"}]}
