@@ -1,0 +1,1 @@
+$tellraw @s [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.skywing","fallback":"云翎鹰"},{"text":"] ","color":"gold","bold":true},{"translate":"message.scr.sky.ui.scan_complete","fallback":"空岛评级完成！空岛价值：%1$s 点，当前等级：Lv.%2$s。","with":[{"text":"$(value)"},{"text":"$(level)"}],"color":"green","bold":false}]

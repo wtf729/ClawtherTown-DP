@@ -1,1 +1,1 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"考勤鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"签到状态: ","color":"white"},{"text":"已完成今日签到","color":"#7dff9a"}]}
+tellraw @s [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.monitor","fallback":"司时鹰"},{"text":"] ","color":"gold","bold":true},{"text":"签到状态: ","color":"white","bold":false},{"text":"已完成今日签到","color":"#7dff9a","bold":false}]

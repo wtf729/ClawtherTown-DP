@@ -1,0 +1,3 @@
+$execute as @a[nbt={UUID:$(uuid)}] if data storage scr_sky:jobs active{spawn_mode:"recovery"} run tellraw @s {"translate":"message.scr.sky.spawn_recovered","fallback":"原出生点不可用，已传送至岛内临时安全落点。","color":"yellow"}
+$execute as @a[nbt={UUID:$(uuid)}] if data storage scr_sky:jobs active{spawn_mode:"emergency"} run tellraw @s {"translate":"message.scr.sky.emergency_drop","fallback":"未找到安全落点，已启用高空返回与 30 秒抗性保护。","color":"yellow"}
+$execute as @a[nbt={UUID:$(uuid)}] unless data storage scr_sky:jobs active{spawn_mode:"stored"} if score #role scr_sk matches 2..3 run tellraw @s {"translate":"message.scr.sky.reset_spawn_hint","fallback":"请检查岛屿并重新设置正式出生点；此次返回不会修改已保存的出生点。","color":"yellow"}

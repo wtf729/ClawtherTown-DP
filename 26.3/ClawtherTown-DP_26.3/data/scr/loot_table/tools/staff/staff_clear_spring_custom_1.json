@@ -135,25 +135,6 @@
               "lore": [
                 [
                   {
-                    "text": "此物品属于: ",
-                    "color": "gold",
-                    "bold": false,
-                    "italic": false
-                  },
-                  {
-                    "translate": "painting.scr.a_0016.author",
-                    "color": "light_purple"
-                  }
-                ]
-              ],
-              "mode": "append",
-              "type": "minecraft:set_lore"
-            },
-            {
-              "entity": "this",
-              "lore": [
-                [
-                  {
                     "text": "魔法",
                     "color": "aqua",
                     "bold": false,

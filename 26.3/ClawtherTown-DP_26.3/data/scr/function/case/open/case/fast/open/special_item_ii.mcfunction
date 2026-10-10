@@ -8,6 +8,6 @@ scoreboard players set @s case_opening_case 5
 scoreboard players set @s case_opening_fast 1
 advancement grant @s only scr:case_rare_used
 
-tellraw @s {"text":"","extra":[{"text":"正在","color":"yellow"},{"text":"开启","color":"yellow"},{"text":" [★ 奇珍矿脉 ★] ","color":"yellow"},{"text":"!","color":"yellow"}]}
+tellraw @s [{"text":"正在","color":"yellow"},{"text":"开启","color":"yellow"},{"text":" [★ 奇珍矿脉 ★] ","color":"yellow"},{"text":"!","color":"yellow"}]
 tag @s remove scr.case_starting
 scoreboard players reset @s scr_case_taken

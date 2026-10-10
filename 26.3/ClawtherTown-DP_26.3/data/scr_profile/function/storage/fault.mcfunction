@@ -1,0 +1,1 @@
+$execute if data storage scr_profile:players players."$(key)".meta.pending if data storage scr_profile:runtime work.step run data modify storage scr_profile:players players."$(key)".meta.pending.step set from storage scr_profile:runtime work.step

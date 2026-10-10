@@ -1,0 +1,33 @@
+{
+  "parent": "scr_task:notification/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "message.scr.task.submitted",
+      "fallback": "任务 [%s] 已提交!",
+      "with": [
+        {
+          "translate": "task.scr.broker.b_01.title",
+          "fallback": "有利可图的生意",
+          "color": "gold"
+        }
+      ],
+      "color": "green"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

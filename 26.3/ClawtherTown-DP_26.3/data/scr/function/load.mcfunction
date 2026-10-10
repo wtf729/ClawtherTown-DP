@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 1
+scoreboard players set #server version 2
 
 #初始设定
 forceload add 0 0
@@ -241,6 +241,9 @@ scoreboard objectives add soul_calculate dummy
 scoreboard objectives add soul_require dummy
 scoreboard objectives add soul_title_countdown dummy
 scoreboard objectives add soul_multiplier dummy
+#翎钻
+scoreboard objectives add clawther_gem dummy
+scoreboard objectives add clawther_gem_add dummy
 
 
 scoreboard objectives setdisplay below_name soul_level

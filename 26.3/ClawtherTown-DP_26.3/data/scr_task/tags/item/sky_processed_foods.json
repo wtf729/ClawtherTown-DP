@@ -1,0 +1,23 @@
+{
+  "values": [
+    "minecraft:cooked_beef",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_rabbit",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon",
+    "minecraft:bread",
+    "minecraft:baked_potato",
+    "minecraft:cookie",
+    "minecraft:pumpkin_pie",
+    "minecraft:mushroom_stew",
+    "minecraft:rabbit_stew",
+    "minecraft:beetroot_soup",
+    "minecraft:suspicious_stew",
+    "minecraft:dried_kelp",
+    "minecraft:golden_carrot",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple"
+  ]
+}

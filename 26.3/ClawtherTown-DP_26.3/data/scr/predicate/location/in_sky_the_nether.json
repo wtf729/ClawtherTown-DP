@@ -1,0 +1,6 @@
+{
+  "predicate": {
+    "dimension": "scr:sky_the_nether"
+  },
+  "type": "minecraft:location_check"
+}

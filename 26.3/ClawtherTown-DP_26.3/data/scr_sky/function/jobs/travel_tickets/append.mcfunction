@@ -1,0 +1,1 @@
+$execute unless data storage scr_sky:travel_tickets pending[{x:$(x),z:$(z),owner:"$(owner)"}] run data modify storage scr_sky:travel_tickets pending append from storage scr_sky:travel_tickets work.entry

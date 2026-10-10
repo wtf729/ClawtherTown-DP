@@ -1,5 +1,5 @@
-tellraw @s {"text":"","extra":[{"text":"数据包: ","color":"#de90ee","bold":false},{"text":"v2026.10.1","underlined":false,"color":"#e5e6a7"},{"text":"   资源包: ","color":"#1ddddd","bold":false},{"text":"v2026.10.1","color":"#e5e6a7"},{"text":"\n+ 修复交付中再次购买会改写订单数量的问题\n+ 分离商店购买与开箱状态，拦截商店重复开箱请求\n+ 修复钥匙最大购买数量的账单判断\n+ 出售时固定物品与单价，按实际收取数量结算\n+ 自动清扫保护生成未满 15s 的掉落物\n+ 修复回家失败残留目标，群体回家使用旧目标集合的问题\n+ 修复多人在线时双倍鹰翎币与双倍灵魂加成按人数加速扣时的问题\n+ 修复多人靠近同一地面鹰翎币或灵魂时重复入账的问题\n+ 修复商店、实物、钥匙开箱入口互相覆盖的问题\n+ 修复村民背包满但仍吞掉整组食物的问题\n+ 修复强化生物属性错误\n+ 修复[末影龙宝玉]掉落识别\n+ 添加了稀有狼变种\n+ 添加了异界唱片\n+ 修改了维度传送门结构","color":"#de90ee"},{"text":"\n+ 添加了狼变种材质\n+ 添加了异界唱片音频","color":"#1ddddd"}]}
-tellraw @s {"text":"","extra":[{"text":"+ 已发放更新补偿","color":"green"}]}
+tellraw @s [{"text":"数据包: ","color":"#de90ee","bold":false},{"text":"v2026.10.2","underlined":false,"color":"#e5e6a7","bold":false},{"text":"   资源包: ","color":"#1ddddd","bold":false},{"text":"v2026.10.2","color":"#e5e6a7","bold":false},{"text":"\n+ 添加邮箱系统: /trigger mail\n+ 添加任务系统: /trigger task\n+ 添加空岛系统: /trigger sky","color":"#de90ee","bold":false},{"text":"\n+ 添加了新的翻译文案\n+ 添加了NPC头像","color":"#1ddddd","bold":false}]
+tellraw @s [{"text":"+ 已发放更新补偿","color":"green"}]
 
 # 待解决的已知问题 / 审阅待办（2026-10-03）
 # 以下仅供开发者维护，不会向玩家显示；均为未应用的待办，不属于上方已发布修复。
@@ -26,4 +26,3 @@ tellraw @s {"text":"","extra":[{"text":"+ 已发放更新补偿","color":"green"
 # R15 | P3 | Home 使用线性查找与排序；按实际玩家/Home 数量决定是否优化，改变持久 storage 结构必须有迁移方案。
 # R16 | P3 | 未找到内部调用者的 soul/tellraw 引用未定义 exp；random/roll 先显示旧缓存再抽新值，另有旧格式残留。修正或删除前核实管理员及命令方块调用。
 # R18 | P3 | 物品、价格、奖励及显示定义重复较多。建议统一维护来源并保留静态发布检查，不为格式整理重命名既有 objective、资源 ID 或持久字段。
-# 待办结束

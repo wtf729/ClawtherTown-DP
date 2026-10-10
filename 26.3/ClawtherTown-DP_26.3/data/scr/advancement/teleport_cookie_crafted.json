@@ -57,5 +57,7 @@
       "get_teleport_cookie"
     ]
   ],
-  "rewards": {}
+  "rewards": {
+    "function": "scr_task:event/adv_teleport_cookie_crafted"
+  }
 }

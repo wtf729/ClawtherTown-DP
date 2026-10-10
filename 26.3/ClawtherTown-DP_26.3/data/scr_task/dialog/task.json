@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate":"gui.scr.task.title","fallback":"任务日志",
+    "color": "gold"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "width": 420,
+      "contents": {
+        "translate":"gui.scr.task.entry_description","fallback":"查看当前任务与已提交的历史任务",
+        "color": "white"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate":"gui.scr.task.open","fallback":"打开任务主页",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger task"
+      }
+    }
+  ],
+  "columns": 1,
+  "pause": false,
+  "exit_action": {
+    "label": {
+      "translate":"gui.scr.task.close","fallback":"关闭任务日志",
+      "color": "white"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger task_action set -1"
+    }
+  },
+  "after_action": "none"
+}

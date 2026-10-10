@@ -1,0 +1,33 @@
+{
+  "parent": "scr_task:notification/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "translate": "message.scr.task.completed",
+      "fallback": "任务 [%s] 已完成!",
+      "with": [
+        {
+          "translate": "task.scr.skywing.sky_a08.title",
+          "fallback": "七彩云庭",
+          "color": "gold"
+        }
+      ],
+      "color": "green"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

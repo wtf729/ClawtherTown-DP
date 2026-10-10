@@ -3,3 +3,4 @@ tellraw @s ["",{"text":"[","bold":true,"color":"gold"},{"text":"知识之书","b
 
 
 scoreboard players set @s scrhelp 0
+function scr_task:event/help_opened

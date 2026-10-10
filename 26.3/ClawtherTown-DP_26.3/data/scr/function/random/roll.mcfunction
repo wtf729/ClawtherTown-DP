@@ -1,3 +1,3 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"Roll点结果为: ","color":"yellow"},{"score":{"name":"#random100000","objective":"scr_random"},"color":"light_purple"},{"text":"/","color":"aqua"},{"text":"100000","color":"yellow"},{"text":" !","color":"yellow"}]}
+tellraw @s [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.main","fallback":"神鹰"},{"text":"] ","color":"gold","bold":true},{"text":"Roll点结果为: ","color":"yellow","bold":false},{"score":{"name":"#random100000","objective":"scr_random"},"color":"light_purple","bold":false},{"text":"/","color":"aqua","bold":false},{"text":"100000","color":"yellow","bold":false},{"text":" !","color":"yellow","bold":false}]
 
 function scr:random/random100000

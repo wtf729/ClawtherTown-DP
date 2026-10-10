@@ -1,4 +1,4 @@
 gamemode adventure @s
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"已为你切换至","color":"white"},{"text":"冒险模式","color":"aqua","bold":true},{"text":".","color":"white"}]}
+tellraw @s [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.main","fallback":"神鹰"},{"text":"] ","color":"gold","bold":true},{"text":"已为你切换至","color":"white","bold":false},{"text":"冒险模式","color":"aqua","bold":true},{"text":".","color":"white","bold":false}]
 
 scoreboard players set @s gamemode 0

@@ -7,6 +7,6 @@ scoreboard players set @s case_opening 1
 scoreboard players set @s case_opening_case 2
 advancement grant @s only scr:case_rare_used
 
-tellraw @s {"text":"","extra":[{"text":"正在","color":"yellow"},{"text":"开启","color":"yellow"},{"text":"[","color":"yellow"},{"translate":"item.scr.case_special_item_i","bold":false,"color":"yellow"},{"text":"]","color":"yellow"},{"text":"!","color":"yellow"}]}
+tellraw @s [{"text":"正在","color":"yellow"},{"text":"开启","color":"yellow"},{"text":"[","color":"yellow"},{"translate":"item.scr.case_special_item_i","bold":false,"color":"yellow"},{"text":"]","color":"yellow"},{"text":"!","color":"yellow"}]
 tag @s remove scr.case_starting
 scoreboard players reset @s scr_case_taken

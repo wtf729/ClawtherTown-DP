@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": "scr:location/in_sky",
+        "item": {
+          "items": [
+            "minecraft:cod",
+            "minecraft:salmon",
+            "minecraft:tropical_fish",
+            "minecraft:pufferfish"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:fishing_bobber"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr_task:event/sky/listener/fishing"
+  }
+}

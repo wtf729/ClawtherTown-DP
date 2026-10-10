@@ -1,0 +1,3 @@
+# Task state + reward_pending guard this run; the Mail event is generated per successful submission.
+data modify storage scr_mail:request mail set value {"title":"一木之始 · 任务奖励","source":"task/skywing/sky_01_01/reward","event_id":"","claim_profile":"sky","rewards":[{"handler":"soul","parameters":{"amount":50}},{"handler":"clawther_coin","parameters":{"amount":100}},{"handler":"clawther_gem","parameters":{"amount":3}},{"handler":"item","parameters":{"stack":{"id":"minecraft:dirt","count":8}}},{"handler":"item","parameters":{"stack":{"id":"minecraft:leather","count":4}}}]}
+return run function scr_mail:send/new

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": "scr_profile:profile/sky"
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr_task:event/sky/listener/inventory"
+  }
+}

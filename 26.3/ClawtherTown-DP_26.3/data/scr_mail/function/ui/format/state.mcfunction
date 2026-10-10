@@ -1,0 +1,9 @@
+data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.unavailable","fallback":"不可领取","color":"red"}
+execute if data storage scr_mail:runtime work{label_state:"pending"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.unclaimed","fallback":"未领取","color":"green"}
+execute if data storage scr_mail:runtime work{label_state:"claimed"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.claimed","fallback":"已领取","color":"gray"}
+execute if data storage scr_mail:runtime work{label_state:"done"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.claimed","fallback":"已领取","color":"gray"}
+execute if data storage scr_mail:runtime work{label_state:"preparing"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.preparing","fallback":"准备中","color":"yellow"}
+execute if data storage scr_mail:runtime work{label_state:"generating"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.preparing","fallback":"准备中","color":"yellow"}
+execute if data storage scr_mail:runtime work{label_state:"claiming"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.claiming","fallback":"领取中","color":"yellow"}
+execute if data storage scr_mail:runtime work{label_state:"executing"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.claiming","fallback":"领取中","color":"yellow"}
+execute if data storage scr_mail:runtime work{label_state:"error"} run data modify storage scr_mail:runtime work.state_label set value {"translate":"gui.scr.mail.unavailable","fallback":"不可领取","color":"red"}

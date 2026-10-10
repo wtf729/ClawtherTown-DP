@@ -1,1 +1,9 @@
-{ "values": [ "scr:load" ] }
+{
+  "values": [
+    "scr:load",
+    "scr_profile:load",
+    "scr_mail:load",
+    "scr_task:core/load",
+    "scr_sky:core/load"
+  ]
+}

@@ -1,4 +1,4 @@
-tellraw @a {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"清洁鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"焯! 忍不了了! 地面上有","color":"red"},{"score":{"name":"#item_count_item","objective":"item_cleaning"},"color":"light_purple"},{"text":"个物品与","color":"red"},{"score":{"name":"#item_count_exp","objective":"item_cleaning"},"color":"light_purple"},{"text":"个经验球, ","color":"red"},{"text":"5秒","color":"light_purple"},{"text":"后全给你扬咯!","color":"red"}]}
+tellraw @a [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.cleaner","fallback":"出尘鹰"},{"text":"] ","color":"gold","bold":true},{"text":"焯! 忍不了了! 地面上有","color":"red","bold":false},{"score":{"name":"#item_count_item","objective":"item_cleaning"},"color":"light_purple","bold":false},{"text":"个物品与","color":"red","bold":false},{"score":{"name":"#item_count_exp","objective":"item_cleaning"},"color":"light_purple","bold":false},{"text":"个经验球, ","color":"red","bold":false},{"text":"5秒","color":"light_purple","bold":false},{"text":"后全给你扬咯!","color":"red","bold":false}]
 
 scoreboard players reset #item_cleaning timecounter
 

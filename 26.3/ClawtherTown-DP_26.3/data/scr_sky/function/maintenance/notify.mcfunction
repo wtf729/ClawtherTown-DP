@@ -1,0 +1,3 @@
+$execute if data storage scr_sky:maintenance job{outcome:"reset_completed"} run tellraw @a[nbt={UUID:$(uuid)}] {"translate":"message.scr.sky.reset_completed","fallback":"空岛重置完成。","color":"green"}
+$execute if data storage scr_sky:maintenance job{outcome:"deleted"} run tellraw @a[nbt={UUID:$(uuid)}] {"translate":"message.scr.sky.delete_completed","fallback":"空岛删除完成，岛号已释放。","color":"green"}
+$execute if data storage scr_sky:maintenance job{outcome:"recovery"} run tellraw @a[nbt={UUID:$(uuid)}] {"translate":"message.scr.sky.maintenance_recovery","fallback":"空岛操作中断，已进入 Recovery 并保留岛号。请联系管理员检查。","color":"red"}

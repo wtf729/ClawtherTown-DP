@@ -7,3 +7,4 @@ execute if entity @s[tag=homes.nameSet] run tellraw @s [{"storage":"homes:storag
 execute unless entity @s[tag=homes.nameSet] if score #home homes.dummy matches 1 run tellraw @s [{"text":"Home","color":"yellow"},{"text":" 已设置!","color":"gold"}]
 execute unless entity @s[tag=homes.nameSet] unless score #home homes.dummy matches 1 run tellraw @s [{"text":"Home ","color":"yellow"},{"score":{"name":"#home","objective":"homes.dummy"},"color":"yellow"},{"text":" 已设置!","color":"gold"}]
 tag @s remove homes.nameSet
+function scr_task:event/home_set

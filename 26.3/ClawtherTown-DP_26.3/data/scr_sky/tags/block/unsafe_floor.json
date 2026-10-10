@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dangerous_for_teleportation",
+    "minecraft:lava",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:nether_portal",
+    "minecraft:end_portal",
+    "minecraft:end_gateway"
+  ]
+}

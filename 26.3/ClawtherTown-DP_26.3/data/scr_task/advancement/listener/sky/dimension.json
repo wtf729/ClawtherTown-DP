@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "scr_task:event/sky/listener/dimension"
+  }
+}

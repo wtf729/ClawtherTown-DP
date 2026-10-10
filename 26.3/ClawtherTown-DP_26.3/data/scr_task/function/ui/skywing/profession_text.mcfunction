@@ -1,0 +1,1 @@
+$data modify storage scr_task:runtime work.dialog.body append value {type:"minecraft:plain_message",width:420,contents:[{translate:"entity.minecraft.villager.$(field)",fallback:"$(field)",color:"white"},{text:" $(have)/10",color:"gray"}]}

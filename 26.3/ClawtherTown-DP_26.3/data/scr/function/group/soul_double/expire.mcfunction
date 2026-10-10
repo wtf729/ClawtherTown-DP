@@ -1,2 +1,2 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你的","color":"red"},{"text":" [双倍灵魂] ","color":"yellow"},{"text":"加成已过期!","color":"red"}]}
+tellraw @s [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.main","fallback":"神鹰"},{"text":"] ","color":"gold","bold":true},{"text":"你的","color":"red","bold":false},{"text":" [双倍灵魂] ","color":"yellow","bold":false},{"text":"加成已过期!","color":"red","bold":false}]
 playsound minecraft:block.beacon.deactivate master @s ~ ~ ~ 0.5

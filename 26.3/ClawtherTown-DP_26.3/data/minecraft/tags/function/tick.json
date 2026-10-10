@@ -1,5 +1,10 @@
 {
-    "values": [
-        "scr:tick"
-    ]
+  "values": [
+    "scr_profile:tick",
+    "scr:tick",
+    "scr_profile:tick_after",
+    "scr_mail:tick",
+    "scr_task:ui/tick",
+    "scr_sky:core/tick"
+  ]
 }

@@ -1,6 +1,6 @@
 playsound scr:ui.cs_awarded_04 ambient @a ~ ~ ~
 
-tellraw @a {"text":"","extra":[{"selector":"@s"},{"text":"解放羽翼后，获得了","color":"aqua"},{"text":" [圆石]","color":"white","bold":false},{"text":"*576","color":"yellow","bold":false},{"text":" !","color":"aqua"}]}
+tellraw @a ["",{"selector":"@s"},{"text":"解放羽翼后，获得了","color":"aqua"},{"text":" [圆石]","color":"white","bold":false},{"text":"*576","color":"yellow","bold":false},{"text":" !","color":"aqua"}]
 
 advancement grant @s only scr:wing_unlucky
 

@@ -25,3 +25,4 @@ function scr:time/tellraw/player_daily_sign_in_streak
 function scr:time/tellraw/player_daily_sign_in_streak_record
 
 function scr:time/player/sign_in/reward/reward
+function scr_task:event/signed_in

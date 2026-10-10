@@ -57,5 +57,7 @@
       "get_soul_cookie"
     ]
   ],
-  "rewards": {}
+  "rewards": {
+    "function": "scr_task:event/adv_soul_cookie_crafted"
+  }
 }

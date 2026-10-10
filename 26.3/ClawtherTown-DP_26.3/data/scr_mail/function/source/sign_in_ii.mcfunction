@@ -1,0 +1,3 @@
+data modify storage scr_mail:request mail set value {title:"签到奖励",source:"sign_in",claim_profile:"main",event_id:"",rewards:[{handler:"loot",parameters:{table:"scr:case/case/case_rare_ore"}},{handler:"loot",parameters:{table:"scr:case/case/case_rare_ore"}}]}
+execute store result score #accepted scr_ml_n run function scr_mail:send/new
+execute unless score #accepted scr_ml_n matches 1 run tellraw @s [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.postman","fallback":"驿差鹰"},{"text":"] ","color":"gold","bold":true},{"translate":"message.scr.mail.signin_send_failed","fallback":"签到奖励邮件发送失败!","color":"yellow","bold":false}]

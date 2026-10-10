@@ -236,5 +236,7 @@
       "get_clawther_pickaxe_x"
     ]
   ],
-  "rewards": {}
+  "rewards": {
+    "function": "scr_task:event/adv_clawther_pickaxe_i"
+  }
 }

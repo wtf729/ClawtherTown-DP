@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": "scr_profile:profile/sky",
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:zombie"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr_task:event/sky/listener/kill_zombie"
+  }
+}

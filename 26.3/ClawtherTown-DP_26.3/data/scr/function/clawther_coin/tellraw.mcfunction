@@ -1,2 +1,2 @@
-tellraw @s {"text":"","extra":[{"text":"[","bold":true,"color":"gold"},{"text":"行商鹰","bold":true,"color":"yellow"},{"text":"] ","bold":true,"color":"gold"},{"text":"唔, 金钱的味道! ","color":"aqua"},{"text":"我闻出你身上有","color":"aqua"},{"score":{"name":"@s","objective":"clawther_coin"},"color":"yellow"},{"text":"枚鹰翎币!","color":"aqua"}]}
+tellraw @s [{"text":"[","bold":true,"color":"gold"},{"bold":true,"color":"yellow","translate":"character.scr.trader","fallback":"行商鹰"},{"text":"] ","bold":true,"color":"gold"},{"text":"唔, 金钱的味道! ","color":"aqua","bold":false},{"text":"我闻出你身上有","color":"aqua","bold":false},{"score":{"name":"@s","objective":"clawther_coin"},"color":"yellow","bold":false},{"text":"枚鹰翎币!","color":"aqua","bold":false}]
 scoreboard players set @s money 0

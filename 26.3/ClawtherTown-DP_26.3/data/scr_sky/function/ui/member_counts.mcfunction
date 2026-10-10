@@ -1,0 +1,1 @@
+$data modify storage scr_sky:ui work.dialog.body append value {"type":"minecraft:plain_message","contents":{"translate":"gui.scr.sky.member_counts","fallback":"管理员：%s · 成员：%s","color":"white","with":[{"text":"$(admins)"},{"text":"$(members)"}]},"width":380}

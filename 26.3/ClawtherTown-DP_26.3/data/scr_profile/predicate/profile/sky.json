@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "scr:location/in_sky",
+    "scr:location/in_sky_the_end",
+    "scr:location/in_sky_the_nether"
+  ]
+}

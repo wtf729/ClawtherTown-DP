@@ -1,0 +1,5 @@
+# Shared configuration; no per-island recovery coordinates or snapshot migration.
+data modify storage scr_sky:config spawn_recovery set value {"radius":3,"emergency_y":330,"checks_per_tick":32,"columns":[{"x":0,"z":0},{"x":-1,"z":0},{"x":0,"z":-1},{"x":0,"z":1},{"x":1,"z":0},{"x":-1,"z":-1},{"x":-1,"z":1},{"x":1,"z":-1},{"x":1,"z":1},{"x":-2,"z":0},{"x":0,"z":-2},{"x":0,"z":2},{"x":2,"z":0},{"x":-2,"z":-1},{"x":-2,"z":1},{"x":-1,"z":-2},{"x":-1,"z":2},{"x":1,"z":-2},{"x":1,"z":2},{"x":2,"z":-1},{"x":2,"z":1},{"x":-2,"z":-2},{"x":-2,"z":2},{"x":2,"z":-2},{"x":2,"z":2},{"x":-3,"z":0},{"x":0,"z":-3},{"x":0,"z":3},{"x":3,"z":0},{"x":-3,"z":-1},{"x":-3,"z":1},{"x":-1,"z":-3},{"x":-1,"z":3},{"x":1,"z":-3},{"x":1,"z":3},{"x":3,"z":-1},{"x":3,"z":1},{"x":-3,"z":-2},{"x":-3,"z":2},{"x":-2,"z":-3},{"x":-2,"z":3},{"x":2,"z":-3},{"x":2,"z":3},{"x":3,"z":-2},{"x":3,"z":2},{"x":-3,"z":-3},{"x":-3,"z":3},{"x":3,"z":-3},{"x":3,"z":3}]}
+
+# Starter's unique bedrock is at template-local Y0. Anchor follows the same world-height authority.
+data modify storage scr_sky:config spawn_recovery.anchor_y set from storage scr_sky:config starter.structure_origin_y

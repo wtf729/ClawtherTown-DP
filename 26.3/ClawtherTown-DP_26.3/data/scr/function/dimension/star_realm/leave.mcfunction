@@ -1,4 +1,4 @@
-tellraw @s[gamemode=adventure] {"text":"","extra":[{"text":"[","color":"gold","bold":true},{"text":"神鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"text":"你已离开星辰之地，恢复为生存模式!","color":"white"}]}
+tellraw @s[gamemode=adventure] [{"text":"[","color":"gold","bold":true},{"color":"yellow","bold":true,"translate":"character.scr.main","fallback":"神鹰"},{"text":"] ","color":"gold","bold":true},{"text":"你已离开星辰之地，恢复为生存模式!","color":"white","bold":false}]
 
 gamemode survival @s[gamemode=adventure]
 attribute @s minecraft:max_health modifier remove scr:star_realm.max_health

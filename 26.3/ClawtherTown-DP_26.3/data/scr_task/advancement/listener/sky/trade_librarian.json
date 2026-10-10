@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": "scr_profile:profile/sky",
+        "villager": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:villager",
+            "minecraft:nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr_task:event/sky/listener/trade_librarian"
+  }
+}

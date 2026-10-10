@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": "minecraft:hay_block",
-    "B": "minecraft:carrot"
+    "B": "minecraft:beetroot"
   },
   "result": {
     "id": "minecraft:pig_spawn_egg",

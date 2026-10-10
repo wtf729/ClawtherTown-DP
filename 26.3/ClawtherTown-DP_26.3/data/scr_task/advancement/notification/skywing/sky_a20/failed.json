@@ -1,0 +1,33 @@
+{
+  "parent": "scr_task:notification/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "message.scr.task.failed",
+      "fallback": "任务 [%s] 失败!",
+      "with": [
+        {
+          "translate": "task.scr.skywing.sky_a20.title",
+          "fallback": "亡灵猎手",
+          "color": "gold"
+        }
+      ],
+      "color": "red"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:contents",
+  "slot_source": {
+    "type": "minecraft:slot_range",
+    "slots": "contents"
+  },
+  "component": "minecraft:container"
+}

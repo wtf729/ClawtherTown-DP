@@ -1,0 +1,2 @@
+execute if data storage scr_mail:runtime work.ctx{view:"history"} run data modify storage scr_mail:runtime work.dialog.body append value {"type":"minecraft:plain_message","contents":{"translate":"gui.scr.mail.history","fallback":"历史邮件","color":"white"},"width":350}
+$data modify storage scr_mail:runtime work.dialog.body append value {type:"minecraft:plain_message",contents:{"translate":"gui.scr.mail.page_summary","fallback":"第 %1$s 页 · 共 %2$s 封","with":[{"text":"$(display_page)"},{"text":"$(length)"}],"color":"white"},width:350}

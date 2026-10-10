@@ -146,5 +146,7 @@
       "get_staff_sapphire_star"
     ]
   ],
-  "rewards": {}
+  "rewards": {
+    "function": "scr_task:event/adv_staff_sapphire_star_crafted"
+  }
 }

@@ -1,0 +1,33 @@
+{
+  "parent": "scr_task:notification/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "message.scr.task.started",
+      "fallback": "任务 [%s] 已开始!",
+      "with": [
+        {
+          "translate": "task.scr.skywing.sky_06_01.title",
+          "fallback": "星辰之门",
+          "color": "gold"
+        }
+      ],
+      "color": "yellow"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

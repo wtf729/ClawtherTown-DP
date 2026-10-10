@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "event": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": "scr:location/in_sky_the_end",
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:ender_dragon"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scr_task:event/sky/listener/dragon"
+  }
+}

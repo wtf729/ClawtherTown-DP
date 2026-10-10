@@ -1,4 +1,4 @@
-tellraw @s {"text":"","extra":[{"text":"[","color":"yellow","bold":false},{"text":"紫颂曲奇","color":"aqua","bold":false},{"text":"] ","color":"yellow","bold":false},{"text":"已生效!","color":"green"}]}
+tellraw @s [{"text":"[","color":"yellow","bold":false},{"text":"紫颂曲奇","color":"aqua","bold":false},{"text":"] ","color":"yellow","bold":false},{"text":"已生效!","color":"green","bold":false}]
 
 scoreboard players set @s scr_home_radius 10
 

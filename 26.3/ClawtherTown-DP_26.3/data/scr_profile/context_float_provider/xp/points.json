@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:round",
+  "input": {
+    "type": "minecraft:mul",
+    "inputs": [
+      {
+        "type": "minecraft:storage",
+        "storage": "scr_profile:runtime",
+        "path": "work.xp_measure.progress"
+      },
+      {
+        "type": "minecraft:storage",
+        "storage": "scr_profile:runtime",
+        "path": "work.xp_measure.needed"
+      }
+    ]
+  }
+}

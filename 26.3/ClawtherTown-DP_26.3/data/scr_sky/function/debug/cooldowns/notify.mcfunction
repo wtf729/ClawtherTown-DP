@@ -1,0 +1,1 @@
+$tellraw @a[nbt={UUID:$(uuid)}] {"translate":"message.scr.sky.cooldowns_reset","fallback":"Sky 冷却已清除：玩家 %s，岛屿 %s，时间戳 %s。","color":"white","with":[{"score":{"name":"#cd_players","objective":"scr_sk"}},{"score":{"name":"#cd_islands","objective":"scr_sk"}},{"score":{"name":"#cd_fields","objective":"scr_sk"}}]}

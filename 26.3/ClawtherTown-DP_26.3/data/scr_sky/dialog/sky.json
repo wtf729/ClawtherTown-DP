@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "gui.scr.sky.title",
+    "fallback": "空岛",
+    "color": "white"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "/trigger sky"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "translate": "gui.scr.sky.refresh",
+        "fallback": "刷新",
+        "color": "white"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger sky"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.scr.sky.exit",
+      "fallback": "退出空岛面板",
+      "color": "white"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger sky_action set -1"
+    }
+  },
+  "after_action": "none",
+  "pause": false
+}
