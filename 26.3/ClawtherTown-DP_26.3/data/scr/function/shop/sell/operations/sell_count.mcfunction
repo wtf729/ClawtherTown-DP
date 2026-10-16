@@ -1,3 +1,4 @@
+execute unless function scr:shop/policy/sell_ready run return run function scr:shop/policy/stop_sale
 # The sold item and unit price are frozen by sell_success.
 scoreboard players set @s scr_sell_taken 0
 

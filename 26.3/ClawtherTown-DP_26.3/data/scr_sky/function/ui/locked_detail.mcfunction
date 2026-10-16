@@ -10,7 +10,4 @@ data modify storage scr_sky:ui work.route.id set from storage scr_sky:ui request
 data modify storage scr_sky:ui work.label set value {"translate":"gui.scr.sky.refresh","fallback":"刷新","color":"white"}
 function scr_sky:ui/button
 data modify storage scr_sky:ui work.dialog.actions append from storage scr_sky:ui work.button
-data modify storage scr_sky:ui work.route set value {"view":"home","op":"none","id":0,"target":"","role":0,"confirmed":0}
-data modify storage scr_sky:ui work.label set value {"translate":"gui.scr.sky.back","fallback":"返回","color":"white"}
-function scr_sky:ui/button
-data modify storage scr_sky:ui work.dialog.actions append from storage scr_sky:ui work.button
+function scr_sky:ui/navigation/detail_return

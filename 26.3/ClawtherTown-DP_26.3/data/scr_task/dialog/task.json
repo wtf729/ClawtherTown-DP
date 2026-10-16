@@ -9,7 +9,7 @@
       "type": "minecraft:plain_message",
       "width": 420,
       "contents": {
-        "translate":"gui.scr.task.entry_description","fallback":"查看当前任务与已提交的历史任务",
+        "translate":"gui.scr.task.entry_description","fallback":"查看当前任务与已完成的历史任务",
         "color": "white"
       }
     }

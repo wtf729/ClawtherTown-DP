@@ -1,0 +1,1 @@
+$data modify storage scr_tower:runtime envelope set value {state:"pending",request:{title:"财富塔奖励",source:"scr_tower/$(tower)",event_id:"tower/$(key)/$(id)/$(part)",claim_profile:"$(tower)",rewards:[]}}

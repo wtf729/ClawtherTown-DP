@@ -1,0 +1,1 @@
+$data modify storage scr_tower:runtime dialog.body append value {"type":"minecraft:plain_message","contents":{"translate":"gui.scr.tower.home_compact","with":[{"text":"$(left)"},{"text":"$(countdown)"},{"text":"$(wallet)"}]},"width":380}

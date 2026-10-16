@@ -1,0 +1,33 @@
+{
+  "parent": "scr_task:notification/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "message.scr.task.complete_failed",
+      "fallback": "任务 [%s] 未能完成结算, 请联系管理员检查。",
+      "with": [
+        {
+          "translate": "task.scr.herald.h_01.title",
+          "fallback": "鹰眼识珍",
+          "color": "gold"
+        }
+      ],
+      "color": "red"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

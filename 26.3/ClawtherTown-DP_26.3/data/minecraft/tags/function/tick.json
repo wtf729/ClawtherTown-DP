@@ -5,6 +5,7 @@
     "scr_profile:tick_after",
     "scr_mail:tick",
     "scr_task:ui/tick",
-    "scr_sky:core/tick"
+    "scr_sky:core/tick",
+    "scr_tower:tick"
   ]
 }

@@ -1,7 +1,7 @@
 ##计分板
 #版本
 scoreboard objectives add version dummy
-scoreboard players set #server version 2
+scoreboard players set #server version 3
 
 #初始设定
 forceload add 0 0
@@ -444,3 +444,14 @@ tag @a[tag=scr.case_starting] remove scr.case_starting
 scoreboard objectives add scr_vfood dummy
 scoreboard players set #ready scr_vfood 1
 function scr:villager/food/cleanup
+
+# Global weather cycle: persistent timers and one scheduled update.
+function scr:server_unique/weather/load
+
+# Shop operation ownership: survives disconnect/reload until the operation ends.
+scoreboard objectives add scr_shop dummy
+scoreboard objectives add scr_buy_pf dummy
+scoreboard objectives add scr_box_pf dummy
+scoreboard objectives add scr_key_pf dummy
+scoreboard objectives add scr_sell_pf dummy
+scoreboard objectives add scr_draw_pf dummy

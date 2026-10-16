@@ -1,0 +1,6 @@
+$execute if score #cd_out_h scr_tw matches ..9 run data modify storage scr_tower:runtime cd.hh set value "0$(hours)"
+$execute if score #cd_out_h scr_tw matches 10.. run data modify storage scr_tower:runtime cd.hh set value "$(hours)"
+$execute if score #cd_out_m scr_tw matches ..9 run data modify storage scr_tower:runtime cd.mm set value "0$(minutes)"
+$execute if score #cd_out_m scr_tw matches 10.. run data modify storage scr_tower:runtime cd.mm set value "$(minutes)"
+$execute if score #cd_out_s scr_tw matches ..9 run data modify storage scr_tower:runtime cd.ss set value "0$(seconds)"
+$execute if score #cd_out_s scr_tw matches 10.. run data modify storage scr_tower:runtime cd.ss set value "$(seconds)"

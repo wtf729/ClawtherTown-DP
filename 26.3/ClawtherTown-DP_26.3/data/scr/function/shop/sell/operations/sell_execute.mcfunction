@@ -1,3 +1,4 @@
+execute unless function scr:shop/policy/request run return 0
 scoreboard players set @s shop 0
 execute if score @s shop_sell_item_sold matches 1.. run return run function scr:shop/sell/operations/sell_fail_conflict
 

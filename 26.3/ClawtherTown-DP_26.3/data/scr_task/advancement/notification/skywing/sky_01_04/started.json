@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_01_04.title",
-          "fallback": "立足云端",
+          "fallback": "石器时代",
           "color": "gold"
         }
       ],

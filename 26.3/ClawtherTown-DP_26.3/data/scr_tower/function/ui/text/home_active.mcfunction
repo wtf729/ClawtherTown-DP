@@ -1,0 +1,1 @@
+$data modify storage scr_tower:runtime dialog.body append value {"type":"minecraft:plain_message","contents":{"translate":"gui.scr.tower.home_active","with":[{"translate":"gui.scr.tower.main"},{"text":"$(p_run_floor)"}]},"width":380}

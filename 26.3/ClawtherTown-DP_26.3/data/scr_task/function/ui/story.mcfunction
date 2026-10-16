@@ -1,6 +1,6 @@
 data remove storage scr_task:runtime work.dialogue
 execute if score #state scr_tk matches 1..2 if data storage scr_task:runtime work.ctx.ui.accept run data modify storage scr_task:runtime work.dialogue set from storage scr_task:runtime work.ctx.ui.accept
-execute if score #state scr_tk matches 3..4 if data storage scr_task:runtime work.ctx.ui.submit run data modify storage scr_task:runtime work.dialogue set from storage scr_task:runtime work.ctx.ui.submit
+execute if score #state scr_tk matches 3..4 if data storage scr_task:runtime work.ctx.ui.complete run data modify storage scr_task:runtime work.dialogue set from storage scr_task:runtime work.ctx.ui.complete
 execute unless data storage scr_task:runtime work.dialogue run return 0
 # Style only the displayed NPC speech, leaving task metadata and introduction unchanged.
 data modify storage scr_task:runtime work.dialogue.italic set value 1b

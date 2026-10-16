@@ -1,3 +1,5 @@
+# Remove the teleport-only fall guard once vanilla has cleared the accumulated distance.
+execute as @a[tag=scr_sky.arrival_fall_guard] run function scr_sky:travel/finish_arrival
 execute if data storage scr_sky:scan job run function scr_sky:scan/tick
 execute if data storage scr_sky:maintenance job run function scr_sky:maintenance/tick
 execute if data storage scr_sky:jobs active run function scr_sky:jobs/tick

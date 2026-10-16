@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_02_04.title",
-          "fallback": "枝叶归土",
+          "fallback": "麦田初成",
           "color": "gold"
         }
       ],

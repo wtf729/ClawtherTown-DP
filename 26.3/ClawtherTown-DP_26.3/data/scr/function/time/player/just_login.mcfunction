@@ -9,3 +9,5 @@ execute if score @s not_newcomer matches 1 if score @s time_daily_sign_in matche
 execute if score @s not_newcomer matches 1 if score @s time_daily_sign_in matches 0 run function scr:time/tellraw/player_daily_sign_in_false
 
 effect give @s minecraft:resistance 30 255
+
+function scr_task:core/player/resume

@@ -1,0 +1,3 @@
+execute at @s if predicate scr_profile:profile/sky run tellraw @s [{"text":"[","color":"gold","bold":true},{"translate":"character.scr.trader","fallback":"行商鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"translate":"message.scr.shop.unavailable_sky","fallback":"此功能无法在鹰翎云境使用！","color":"red","bold":false}]
+execute at @s unless predicate scr_profile:profile/sky run tellraw @s [{"text":"[","color":"gold","bold":true},{"translate":"character.scr.trader","fallback":"行商鹰","color":"yellow","bold":true},{"text":"] ","color":"gold","bold":true},{"translate":"message.scr.shop.profile_not_ready","fallback":"正在切换区域，请稍后再试。","color":"red","bold":false}]
+return 0

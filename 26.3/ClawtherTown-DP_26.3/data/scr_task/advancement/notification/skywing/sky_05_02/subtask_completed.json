@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_05_02.title",
-          "fallback": "赤红宝藏",
+          "fallback": "终焉之战",
           "color": "gold"
         }
       ],

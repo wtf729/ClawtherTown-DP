@@ -11,7 +11,7 @@ data modify storage scr_mail:runtime work.line.contents.extra[4] set from storag
 data modify storage scr_mail:runtime work.dialog.body append from storage scr_mail:runtime work.line
 scoreboard players set #reward scr_ml_n 0
 execute store result score #count scr_ml_n run data get storage scr_mail:runtime work.mail.rewards
-function scr_mail:ui/rewards
+function scr_mail:ui/reward/mail/loop
 execute if data storage scr_mail:runtime work.ctx{view:"history"} run return run function scr_mail:ui/detail_footer
 execute store result score #eligible scr_ml_n run function scr_mail:policy/claim
 data modify storage scr_mail:runtime work.button set value {"label":{"translate":"gui.scr.mail.claim","fallback":"领取","color":"green"},"tooltip":{"translate":"gui.scr.mail.tooltip.claim","fallback":"领取时将检查背包空间是否充足"}}

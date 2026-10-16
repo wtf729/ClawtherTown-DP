@@ -1,3 +1,1 @@
-# Task state + reward_pending guard this run; the Mail event is generated per successful submission.
-data modify storage scr_mail:request mail set value {"title":"万物繁衍 · 任务奖励","source":"task/skywing/sky_a09/reward","event_id":"","claim_profile":"sky","rewards":[{"handler":"soul","parameters":{"amount":275}},{"handler":"clawther_coin","parameters":{"amount":800}},{"handler":"clawther_gem","parameters":{"amount":18}},{"handler":"item","parameters":{"stack":{"id":"minecraft:diamond","count":4}}},{"handler":"item","parameters":{"stack":{"id":"minecraft:hay_block","count":16}}}]}
-return run function scr_mail:send/new
+return run function scr_task:core/reward/mail_definition {"id":"skywing/sky_a09"}

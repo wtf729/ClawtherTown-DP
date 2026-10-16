@@ -1,3 +1,4 @@
+execute unless function scr:shop/policy/request run return 0
 # Opening requests never write purchase delivery state.
 scoreboard players set @s shop 0
 execute unless function scr:case/open/can_start run return 0

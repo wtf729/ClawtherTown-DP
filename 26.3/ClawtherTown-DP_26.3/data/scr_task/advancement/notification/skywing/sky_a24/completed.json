@@ -2,7 +2,7 @@
   "parent": "scr_task:notification/root",
   "display": {
     "icon": {
-      "id": "minecraft:map"
+      "id": "minecraft:emerald"
     },
     "title": {
       "translate": "message.scr.task.completed",

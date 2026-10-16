@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_03_01.title",
-          "fallback": "岛屿的分量",
+          "fallback": "黑暗中的收获",
           "color": "gold"
         }
       ],

@@ -1,3 +1,5 @@
+# Sky dimensions do not run entity enhancement.
+execute if predicate scr_profile:profile/sky run return 0
 function scr:entity_modify/timecounter_entity/timecounter_entity
 
 execute as @e[type=minecraft:zombie,tag=!modified,sort=random,limit=1,nbt={PersistenceRequired:0b}] at @s run function scr:entity_modify/entities/zombie/zombie

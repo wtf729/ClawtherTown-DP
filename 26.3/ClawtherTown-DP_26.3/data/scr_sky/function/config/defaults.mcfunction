@@ -1,5 +1,5 @@
 # Missing template/Y are deliberately absent. Offsets are adjustable before deployment.
-execute unless data storage scr_sky:config geometry run data modify storage scr_sky:config geometry set value {"origin_x":4096,"origin_z":4096,"spacing":1024,"size_x":256,"size_z":256,"columns":1024,"max_id":1048576,"min_y":-64,"max_y":319,"height":384,"hub_min_x":-2048,"hub_max_x":2047,"hub_min_z":-2048,"hub_max_z":2047}
+execute unless data storage scr_sky:config geometry run data modify storage scr_sky:config geometry set value {"origin_x":12288,"origin_z":12288,"spacing":10240,"size_x":256,"size_z":256,"columns":128,"max_id":131072,"min_y":-64,"max_y":319,"height":384,"hub_min_x":-2048,"hub_max_x":2047,"hub_min_z":-2048,"hub_max_z":2047}
 execute unless data storage scr_sky:config starter run data modify storage scr_sky:config starter set value {ready:0b,offset:{x:0,y:0,z:0}}
 execute unless data storage scr_sky:config hub run data modify storage scr_sky:config hub set value {ready:0b}
 execute unless data storage scr_sky:config scan run data modify storage scr_sky:config scan set value {enabled:1b,cooldown_ticks:12000,load_timeout:200}

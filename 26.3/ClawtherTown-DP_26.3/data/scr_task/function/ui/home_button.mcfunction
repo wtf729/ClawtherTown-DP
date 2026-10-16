@@ -1,11 +1,11 @@
 # A component tree, not whitespace-based alignment. Each optional suffix owns its separator.
 data modify storage scr_task:runtime work.label set value {text:"",extra:[]}
 $data modify storage scr_task:runtime work.label.extra append from storage scr_task:runtime npc_catalog[{group:"$(group)"}].title
-$execute if data storage scr_task:runtime work.home_flags.$(group).active run data modify storage scr_task:runtime work.label.extra append value {text:" ",extra:[{translate:"gui.scr.task.status.active",fallback:"?",color:"gray"}]}
-$execute if data storage scr_task:runtime work.home_flags.$(group).available run data modify storage scr_task:runtime work.label.extra append value {text:" ",extra:[{translate:"gui.scr.task.status.available",fallback:"!",color:"yellow"}]}
-$execute if data storage scr_task:runtime work.home_flags.$(group).completed run data modify storage scr_task:runtime work.label.extra append value {text:" ",extra:[{translate:"gui.scr.task.status.completed",fallback:"✓",color:"aqua"}]}
+$execute if data storage scr_task:runtime work.home_flags.$(group).active run data modify storage scr_task:runtime work.label.extra append value {text:" ",extra:[{translate:"gui.scr.task.indicator.active",fallback:"?",color:"gray"}]}
+$execute if data storage scr_task:runtime work.home_flags.$(group).available run data modify storage scr_task:runtime work.label.extra append value {text:" ",extra:[{translate:"gui.scr.task.indicator.available",fallback:"!",color:"yellow"}]}
+$execute if data storage scr_task:runtime work.home_flags.$(group).ready_to_complete run data modify storage scr_task:runtime work.label.extra append value {text:" ",extra:[{translate:"gui.scr.task.indicator.ready_to_complete",fallback:"✓",color:"aqua"}]}
 $data modify storage scr_task:runtime work.route set value {view:"panel",group:"$(group)",history:0}
-function scr_task:ui/button
+function scr_task:ui/actions/button
 data modify storage scr_task:runtime work.button.width set value 100
 data modify storage scr_task:runtime work.dialog.actions append from storage scr_task:runtime work.button
 

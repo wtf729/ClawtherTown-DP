@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_03_04.title",
-          "fallback": "湖面有声",
+          "fallback": "自动收集",
           "color": "gold"
         }
       ],

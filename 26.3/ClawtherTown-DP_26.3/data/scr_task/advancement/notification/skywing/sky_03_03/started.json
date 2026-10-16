@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_03_03.title",
-          "fallback": "箭矢的来处",
+          "fallback": "黏性动力",
           "color": "gold"
         }
       ],

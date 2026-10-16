@@ -2,7 +2,7 @@
   "parent": "scr_task:notification/root",
   "display": {
     "icon": {
-      "id": "minecraft:map"
+      "id": "minecraft:emerald"
     },
     "title": {
       "translate": "message.scr.task.completed",
@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_05_03.title",
-          "fallback": "烈焰与菌种",
+          "fallback": "末影遗珍",
           "color": "gold"
         }
       ],

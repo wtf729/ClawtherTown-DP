@@ -9,3 +9,8 @@ scoreboard players set @s case_opening_fast 0
 scoreboard players set @s case_opening_fast_remain 0
 scoreboard players set @s case_opening_fast_wait 0
 scoreboard players set @s case_opening_fast_total 0
+
+scoreboard players reset @s scr_draw_pf
+tag @s remove scr.shop_draw_paused
+tag @s remove scr.case_item
+tag @s add scr.case_item

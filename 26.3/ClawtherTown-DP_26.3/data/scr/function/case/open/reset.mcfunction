@@ -11,3 +11,7 @@ scoreboard players set @s cd_case 0
 function scr:random/random100000
 tag @s remove scr.case_starting
 scoreboard players reset @s scr_case_taken
+
+scoreboard players reset @s scr_draw_pf
+tag @s remove scr.shop_draw_paused
+tag @s remove scr.case_item

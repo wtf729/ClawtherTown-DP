@@ -1,3 +1,4 @@
+execute unless function scr:shop/policy/request run return 0
 # Preserve a paid order before accepting any new request.
 scoreboard players set @s shop 0
 execute if score @s shop_key_item_paid matches 1.. run return run function scr:shop/case/operations/payment_fail_conflict

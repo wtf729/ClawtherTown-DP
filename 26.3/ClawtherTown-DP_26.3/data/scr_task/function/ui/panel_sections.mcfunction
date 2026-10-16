@@ -1,6 +1,4 @@
-execute if data storage scr_task:runtime work.available[0] run data modify storage scr_task:runtime work.dialog.body append value {"type":"minecraft:plain_message","width":420,"contents":{"text":"【","extra":[{"translate":"gui.scr.task.state.available","fallback":"可接受"},{"text":"】"}],"color":"yellow"}}
-execute if data storage scr_task:runtime work.available[0] run data modify storage scr_task:runtime work.dialog.body append from storage scr_task:runtime work.available[]
-execute if data storage scr_task:runtime work.active[0] run data modify storage scr_task:runtime work.dialog.body append value {"type":"minecraft:plain_message","width":420,"contents":{"text":"【","extra":[{"translate":"gui.scr.task.state.active","fallback":"进行中"},{"text":"】"}],"color":"aqua"}}
-execute if data storage scr_task:runtime work.active[0] run data modify storage scr_task:runtime work.dialog.body append from storage scr_task:runtime work.active[]
-execute if data storage scr_task:runtime work.completed[0] run data modify storage scr_task:runtime work.dialog.body append value {"type":"minecraft:plain_message","width":420,"contents":{"text":"【","extra":[{"translate":"gui.scr.task.state.completed","fallback":"已完成"},{"text":"】"}],"color":"green"}}
-execute if data storage scr_task:runtime work.completed[0] run data modify storage scr_task:runtime work.dialog.body append from storage scr_task:runtime work.completed[]
+# Preserve the original state-group ordering in the native action grid.
+data modify storage scr_task:runtime work.dialog.actions append from storage scr_task:runtime work.available[]
+data modify storage scr_task:runtime work.dialog.actions append from storage scr_task:runtime work.active[]
+data modify storage scr_task:runtime work.dialog.actions append from storage scr_task:runtime work.ready_to_complete[]

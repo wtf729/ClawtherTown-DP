@@ -1,1 +1,1 @@
-$data modify storage scr_task:runtime work.label.extra append value {text:" · $(submitted)/$(total)",color:"gray"}
+$data modify storage scr_task:runtime work.label.extra append value {text:" · $(completed_count)/$(total)",color:"gray"}

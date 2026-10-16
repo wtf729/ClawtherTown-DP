@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_04_02.title",
-          "fallback": "生生不息",
+          "fallback": "赤红宝藏",
           "color": "gold"
         }
       ],

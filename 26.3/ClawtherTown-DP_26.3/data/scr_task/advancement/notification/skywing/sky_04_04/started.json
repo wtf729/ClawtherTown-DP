@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_04_04.title",
-          "fallback": "一方天地",
+          "fallback": "火中求生",
           "color": "gold"
         }
       ],

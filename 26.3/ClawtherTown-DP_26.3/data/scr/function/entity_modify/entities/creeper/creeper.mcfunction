@@ -1,3 +1,4 @@
+execute at @s if predicate scr_profile:profile/sky run return 0
 function scr:random/random100000_entity_modify
 
 

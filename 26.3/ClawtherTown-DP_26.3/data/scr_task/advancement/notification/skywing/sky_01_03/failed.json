@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_01_03.title",
-          "fallback": "向虚空借地",
+          "fallback": "水火成石",
           "color": "gold"
         }
       ],

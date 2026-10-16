@@ -1,4 +1,4 @@
-tellraw @s [{"text":"数据包: ","color":"#de90ee","bold":false},{"text":"v2026.10.2","underlined":false,"color":"#e5e6a7","bold":false},{"text":"   资源包: ","color":"#1ddddd","bold":false},{"text":"v2026.10.2","color":"#e5e6a7","bold":false},{"text":"\n+ 添加邮箱系统: /trigger mail\n+ 添加任务系统: /trigger task\n+ 添加空岛系统: /trigger sky","color":"#de90ee","bold":false},{"text":"\n+ 添加了新的翻译文案\n+ 添加了NPC头像","color":"#1ddddd","bold":false}]
+tellraw @s [{"text":"数据包: ","color":"#de90ee","bold":false},{"text":"v2026.10.3","underlined":false,"color":"#e5e6a7","bold":false},{"text":"   资源包: ","color":"#1ddddd","bold":false},{"text":"v2026.10.3","color":"#e5e6a7","bold":false},{"text":"\n+ 添加财富塔: /trigger tower\n+ 优化任务系统、空岛系统、邮箱系统","color":"#de90ee","bold":false},{"text":"\n+ 添加了新的翻译文案","color":"#1ddddd","bold":false}]
 tellraw @s [{"text":"+ 已发放更新补偿","color":"green"}]
 
 # 待解决的已知问题 / 审阅待办（2026-10-03）

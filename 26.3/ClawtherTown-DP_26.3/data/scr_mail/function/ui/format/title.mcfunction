@@ -15,3 +15,6 @@ execute if data storage scr_mail:runtime work.mail{title:"任务新人礼"} run 
 
 
 function scr_mail:ui/format/task_title
+
+execute if data storage scr_mail:runtime work.mail{source:"scr_tower/main"} run data modify storage scr_mail:runtime work.title_label set value {translate:"gui.scr.tower.mail_main",color:"gold"}
+execute if data storage scr_mail:runtime work.mail{source:"scr_tower/sky"} run data modify storage scr_mail:runtime work.title_label set value {translate:"gui.scr.tower.mail_sky",color:"gold"}

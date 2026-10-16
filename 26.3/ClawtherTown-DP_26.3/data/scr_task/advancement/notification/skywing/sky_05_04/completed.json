@@ -2,7 +2,7 @@
   "parent": "scr_task:notification/root",
   "display": {
     "icon": {
-      "id": "minecraft:map"
+      "id": "minecraft:emerald"
     },
     "title": {
       "translate": "message.scr.task.completed",
@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_05_04.title",
-          "fallback": "火中求生",
+          "fallback": "云海无界",
           "color": "gold"
         }
       ],

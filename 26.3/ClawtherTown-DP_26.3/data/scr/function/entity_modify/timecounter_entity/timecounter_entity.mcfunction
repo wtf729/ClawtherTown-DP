@@ -1,3 +1,5 @@
+# Sky dimensions do not run entity enhancement.
+execute if predicate scr_profile:profile/sky run return 0
 scoreboard players add @e[tag=timecounter_entity] timecounter_entity 1
 
 execute as @e[tag=creeper_rare,scores={timecounter_entity=1}] at @s run function scr:entity_modify/timecounter_entity/entities/creeper/creeper_rare_spawn

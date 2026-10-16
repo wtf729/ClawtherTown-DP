@@ -1,7 +1,7 @@
 # Each threshold is a complete Task condition, not an arbitrary milestone.
 function scr_task:core/state/read with storage scr_task:runtime work.ctx
 execute unless score #state scr_tk matches 2 run return 0
-execute unless data storage scr_task:runtime work.ctx.hooks.check_complete run return 0
+execute unless data storage scr_task:runtime work.ctx.hooks.check_ready run return 0
 data remove storage scr_task:runtime work.subtask
 $data modify storage scr_task:runtime work.subtask set from storage scr_task:runtime work.ctx.subtasks[{field:"$(field)"}]
 execute unless data storage scr_task:runtime work.subtask.target run return 0
@@ -14,7 +14,7 @@ $execute if data storage scr_task:players players."$(key)".tasks.$(group).$(name
 # Completion predicates may use ctx.field as scratch; restore the selected context.
 data modify storage scr_task:runtime work.subtask_ctx set from storage scr_task:runtime work.ctx
 scoreboard players set #subcomplete scr_tk 0
-execute store result score #subcomplete scr_tk run function scr_task:core/hook {hook:"check_complete"}
+execute store result score #subcomplete scr_tk run function scr_task:core/hook {hook:"check_ready"}
 data modify storage scr_task:runtime work.ctx set from storage scr_task:runtime work.subtask_ctx
 data remove storage scr_task:runtime work.subtask_ctx
 # The caller's normal complete lifecycle emits the sole final notification.

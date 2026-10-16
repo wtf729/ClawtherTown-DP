@@ -1,3 +1,1 @@
-# Task state + reward_pending guard this run; the Mail event is generated per successful submission.
-data modify storage scr_mail:request mail set value {"title":"岛屿的分量 · 任务奖励","source":"task/skywing/sky_03_01/reward","event_id":"","claim_profile":"sky","rewards":[{"handler":"soul","parameters":{"amount":100}},{"handler":"clawther_coin","parameters":{"amount":280}},{"handler":"clawther_gem","parameters":{"amount":10}},{"handler":"item","parameters":{"stack":{"id":"minecraft:iron_ingot","count":16}}},{"handler":"item","parameters":{"stack":{"id":"minecraft:redstone","count":16}}}]}
-return run function scr_mail:send/new
+return run function scr_task:core/reward/mail_definition {"id":"skywing/sky_03_01"}

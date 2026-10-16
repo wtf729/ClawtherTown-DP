@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_01_02.title",
-          "fallback": "水火成石",
+          "fallback": "手中的工具",
           "color": "gold"
         }
       ],

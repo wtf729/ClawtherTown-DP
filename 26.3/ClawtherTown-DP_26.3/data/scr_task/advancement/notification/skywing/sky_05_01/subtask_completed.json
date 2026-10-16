@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_05_01.title",
-          "fallback": "烈焰彼岸",
+          "fallback": "星辰之门",
           "color": "gold"
         }
       ],

@@ -10,7 +10,7 @@
       "with": [
         {
           "translate": "task.scr.skywing.sky_02_03.title",
-          "fallback": "阴影里的晚餐",
+          "fallback": "垂钓时光",
           "color": "gold"
         }
       ],

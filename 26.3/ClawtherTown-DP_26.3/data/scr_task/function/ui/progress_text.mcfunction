@@ -1,1 +1,0 @@
-$data modify storage scr_task:runtime work.row.contents.extra append value {"text":"   ","color":"white","extra":[{"translate":"gui.scr.task.progress_short","fallback":"%1$s / %2$s","with":[{"text":"$(value)"},{"text":"$(goal)"}]}]}
